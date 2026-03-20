@@ -1,0 +1,26 @@
+# API keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files)
+data/raw/
+data_paraphrased/
+results/
+*.csv.gz
+
+# HuggingFace cache
+.cache/
