@@ -17,6 +17,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger("st5230")
 
+# Suppress noisy HTTP request logs from OpenAI SDK
+logging.getLogger("httpx").setLevel(logging.WARNING)
+
 # ── Reproducibility ──────────────────────────────────────────────
 RANDOM_SEED = 42
 SAMPLE_SIZE = 1000
@@ -29,7 +32,7 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 client = OpenAI(base_url=OPENROUTER_BASE_URL, api_key=OPENROUTER_API_KEY)
 
 # ── Models ───────────────────────────────────────────────────────
-PARAPHRASE_MODEL = "meta-llama/llama-3.3-70b-instruct"
+PARAPHRASE_MODEL = "openai/gpt-4o"
 
 EVAL_MODELS = {
     "gpt-4o-mini": {
@@ -70,25 +73,70 @@ PARAPHRASE_TYPES = ["lexical", "syntactic", "style", "context", "translation"]
 
 PARAPHRASE_PROMPTS = {
     "lexical": (
-        "Rewrite the following question by replacing key words with synonyms. "
-        "Keep the meaning identical. Output ONLY the rewritten question, nothing else."
+        "Rewrite the following question by replacing some content words with synonyms.\n\n"
+        "Rules:\n"
+        "1. ONLY replace individual words with true synonyms of the SAME specificity "
+        "(e.g., 'hamburger' stays 'hamburger', NOT 'sandwich'; 'ferret' stays 'ferret', NOT 'weasel'; "
+        "'warm' stays 'warm', NOT 'hot' or 'tropical'; 'mountie' stays 'mountie', NOT 'constable').\n"
+        "2. Keep the EXACT same sentence structure, word order, and grammar.\n"
+        "3. Keep all question words (what, where, who, how, etc.) exactly as they are. "
+        "If the original ends with '...the what?' or '...a what?', the rewrite must also end with '...the what?' or '...a what?'.\n"
+        "4. If the input has multiple sentences, rewrite ALL sentences. Do NOT drop any sentence.\n"
+        "5. Do NOT fill in blanks, answer the question, or add any new information.\n"
+        "6. Output ONLY the rewritten question, nothing else."
     ),
     "syntactic": (
-        "Restructure the following question's syntax (e.g., active↔passive, reorder clauses). "
-        "Keep the meaning identical. Output ONLY the rewritten question, nothing else."
+        "Restructure the following question's syntax while keeping all original words.\n\n"
+        "Rules:\n"
+        "1. ONLY change sentence structure: reorder clauses, switch active↔passive, "
+        "move prepositional phrases, etc.\n"
+        "2. Keep the EXACT same vocabulary — do NOT replace any words with synonyms.\n"
+        "3. Keep all question words (what, where, who, how, etc.) — the rewrite must remain a question.\n"
+        "4. If the input has multiple sentences, you MUST keep ALL sentences and ALL information. "
+        "Do NOT drop, merge, or summarize any sentence. Every piece of context must be preserved.\n"
+        "5. Do NOT fill in blanks, answer the question, or add new words that were not in the original.\n"
+        "6. Output ONLY the rewritten question, nothing else."
     ),
     "style": (
-        "Rewrite the following question in a different style (e.g., formal↔casual, concise↔verbose). "
-        "Keep the meaning identical. Output ONLY the rewritten question, nothing else."
+        "Rewrite the following question in a more formal or more casual tone.\n\n"
+        "Rules:\n"
+        "1. PRIMARILY change tone and register (e.g., casual→formal or formal→casual). "
+        "Minor vocabulary changes are allowed ONLY when necessary for the tone shift "
+        "(e.g., 'booze'→'alcohol' for formalization), but do NOT do extensive synonym replacement.\n"
+        "2. Keep the same sentence structure as much as possible.\n"
+        "3. The rewrite MUST remain a question. Keep all question words (what, where, who, etc.).\n"
+        "4. If the input has multiple sentences, you MUST keep ALL sentences and ALL information. "
+        "Do NOT drop, merge, or summarize any sentence.\n"
+        "5. Do NOT introduce any words that could be an answer to the question. "
+        "For example, if the question asks 'when what struck him?', do NOT write 'when inspiration struck him'.\n"
+        "6. Do NOT fill in blanks or answer the question.\n"
+        "7. Output ONLY the rewritten question, nothing else."
     ),
     "context": (
-        "Add a brief, semantically irrelevant introductory sentence before the following question. "
-        "Keep the original question and meaning unchanged. Output ONLY the result (intro + question), nothing else."
+        "Your task: prepend ONE short irrelevant sentence before the question below, "
+        "then output the irrelevant sentence followed by the COMPLETE original question.\n\n"
+        "Rules:\n"
+        "1. The introductory sentence MUST be completely unrelated to the question's topic. "
+        "Pick a RANDOM topic each time — vary across weather, geography, history, science, sports, food, etc. "
+        "Do NOT repeat the same fact (e.g., do NOT always use 'honey never spoils'). "
+        "The intro sentence MUST be a declarative statement, NOT a question.\n"
+        "2. Copy the ENTIRE original question word-for-word after the intro sentence. "
+        "This means EVERY sentence of the original must appear unchanged — if the original has two sentences, "
+        "BOTH sentences must appear in your output after the intro. "
+        "Do NOT shorten, summarize, merge, or modify the original question in ANY way.\n"
+        "3. Do NOT fill in blanks or answer the question.\n"
+        "4. Output format: [one intro sentence] [complete original question, all sentences]"
     ),
     "translation": (
-        "Translate the following question into Chinese. "
-        "Keep the answer options in English letters (A/B/C/D/E). "
-        "Output ONLY the translated question, nothing else."
+        "Translate the following English question into natural Chinese.\n\n"
+        "Rules:\n"
+        "1. Translate faithfully — do NOT add, remove, or reinterpret any content.\n"
+        "2. Keep the answer options in English letters (A/B/C/D/E) if present.\n"
+        "3. If the question contains a blank or question word like 'what', translate it as a question, "
+        "NOT as a statement. For example, '...the what?' → '……的什么？'\n"
+        "4. If the input has multiple sentences, translate ALL sentences. Do NOT drop any.\n"
+        "5. Do NOT answer the question or fill in blanks.\n"
+        "6. Output ONLY the translated question in Chinese, nothing else."
     ),
 }
 

@@ -18,7 +18,7 @@ Thumbs.db
 
 # Data (large files)
 data/raw/
-data_paraphrased/
+# data_paraphrased/
 results/
 *.csv.gz
 
@@ -30,5 +30,4 @@ results/
 CLAUDE.md
 
 # Project docs (local only)
-.env.example
 *.pdf

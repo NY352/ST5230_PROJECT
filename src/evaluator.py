@@ -68,9 +68,14 @@ def evaluate_condition(dataset_name, condition, model_name):
     if condition == "baseline":
         input_path = os.path.join(config.DATA_DIR, f"{dataset_name}.json")
     else:
-        input_path = os.path.join(
+        # Use filtered file if available, otherwise fall back to raw
+        filtered_path = os.path.join(
+            config.PARAPHRASED_DIR, f"{dataset_name}_{condition}_filtered.json"
+        )
+        raw_path = os.path.join(
             config.PARAPHRASED_DIR, f"{dataset_name}_{condition}.json"
         )
+        input_path = filtered_path if os.path.exists(filtered_path) else raw_path
 
     output_path = os.path.join(
         config.RESULTS_DIR, f"{model_name}_{dataset_name}_{condition}.json"

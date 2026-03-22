@@ -6,6 +6,8 @@ Usage:
     python run.py paraphrase                                   # all datasets × all types
     python run.py paraphrase commonsense_qa                    # one dataset, all types
     python run.py paraphrase commonsense_qa lexical            # one dataset, one type
+    python run.py filter                                       # filter all datasets
+    python run.py filter commonsense_qa                        # filter one dataset
     python run.py evaluate                                     # all models × datasets × conditions
     python run.py evaluate gpt-4o-mini                         # one model, all datasets
     python run.py evaluate gpt-4o-mini commonsense_qa          # one model, one dataset
@@ -18,6 +20,7 @@ import config
 from src.data_loader import prepare_all
 from src.paraphraser import paraphrase_dataset, paraphrase_all
 from src.evaluator import evaluate_condition, evaluate_all
+from src.quality_filter import filter_dataset, main as filter_all
 
 
 def main():
@@ -38,6 +41,12 @@ def main():
                 paraphrase_dataset(sys.argv[2], ptype)
         else:
             paraphrase_all()
+
+    elif command == "filter":
+        if len(sys.argv) >= 3:
+            filter_dataset(sys.argv[2])
+        else:
+            filter_all()
 
     elif command == "evaluate":
         conditions = ["baseline"] + config.PARAPHRASE_TYPES
