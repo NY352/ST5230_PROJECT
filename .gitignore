@@ -24,3 +24,11 @@ results/
 
 # HuggingFace cache
 .cache/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Project docs (local only)
+.env.example
+*.pdf
