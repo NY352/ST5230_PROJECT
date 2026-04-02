@@ -2,10 +2,10 @@
 """Filter paraphrased data by removing items with hard quality issues.
 
 Usage:
-    python3 src/quality_filter.py              # filter all datasets
-    python3 src/quality_filter.py commonsense_qa  # filter one dataset
+    python run.py filter                    # filter all datasets
+    python run.py filter commonsense_qa     # filter one dataset
 
-Filtered outputs are written to data_paraphrased/ with suffix _filtered.json.
+Filtered outputs are written to data_paraphrased/{dataset}/{type}_filtered.json.
 A report is printed to stdout.
 """
 
@@ -15,6 +15,31 @@ import sys
 
 import config
 
+
+# ── Sentence counting ────────────────────────────────────────────
+
+def _count_sentences_en(text):
+    """Count English sentences by splitting on sentence-ending punctuation
+    followed by whitespace and an uppercase letter or quote."""
+    if not text.strip():
+        return 0
+    # Split on . ! ? followed by space+uppercase (handles abbreviations better)
+    parts = re.split(r'(?<=[.!?])\s+(?=[A-Z"\'])', text.strip())
+    return len(parts)
+
+
+def _count_sentences_zh(text):
+    """Count Chinese sentences by splitting on Chinese sentence-ending punctuation."""
+    if not text.strip():
+        return 0
+    # Split on 。！？ (Chinese period, exclamation, question mark)
+    parts = re.split(r'[。！？]+', text.strip())
+    # Remove empty parts from trailing punctuation
+    parts = [p for p in parts if p.strip()]
+    return max(len(parts), 1)
+
+
+# ── Common checks ────────────────────────────────────────────────
 
 def check_answer_leaked(item):
     """Check if the correct answer text leaked into the paraphrase but wasn't in the original."""
@@ -38,6 +63,17 @@ def check_question_form(item):
     return None
 
 
+def check_sentence_dropped_en(item):
+    """Check if English paraphrase has fewer sentences than original."""
+    orig_count = _count_sentences_en(item["original_question"])
+    para_count = _count_sentences_en(item["paraphrased_question"])
+    if para_count < orig_count:
+        return f"sentence dropped ({orig_count} -> {para_count})"
+    return None
+
+
+# ── Per-type checks ──────────────────────────────────────────────
+
 def check_lexical(item):
     """Lexical-specific checks."""
     reasons = []
@@ -47,6 +83,10 @@ def check_lexical(item):
         reasons.append(r)
 
     r = check_answer_leaked(item)
+    if r:
+        reasons.append(r)
+
+    r = check_sentence_dropped_en(item)
     if r:
         reasons.append(r)
 
@@ -61,7 +101,7 @@ def check_lexical(item):
 
 
 def check_syntactic(item):
-    """Syntactic-specific checks: only hard errors."""
+    """Syntactic-specific checks."""
     reasons = []
 
     r = check_question_form(item)
@@ -69,6 +109,10 @@ def check_syntactic(item):
         reasons.append(r)
 
     r = check_answer_leaked(item)
+    if r:
+        reasons.append(r)
+
+    r = check_sentence_dropped_en(item)
     if r:
         reasons.append(r)
 
@@ -76,7 +120,7 @@ def check_syntactic(item):
 
 
 def check_style(item):
-    """Style-specific checks: only hard errors."""
+    """Style-specific checks."""
     reasons = []
 
     r = check_question_form(item)
@@ -84,6 +128,10 @@ def check_style(item):
         reasons.append(r)
 
     r = check_answer_leaked(item)
+    if r:
+        reasons.append(r)
+
+    r = check_sentence_dropped_en(item)
     if r:
         reasons.append(r)
 
@@ -114,6 +162,7 @@ def check_translation(item):
     """Translation-specific checks."""
     reasons = []
 
+    orig = item["original_question"]
     para = item["paraphrased_question"]
 
     # Must contain Chinese characters
@@ -122,13 +171,19 @@ def check_translation(item):
         reasons.append(f"not Chinese (only {cjk_count} CJK chars)")
 
     # Question form
-    orig = item["original_question"].rstrip()
-    if orig.endswith("?") and not para.rstrip().endswith("？") and not para.rstrip().endswith("?"):
+    if orig.rstrip().endswith("?") and not para.rstrip().endswith("？") and not para.rstrip().endswith("?"):
         reasons.append("question form lost")
 
     # Too short
     if len(para) < 5:
         reasons.append(f"too short ({len(para)} chars)")
+
+    # Content loss: if Chinese length < 15% of English length, content was dropped
+    # (normal Chinese translations are 20-40% of English length due to character density)
+    if len(orig) > 0:
+        ratio = len(para) / len(orig)
+        if ratio < 0.15:
+            reasons.append(f"content lost (length ratio {ratio:.2f})")
 
     return reasons
 
@@ -142,6 +197,8 @@ CHECKERS = {
 }
 
 
+# ── Filter & intersect ───────────────────────────────────────────
+
 def filter_dataset(dataset_name):
     """Filter one dataset's paraphrases and write filtered outputs."""
     print(f"\n{'=' * 70}")
@@ -150,7 +207,7 @@ def filter_dataset(dataset_name):
 
     for ptype in config.PARAPHRASE_TYPES:
         input_path = os.path.join(
-            config.PARAPHRASED_DIR, f"{dataset_name}_{ptype}.json"
+            config.PARAPHRASED_DIR, dataset_name, f"{ptype}.json"
         )
         data = config.load_json(input_path)
         if not data:
@@ -170,7 +227,7 @@ def filter_dataset(dataset_name):
 
         # Write filtered output
         output_path = os.path.join(
-            config.PARAPHRASED_DIR, f"{dataset_name}_{ptype}_filtered.json"
+            config.PARAPHRASED_DIR, dataset_name, f"{ptype}_filtered.json"
         )
         config.save_json(kept, output_path)
 
@@ -186,18 +243,65 @@ def filter_dataset(dataset_name):
                 print(f"    - {reason}: {count}")
 
 
-def main():
-    if len(sys.argv) > 1:
-        datasets = [sys.argv[1]]
-    else:
+def intersect_dataset(dataset_name):
+    """Take intersection of valid IDs across all 5 paraphrase types,
+    then rewrite all filtered files to keep only the common IDs."""
+
+    # Collect valid IDs from each type's filtered file
+    id_sets = {}
+    for ptype in config.PARAPHRASE_TYPES:
+        path = os.path.join(
+            config.PARAPHRASED_DIR, dataset_name, f"{ptype}_filtered.json"
+        )
+        data = config.load_json(path)
+        if not data:
+            print(f"  [{ptype}] No filtered data found, skipping intersection")
+            return
+        id_sets[ptype] = {item["id"] for item in data}
+
+    # Intersection
+    common_ids = set.intersection(*id_sets.values())
+
+    print(f"\n{'=' * 70}")
+    print(f"  Intersection: {dataset_name}")
+    print(f"{'=' * 70}")
+    for ptype in config.PARAPHRASE_TYPES:
+        print(f"  [{ptype}] {len(id_sets[ptype])} -> {len(common_ids)}")
+
+    # Rewrite filtered files with only common IDs
+    for ptype in config.PARAPHRASE_TYPES:
+        path = os.path.join(
+            config.PARAPHRASED_DIR, dataset_name, f"{ptype}_filtered.json"
+        )
+        data = config.load_json(path)
+        kept = [item for item in data if item["id"] in common_ids]
+        config.save_json(kept, path)
+
+    print(f"\n  Final: {len(common_ids)} items per type")
+
+
+def filter_and_intersect(datasets=None):
+    """Filter datasets and take intersection across all types per dataset."""
+    if datasets is None:
         datasets = list(config.DATASETS.keys())
 
     for dataset_name in datasets:
         filter_dataset(dataset_name)
 
+    for dataset_name in datasets:
+        intersect_dataset(dataset_name)
+
     print(f"\n{'=' * 70}")
-    print("  Done. Filtered files saved as *_filtered.json")
+    print("  Done. Filtered files saved as *_filtered.json (intersected)")
     print(f"{'=' * 70}")
+
+
+def main():
+    if len(sys.argv) > 1:
+        datasets = [sys.argv[1]]
+    else:
+        datasets = None
+    filter_and_intersect(datasets)
 
 
 if __name__ == "__main__":

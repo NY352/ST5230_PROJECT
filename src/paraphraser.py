@@ -17,7 +17,7 @@ def paraphrase_question(question, paraphrase_type):
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": question},
         ],
-        max_tokens=512,
+        max_tokens=2048,
         temperature=0.7,
     )
 
@@ -28,9 +28,9 @@ def paraphrase_dataset(dataset_name, paraphrase_type):
     """Paraphrase all questions in a dataset. Supports checkpoint/resume."""
     input_path = os.path.join(config.DATA_DIR, f"{dataset_name}.json")
     output_path = os.path.join(
-        config.PARAPHRASED_DIR, f"{dataset_name}_{paraphrase_type}.json"
+        config.PARAPHRASED_DIR, dataset_name, f"{paraphrase_type}.json"
     )
-    os.makedirs(config.PARAPHRASED_DIR, exist_ok=True)
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     data = config.load_json(input_path)
     if not data:

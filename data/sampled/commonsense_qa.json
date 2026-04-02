@@ -12998,5 +12998,2878 @@
     ],
     "answer": "C",
     "source": "commonsense_qa"
+  },
+  {
+    "id": "2435de612dd69f2012b9e40d6af4ce38",
+    "question": "James was looking for a good place to buy farmland.  Where might he look?",
+    "choices": [
+      "A) midwest",
+      "B) countryside",
+      "C) estate",
+      "D) farming areas",
+      "E) illinois"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "81eb4b2ee66edd8bc91ee944697c4e9f",
+    "question": "If you want harmony, what is something you should try to do with the world?",
+    "choices": [
+      "A) take time",
+      "B) make noise",
+      "C) make war",
+      "D) make peace",
+      "E) make haste"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d807e7ae60976324920c8d29eb42dad6",
+    "question": "Where does a heifer's master live?",
+    "choices": [
+      "A) farm house",
+      "B) barnyard",
+      "C) stockyard",
+      "D) slaughter house",
+      "E) eat cake"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6dc5b2884737e66543ce65f8dc40c992",
+    "question": "A fencing thrust with a sharp sword towards a person would result in what?",
+    "choices": [
+      "A) injury",
+      "B) small cuts",
+      "C) fever",
+      "D) competition",
+      "E) puncture wound"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8af63d58cc35061dec38e5448c325988",
+    "question": "Unlike a spider and his many sight seers, people only have what?",
+    "choices": [
+      "A) tongues",
+      "B) names",
+      "C) brains",
+      "D) feelings",
+      "E) two eyes"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e5ad2184e37ae88b2bf46bf6bc0ed2f4",
+    "question": "Though the thin film seemed fragile, for it's intended purpose it was actually nearly what?",
+    "choices": [
+      "A) indestructible",
+      "B) durable",
+      "C) undestroyable",
+      "D) indestructible",
+      "E) unbreakable"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a80ee7775e934c423012fe98e20ba28b",
+    "question": "Sean was in a rush to get home, but the light turned yellow and he was forced to do what?",
+    "choices": [
+      "A) take time",
+      "B) dawdle",
+      "C) go slowly",
+      "D) ocean",
+      "E) slow down"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4acd496cc78d96c2431279a5fd87de7c",
+    "question": "She was always helping at the senior center, it brought her what?",
+    "choices": [
+      "A) satisfaction",
+      "B) heart",
+      "C) feel better",
+      "D) pay",
+      "E) happiness"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "49cda7eedbf63b3f38e59ba72f1ee1f9",
+    "question": "What is a place that usually does not have an elevator and that sometimes has a telephone book?",
+    "choices": [
+      "A) at hotel",
+      "B) kitchen",
+      "C) library",
+      "D) telephone booth",
+      "E) house"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a588407ecaecf0f30c2241c30b470fe2",
+    "question": "Who is likely to be excited about a crab?",
+    "choices": [
+      "A) fish market",
+      "B) pet shop",
+      "C) fishmongers",
+      "D) intertidal zone",
+      "E) obesity"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "49b4c9e1bd7946a819e173ce8fa4c7c9",
+    "question": "The teacher doesn't tolerate noise during a test in their what?",
+    "choices": [
+      "A) movie theatre",
+      "B) bowling alley",
+      "C) factory",
+      "D) store",
+      "E) classroom"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "950af0b765c298960ce3dada66df8db1",
+    "question": "The freeway had no traffic and few buildings, where is it?",
+    "choices": [
+      "A) california",
+      "B) countryside",
+      "C) big town",
+      "D) florida",
+      "E) america"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "63cf1adb5fe302b9867ead8bc8103d0b",
+    "question": "Where would you go if you wanted to have fun with a few people?",
+    "choices": [
+      "A) watching television",
+      "B) good",
+      "C) cinema",
+      "D) friend's house",
+      "E) fairgrounds"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cc46d936bf69d69a3863b0cb85d75c17",
+    "question": "He was beginning to regret taking the fight when he saw how what his opponent was?",
+    "choices": [
+      "A) fun",
+      "B) joy",
+      "C) satisfaction",
+      "D) confident",
+      "E) pride"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "46bc1a50eeead10509a43a048e01194e",
+    "question": "Where would you find a single shower curtain being used?",
+    "choices": [
+      "A) bathtub",
+      "B) washing area",
+      "C) hotel",
+      "D) shower stall",
+      "E) department store"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c68b4082a6872cf8198502651d0f3352",
+    "question": "Despite the name a pawn can be quite versatile, all the parts are important in a what?",
+    "choices": [
+      "A) chess game",
+      "B) scheme",
+      "C) chess set",
+      "D) checkers",
+      "E) north carolina"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "08f3c187908646997b9080c7e9ea7da4",
+    "question": "A crane uses many a steel cable when working a what?",
+    "choices": [
+      "A) abaft",
+      "B) ship",
+      "C) winch",
+      "D) construction site",
+      "E) building"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0f4159e80f8dbf682819215bbf0f5b5a_1",
+    "question": "If you're remembering something, it's because of your what of it to begin with?",
+    "choices": [
+      "A) knowledge",
+      "B) knowing",
+      "C) forgetful",
+      "D) pleasure",
+      "E) depression"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "db0cfd52ca6b2bbfcf26d1a898fd929b",
+    "question": "Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?",
+    "choices": [
+      "A) rest",
+      "B) insomnia",
+      "C) making love",
+      "D) sleeping in",
+      "E) texting"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8494b0b95533dcedbd76ae2916c481d4",
+    "question": "Anybody could be hired in the kitchen, what was needed of them?",
+    "choices": [
+      "A) forget",
+      "B) oil squeaky hinge",
+      "C) question authority",
+      "D) wash dishes",
+      "E) oik squeaky hinge"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "db8e010754c532d78635e5b7cf81a147",
+    "question": "An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?",
+    "choices": [
+      "A) share files",
+      "B) do arithmetic",
+      "C) turn on",
+      "D) cost money",
+      "E) multitask"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "998381f854f51da2a6ccde45909e5168",
+    "question": "Obstructing justice is sometimes an excuse used for police brutality which causes what in people?",
+    "choices": [
+      "A) committing perjury",
+      "B) prosecution",
+      "C) attack",
+      "D) getting hurt",
+      "E) riot"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a7d51b753c2113d8b2dbd0ebb5375855",
+    "question": "James's nice asked him about her grandfather. She was interested in learning about what?",
+    "choices": [
+      "A) family tree",
+      "B) family reunion",
+      "C) babysitting",
+      "D) brother's house",
+      "E) heirlooms"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "80697d599280d994d8a584c95824ef1f",
+    "question": "Where might an unused chess set be stored?",
+    "choices": [
+      "A) toy store",
+      "B) michigan",
+      "C) living room",
+      "D) attic",
+      "E) cupboard"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "08db69edf0ec5848c1a53dca8fc1601a",
+    "question": "James noticed that his penis was bigger. .  How might he act toward his plastic surgeon?",
+    "choices": [
+      "A) accidental",
+      "B) detestable",
+      "C) effusive",
+      "D) enabled",
+      "E) apathetic"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f898eb5b789d2dc6804edba269f051f0",
+    "question": "When you get up in the morning before you begin work you should do what?",
+    "choices": [
+      "A) apply for job",
+      "B) sleep",
+      "C) concentrate",
+      "D) shower",
+      "E) just do"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a38df3e750b1edd30f905e17af803c61",
+    "question": "What will a person going for a jog likely be wearing?",
+    "choices": [
+      "A) grope",
+      "B) acknowledgment",
+      "C) comfortable clothes",
+      "D) ipod",
+      "E) passionate kisses"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "fcd39cfa321728fea069a6ae4285b06f",
+    "question": "In order to learn to program from another person you can do what?",
+    "choices": [
+      "A) learn how to",
+      "B) have a friend",
+      "C) knowledge",
+      "D) take class",
+      "E) have computer"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "01abce8c4964371d85a5be2019f75827",
+    "question": "Where would you find a large dining room containing a fancy chandelier?",
+    "choices": [
+      "A) mansion",
+      "B) every house",
+      "C) own home",
+      "D) table",
+      "E) restaurant"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c592258c88295756833e9796e881057b",
+    "question": "Where would someone purchase an upright piano?",
+    "choices": [
+      "A) music class",
+      "B) college",
+      "C) music store",
+      "D) music room",
+      "E) music band"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f1368ab1d4ee05d72d555474fcd737d7",
+    "question": "If chewing food is difficult for you, what is a possible reason?",
+    "choices": [
+      "A) broken jaw",
+      "B) sore mouth",
+      "C) eating",
+      "D) good digestion",
+      "E) avoiding choking"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2dd138a63b5895cf737ced793cc668e7",
+    "question": "If you take the risk buying a used car, you still hope it can what?",
+    "choices": [
+      "A) go fast",
+      "B) start running",
+      "C) going too fast",
+      "D) look good",
+      "E) last several years"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "43ab0ff711e60d51f943bbd2cdd6515a",
+    "question": "A loud machine is irritating, but many are expected where?",
+    "choices": [
+      "A) museum",
+      "B) house",
+      "C) laboratory",
+      "D) library",
+      "E) industrial area"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e61891746aa94ab57aaa754614034aef",
+    "question": "What happens if someone kisses too long?",
+    "choices": [
+      "A) strong feelings",
+      "B) herpes",
+      "C) shortness of breath",
+      "D) excitement",
+      "E) arousal"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e3426e4f60c142aa3d813479f79d6305",
+    "question": "Where do you go on a night out before going to the bar?",
+    "choices": [
+      "A) new york city",
+      "B) las vegas",
+      "C) restaurant",
+      "D) nightclub",
+      "E) park"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0b3a3ee40dd25be9735ac5e3342ca4dd",
+    "question": "A person with an allergy might be doing what if they awake suddenly?",
+    "choices": [
+      "A) have fun",
+      "B) enjoy with friends",
+      "C) stretch",
+      "D) yawn",
+      "E) sneezing"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f2645d0ee8662b6553954cee7e77979e",
+    "question": "Joe and Mac were playing basketball. They did it every day in their back yard.  Why were they playing basketball?",
+    "choices": [
+      "A) study",
+      "B) have fun",
+      "C) pain",
+      "D) cheers",
+      "E) knee injury"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "14d760e43728e9e4643c414627f2b596",
+    "question": "The painter started to edge the room with tape, he always took extra care to make the lines clean and crisp when working with an what?",
+    "choices": [
+      "A) triangle",
+      "B) middle",
+      "C) corner",
+      "D) center",
+      "E) interior"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d2871dc28c82471e5d7f71f79e49c257",
+    "question": "Billy hated using other people's toilets. He was only comfortable on his own.  So whenever he needed to poop, he would go back to his what?",
+    "choices": [
+      "A) bathroom",
+      "B) motel room",
+      "C) nearest public restroom",
+      "D) house",
+      "E) apartment"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "08ad17d3ca1838b8724d21cf5921ec52",
+    "question": "How can you let someone know about your anger without hurting him or her?",
+    "choices": [
+      "A) release energy",
+      "B) destroy enemy",
+      "C) punch",
+      "D) write letter",
+      "E) lose your temper"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5622e49306bb82ec1cec817ad0506c60",
+    "question": "He was having a hard time expressing himself in a healthy way, the psychologist said he was mentally what?",
+    "choices": [
+      "A) slow",
+      "B) understood",
+      "C) suffering",
+      "D) embarrassment",
+      "E) fun"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2a0e82bbf1471290c93c8f2a11af197f",
+    "question": "The old style pop ups literally let you see the story when you did what?",
+    "choices": [
+      "A) giggle",
+      "B) visualize",
+      "C) open book",
+      "D) reading",
+      "E) go to movies"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "adf228312401c9ff421a4da1b46bb70a",
+    "question": "Where could you find a bureau as well as many politicians?",
+    "choices": [
+      "A) each city",
+      "B) office building",
+      "C) a zoo",
+      "D) french government",
+      "E) washington dc"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "dbdad44029098d4b1d202d6d857d6092",
+    "question": "Where are you likely to set papers while working on them?",
+    "choices": [
+      "A) table",
+      "B) meeting",
+      "C) drawer",
+      "D) toilet",
+      "E) garage"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "83dad4fe630fddbdcd5b18ef890c66f2",
+    "question": "What is the likely result of buying products in excess?",
+    "choices": [
+      "A) running out of money",
+      "B) spending money",
+      "C) poverty",
+      "D) comparison shopping",
+      "E) overstocking"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9ed019338a48216de9eadf64faaf1ce0",
+    "question": "Where would you put a glass after drinking from it?",
+    "choices": [
+      "A) ocean",
+      "B) water cooler",
+      "C) cabinet",
+      "D) dishwasher",
+      "E) dining room"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8fd82cdc253835814153fe7222e9967c",
+    "question": "When you travel you should what in case of unexpected costs?",
+    "choices": [
+      "A) go somewhere",
+      "B) energy",
+      "C) spend frivilously",
+      "D) fly in airplane",
+      "E) have money"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8d275acea05fd16295c659c504576a9b",
+    "question": "Where can you buy jeans at one of may indoor merchants?",
+    "choices": [
+      "A) gap",
+      "B) shopping mall",
+      "C) bedroom",
+      "D) laundromat",
+      "E) bathroom"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2c9f4a98ce774cd734b6e384d95051a7",
+    "question": "They children loved having a back yard, and the parents loved that it was a safe what?",
+    "choices": [
+      "A) suburb",
+      "B) neighborhood",
+      "C) back of house",
+      "D) roundabout",
+      "E) property"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a339fe08f1f50463ee180b797e99ebcc",
+    "question": "What do you need energy to do in gym class?",
+    "choices": [
+      "A) work",
+      "B) tacos",
+      "C) mass",
+      "D) play sports",
+      "E) wrestle"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bcc5dd6292a64d8fa17cd07c360b335d",
+    "question": "The player lifted his cornet and walked in rhythm, what was the player a member of?",
+    "choices": [
+      "A) museum",
+      "B) high school band",
+      "C) marching band",
+      "D) orchestra",
+      "E) band"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c611875b43b67b91030b889b267bbcb3",
+    "question": "There was a toll road that meandered from Maine to New Hampshire, where was it?",
+    "choices": [
+      "A) massachusetts",
+      "B) new england",
+      "C) my house",
+      "D) new jersey",
+      "E) connecticut"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "aead08289ca9abfcd169f935ea228ee5",
+    "question": "What do you ask a child to do when you first meet her?",
+    "choices": [
+      "A) ask questions",
+      "B) count to ten",
+      "C) costume",
+      "D) state name",
+      "E) dress herself"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0bf4d64ad0eee7224acb3a4eb85accb2",
+    "question": "What happens when to ice when it is in the sun?",
+    "choices": [
+      "A) carved",
+      "B) melted",
+      "C) ice cream",
+      "D) antarctica",
+      "E) sculptured"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "70701f5d1d62e58d5c74e2e303bb4065",
+    "question": "What is someone doing if he or she is sitting quietly and his or her eyes are moving?",
+    "choices": [
+      "A) reading",
+      "B) meditate",
+      "C) fall asleep",
+      "D) bunk",
+      "E) think"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5a7f6fd97b2c9ad05f773bc8b2ecf441",
+    "question": "How can a human cross a river and not mess up their hair?",
+    "choices": [
+      "A) wisconsin",
+      "B) waterfall",
+      "C) hatred",
+      "D) bridge",
+      "E) valley"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d910859b9d1acae40456dbeaa8334bc0",
+    "question": "James slamed into someone playing football, and not for the first time.  He was concerned about the consequences of many what?",
+    "choices": [
+      "A) exhilaration",
+      "B) interactions",
+      "C) head injuries",
+      "D) death",
+      "E) having fun"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "72b638200414a526b598de0e01a044df",
+    "question": "What would use a musical instrument?",
+    "choices": [
+      "A) guitar",
+      "B) music room",
+      "C) orchestra",
+      "D) case",
+      "E) movie"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "70af2b5df22ec96901350dfa3c9ee74f",
+    "question": "James was meeting a friend.  They had planed a slow day. They didn't want to do much.  They just wanted what?",
+    "choices": [
+      "A) relaxation",
+      "B) panic",
+      "C) alarm",
+      "D) joy",
+      "E) cheer"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "27f2074270ea8a5e8f5ec2a017ec4a50",
+    "question": "Dan was a farmer with just one heifer.  But that was okay, he only kept her for milk, and he didn't think he'd find good farmland in a place as cold as where?",
+    "choices": [
+      "A) arizona",
+      "B) farm yard",
+      "C) michigan",
+      "D) german field",
+      "E) dairy farm"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1b3d286458a7e7f069222de0376d06da",
+    "question": "What would someone use a personal key for?",
+    "choices": [
+      "A) car stand",
+      "B) at hotel",
+      "C) own home",
+      "D) front door",
+      "E) bus depot"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "86e2aabfb9d401567f04d87a648ff776",
+    "question": "The cat kept pestering it's owner, it was that time of the day and it was what?",
+    "choices": [
+      "A) litter tray",
+      "B) whiskers",
+      "C) hungry",
+      "D) feline",
+      "E) thirsty"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7f25dbab26165b3c8800c2733ca759d6",
+    "question": "John was an aristocratic fox hunter.  Where might he live?",
+    "choices": [
+      "A) england",
+      "B) new hampshire",
+      "C) street",
+      "D) arkansas",
+      "E) north dakota"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a7f423c1636ba9e36d18e381928c5dcc",
+    "question": "Sarah didn't like to play but she didn't want to be sedentary and bored, either, so she took up what?",
+    "choices": [
+      "A) serious",
+      "B) longplay",
+      "C) musical",
+      "D) eat cake",
+      "E) doing nothing"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8d4b0312f02be445e09a9462873d02bb",
+    "question": "What kind of service is my body a part of when I'm no longer here?",
+    "choices": [
+      "A) bodycam",
+      "B) home",
+      "C) coffin",
+      "D) funeral",
+      "E) graveyard"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f7140f00ddd8d1c5d93b05ea32ad1fff",
+    "question": "Many people wanted to leave their country estates for row houses, what did they need to move to?",
+    "choices": [
+      "A) living less expensively",
+      "B) england",
+      "C) prison",
+      "D) city",
+      "E) town"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b399f6008d90dbd92bcce5abed4c1fd1",
+    "question": "Where would you go if you want to buy some clothes?",
+    "choices": [
+      "A) mall",
+      "B) grocery store",
+      "C) grocery store",
+      "D) shop",
+      "E) supermarket"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d312741df1b14bcbe358f4f30aff3994",
+    "question": "He walked into the room and had a great shock, his friends had what him?",
+    "choices": [
+      "A) expected",
+      "B) wanting",
+      "C) calm",
+      "D) thundershock",
+      "E) surprised"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "63f7ad481a63fc8c6dffe00519d4a167",
+    "question": "If you're reading a newspaper from another country what are you doing?",
+    "choices": [
+      "A) learning about world",
+      "B) education",
+      "C) get angry",
+      "D) concern",
+      "E) eat cake"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9003c4748b08d5a734747e499599ff20",
+    "question": "What will you do if you do not want to settle in one place?",
+    "choices": [
+      "A) walk",
+      "B) agitate",
+      "C) wander",
+      "D) remove",
+      "E) disturb"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "95a85df48902d23eb3fda25a99fca1a0",
+    "question": "What is it called when two people in love have children?",
+    "choices": [
+      "A) take oath",
+      "B) procreate",
+      "C) matrimony",
+      "D) please parents",
+      "E) live life"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a943522f7d407cef369d5d3f1bf48589",
+    "question": "Where can you go to use a piano in your neighborhood if you don't have one?",
+    "choices": [
+      "A) music school",
+      "B) music store",
+      "C) neighbor's house",
+      "D) lunch",
+      "E) drawing room"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d581e0ad6a4c89465dc1a527bd2d3f77",
+    "question": "Though she had a disability, what did her encouraging and positive coach see in her?",
+    "choices": [
+      "A) qualification",
+      "B) strength",
+      "C) pity",
+      "D) competence",
+      "E) potential"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "22015315e7ff79386877828b4fa27799",
+    "question": "Where would you keep a rug near your front door?",
+    "choices": [
+      "A) persia",
+      "B) desk",
+      "C) table",
+      "D) living room",
+      "E) hall"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7322d0dcf2e27c7032626a3639f5696b",
+    "question": "What do you do when you need to get food?",
+    "choices": [
+      "A) table",
+      "B) disneyland",
+      "C) refrigerators",
+      "D) pantry",
+      "E) shop"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7776b10c7bb96f3fe5e026678673634d",
+    "question": "What do people want to acquire from opening business?",
+    "choices": [
+      "A) home",
+      "B) wealth",
+      "C) bankruptcy",
+      "D) lose money",
+      "E) get rich"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f7c005244d406b9bde48dc8c22003af1",
+    "question": "What has someone who had finished their undergraduate done?",
+    "choices": [
+      "A) graduated",
+      "B) masters",
+      "C) postgraduate",
+      "D) phd",
+      "E) professor"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6a884d5d8febfdd86fcf68ff1a904d9b",
+    "question": "Where is a public monument likely to be erected by a city?",
+    "choices": [
+      "A) municipal park",
+      "B) office",
+      "C) state park",
+      "D) cemetary",
+      "E) public gardens"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "01f01cc3ad152773ef42b30e926912bf",
+    "question": "What happens to a dog before someone puts up posters of them?",
+    "choices": [
+      "A) get lost",
+      "B) require water",
+      "C) trained",
+      "D) bark",
+      "E) roll over"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "72baf6ca5c4daa01c2cc7fda22183db8",
+    "question": "Where could there be a battle that involves words?",
+    "choices": [
+      "A) court room",
+      "B) war",
+      "C) video game",
+      "D) iraq",
+      "E) church"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "fe2a21ddb1bde76025a961126044a9a3",
+    "question": "What is the process of going somewhere?",
+    "choices": [
+      "A) fire",
+      "B) energy",
+      "C) car",
+      "D) transporting",
+      "E) staying in place"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "fde1f9bfc33da302449c0b950d16c0ea",
+    "question": "Most people make stupid assumptions that are based on their prejudices.  What might they do instead to achieve better outcomes?",
+    "choices": [
+      "A) set table",
+      "B) think",
+      "C) read books",
+      "D) play games",
+      "E) lie"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1f3ccb722600da7d862531416934949a",
+    "question": "Where would you hear a trumpet along with other instruments made from the same material?",
+    "choices": [
+      "A) music store",
+      "B) bass",
+      "C) brass band",
+      "D) orchestra",
+      "E) marching band"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e211b1a3f3401d164c8b0bfc10160caa",
+    "question": "If you have a ticket and you are planning to eat hot dogs, where would you go?",
+    "choices": [
+      "A) lottery",
+      "B) person's hand",
+      "C) baseball stadium",
+      "D) movie",
+      "E) kitchen"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6cb895ce89995f6be422f7c4167c7638",
+    "question": "What do people do when networking?",
+    "choices": [
+      "A) build trust",
+      "B) hurry home",
+      "C) ignore people",
+      "D) believe in god",
+      "E) jump to conclusions"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "af11faa29097b71141fe192ad019d1dd",
+    "question": "Christine couldn't be having a baby at her age, she thought to herself. What was Christine?",
+    "choices": [
+      "A) old person",
+      "B) begin to talk",
+      "C) adult",
+      "D) old man",
+      "E) girl"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7044d82a456d0fa6f0210abb03cbf2c4",
+    "question": "If I'm playing ball, I'm mostly trying to do what?",
+    "choices": [
+      "A) losing",
+      "B) competition",
+      "C) having fun",
+      "D) win",
+      "E) injury"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "ecbc1ab06ad1ed6c53e5293d7a90ebd3",
+    "question": "If you wanted to show off silk, what item could it be on?",
+    "choices": [
+      "A) jean",
+      "B) mulberry tree",
+      "C) garments",
+      "D) expensive clothing",
+      "E) parachutes"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9a356ff463c042d04ba45bfd627bac20",
+    "question": "Where is known to be a wealth of information?",
+    "choices": [
+      "A) park",
+      "B) internet",
+      "C) meeting",
+      "D) library",
+      "E) book"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "83c25b9a5db5f9b3fd1ff6c7453d23d0",
+    "question": "What does a gambler do that causes him or her to be unhappy?",
+    "choices": [
+      "A) play cards",
+      "B) double winnings",
+      "C) lose money",
+      "D) play poker",
+      "E) to win the prize"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0af371b94fb414860b13eea6009ccc31",
+    "question": "What is the sun ultimately responsible for?",
+    "choices": [
+      "A) earth warming",
+      "B) sun tan",
+      "C) light",
+      "D) life on earth",
+      "E) heat"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "68f6ac445cc008d93f931b999b44b0ba",
+    "question": "When you feel too much heat in your home you can turn on what?",
+    "choices": [
+      "A) coolness",
+      "B) fan",
+      "C) get wet",
+      "D) coldness",
+      "E) air conditioning"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a328285c6212c899e335c45db3c49ffd",
+    "question": "Danny found an old film in a sealed what?",
+    "choices": [
+      "A) clingfilm",
+      "B) disneyland",
+      "C) cave",
+      "D) cabinet",
+      "E) movie"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "70d3ebc00b165d9d08f9491a1dd85034",
+    "question": "The town house went right to the curb, a slot effectively made a mailbox of the what?",
+    "choices": [
+      "A) apartment building",
+      "B) front door",
+      "C) back door",
+      "D) street corner",
+      "E) porch"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "41bab71fea3fa04e5a4e10a2f86996df",
+    "question": "The architect thought that a mezzanine would look good, but the planning committee rejected it.  They told the architect that they felt it was a potential hazard given the ages of the people who would be using it.  What might they be designing?",
+    "choices": [
+      "A) actors",
+      "B) theater",
+      "C) concert hall",
+      "D) floors",
+      "E) school"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9698232e3599157431c9dc8f2fe179cd",
+    "question": "What is the hopeful result of going to see a play?",
+    "choices": [
+      "A) sit",
+      "B) being entertained",
+      "C) jobless",
+      "D) meet",
+      "E) laugh"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0b5d0c3bafbe06dd5334c20cd8ea7fe2",
+    "question": "A person would join a trade school for finding information related to what?",
+    "choices": [
+      "A) ulcers",
+      "B) degree",
+      "C) understanding of",
+      "D) gaining knowledge",
+      "E) happiness"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3f6157968fcf50d257ec3d8c729b7443",
+    "question": "what does someone have that causes them committing murder?",
+    "choices": [
+      "A) problems",
+      "B) distress",
+      "C) fear",
+      "D) go to jail",
+      "E) killer"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1cd94405124031e8681cd12bd25e2d61",
+    "question": "He was trying to procreate with many individuals, this led to a what?",
+    "choices": [
+      "A) moaning",
+      "B) die",
+      "C) kiss",
+      "D) std",
+      "E) sanity"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "64ab884bd870f6f68146636b4cce921c",
+    "question": "What does playing soccer and winning lead to?",
+    "choices": [
+      "A) excitement",
+      "B) getting tired",
+      "C) overtime",
+      "D) anger",
+      "E) fights"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9b26329d74a6159ab9af4f899303de39",
+    "question": "If my husband never helps me doing housework, what might that lead to?",
+    "choices": [
+      "A) boredom",
+      "B) arguments",
+      "C) headache",
+      "D) exhaustion",
+      "E) park"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5496c7293f653120e5a5213db2d7b103",
+    "question": "Where is beer drank by people watching sticks and pucks?",
+    "choices": [
+      "A) bottle",
+      "B) refrigerator",
+      "C) hockey game",
+      "D) casino",
+      "E) bar"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "60848ce50295fc745756fbe960e78b88",
+    "question": "What would I be doing while going to work and walking?",
+    "choices": [
+      "A) listen to radio",
+      "B) solve problems",
+      "C) driving",
+      "D) walk",
+      "E) being late"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2729d8502208c25d8e9293cd4e8ecbb5",
+    "question": "What can disease destroy?",
+    "choices": [
+      "A) rug",
+      "B) third world country",
+      "C) human body",
+      "D) hospital",
+      "E) building"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "95d1d968ee66b6054cbb16b58a7c6455",
+    "question": "The surgeon's clients had begun to reduce, it seemed girls no longer want to what?",
+    "choices": [
+      "A) reduction",
+      "B) make larger",
+      "C) augment",
+      "D) gain weight",
+      "E) expand"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "94f34cc1e6aa9eefe06563cce8225658",
+    "question": "What are you playing if you're fiddling on a violin?",
+    "choices": [
+      "A) bluegrass music",
+      "B) make music",
+      "C) drop",
+      "D) string instrument",
+      "E) troubles"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d6107d454181b701ddcaa449a1e422a3",
+    "question": "Why would a band be performing when there are no people nearby?",
+    "choices": [
+      "A) record album",
+      "B) play music",
+      "C) hold concert",
+      "D) blaring",
+      "E) practice"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6a0177586d506cb7b741f4207b428e42",
+    "question": "If you have a large satchel with you when you fly you'll be asked to store it where?",
+    "choices": [
+      "A) airport",
+      "B) luggage compartment",
+      "C) with the pilot",
+      "D) room",
+      "E) clothing store"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "32758ab86d888be680845b0dfe7de35e",
+    "question": "Boredom and hunger led to a wandering waste of time and a cart full of unhealthy snacks during her trip to where?",
+    "choices": [
+      "A) new moon",
+      "B) play cards",
+      "C) read book",
+      "D) see art",
+      "E) grocery shop"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bdf92566f14599f1606109677206001f",
+    "question": "Miss Grady took a stick from Bob because he was playing with it during class.  She wanted to make sure that he couldn't get to it so she put it where?",
+    "choices": [
+      "A) desk drawer",
+      "B) kitchen drawer",
+      "C) classroom",
+      "D) pocket",
+      "E) office"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0df042743128b57e874bd5d79b7aae7a",
+    "question": "How does a person begin reproducing?",
+    "choices": [
+      "A) genetic mutation",
+      "B) have sex",
+      "C) kiss",
+      "D) flirting",
+      "E) going on a date"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "866ef7266d34c11e5a1b3df49fab96a4",
+    "question": "Joe and Jill didn't want their children to be sedentary.  They might limit the time they children spend doing what?",
+    "choices": [
+      "A) play sports",
+      "B) throw things",
+      "C) reading",
+      "D) watch tv",
+      "E) play with toys"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e1744fc698cffb574e5cf4b29a81ce76",
+    "question": "A computer user working on an important work assignment is located in what structure?",
+    "choices": [
+      "A) office building",
+      "B) internet cafe",
+      "C) house",
+      "D) school",
+      "E) internet cafe"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1272e693cf9152e7ac71095c643676b5",
+    "question": "In the building where James worked there was a small mezzanine in the auditorium to make more space for seats.  Where might James work?",
+    "choices": [
+      "A) theater",
+      "B) floors",
+      "C) concert hall",
+      "D) education",
+      "E) school"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "896b25dc41f84357add1c798d4a96cd8",
+    "question": "Where is seaweed usually found alive?",
+    "choices": [
+      "A) ocean",
+      "B) found in ocean",
+      "C) water",
+      "D) found in sea",
+      "E) beach"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1ca3cd9475d7e9da2ddb74911ee2bb68",
+    "question": "If a lizard is fed by people every day, what has happened to it?",
+    "choices": [
+      "A) documentary",
+      "B) costa rica",
+      "C) garden",
+      "D) encouragement",
+      "E) captivity"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "129ec46cc2541b73198d774ee632c8d7",
+    "question": "What will happen to someone if his or her spirits cannot elevate?",
+    "choices": [
+      "A) sadden",
+      "B) demote",
+      "C) depress",
+      "D) drop",
+      "E) decrease"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4f1d8007b446b0e10f07fd63cbd31b6f",
+    "question": "John knew that the sun produced a massive amount of energy in two forms.  If you were on the surface of the sun, what would kill you first?",
+    "choices": [
+      "A) ocean",
+      "B) heat",
+      "C) life on earth",
+      "D) wrinkles",
+      "E) light"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "db63bf66a8bfd16e5103cbdd350f5202",
+    "question": "Everybody was changing into costumes in the dressing room, it was almost time to take the what stage?",
+    "choices": [
+      "A) theater",
+      "B) train",
+      "C) bathhouse",
+      "D) dwelling",
+      "E) actors and actresses"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c1c73ef0ff662a76cd42c3500240974a",
+    "question": "If I want a new ottoman, where should I go?",
+    "choices": [
+      "A) furniture store",
+      "B) parlor",
+      "C) turkey",
+      "D) living room",
+      "E) den"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9221962ed3a6094e5c8f33785ce048cd",
+    "question": "What can you use to get a jellyfish?",
+    "choices": [
+      "A) adriatic sea",
+      "B) mediterranean sea",
+      "C) hand",
+      "D) see",
+      "E) atlantic ocean"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "66bfb6e209c94e6be5b0d04b0c7e2064",
+    "question": "Where could you find only a few office?",
+    "choices": [
+      "A) skyscraper",
+      "B) new york",
+      "C) school building",
+      "D) city",
+      "E) work"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a15d564d0be6996251b5d523ac62db2a",
+    "question": "Why is it hard for a young child to read a long book?",
+    "choices": [
+      "A) knowledge",
+      "B) cover",
+      "C) no pictures",
+      "D) past",
+      "E) many words"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6bd170c8d3d99d3c47b3e96427bacaeb",
+    "question": "On a hot day what can you do to enjoy something cool and sweet?",
+    "choices": [
+      "A) dive",
+      "B) cool off",
+      "C) fresh cake",
+      "D) go for swim",
+      "E) eat ice cream"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8cb45b421375243e788cfc64bd77b051",
+    "question": "Why is religion so hard to understand?",
+    "choices": [
+      "A) both positive and negative",
+      "B) unknowable",
+      "C) important to people",
+      "D) ocean",
+      "E) confusing"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4e87db4771f2d6423034935446e3fff1",
+    "question": "They dealt with combustible mixtures in their experiments, this is why they kept a fire extinguisher where?",
+    "choices": [
+      "A) hospital",
+      "B) chemistry lab",
+      "C) most businesses",
+      "D) classroom",
+      "E) public building"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1729c737ff92cf558efecde2c6cafc5e",
+    "question": "What do you need to wear when hiking?",
+    "choices": [
+      "A) cast iron stomach",
+      "B) physical exertion",
+      "C) shin splints",
+      "D) adventure",
+      "E) fatigue"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "be2cb9c96069ac355a7ccef262743d14",
+    "question": "Where can you buy a replacement ax handle?",
+    "choices": [
+      "A) bathroom",
+      "B) hardware store",
+      "C) water fountain",
+      "D) grocery store",
+      "E) fridge"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "799e48ec7fb16415c8f82828c5761ed1",
+    "question": "Is that person acting as silly as a clown?",
+    "choices": [
+      "A) make mistakes",
+      "B) ridiculous",
+      "C) have no home",
+      "D) mentally unhinged",
+      "E) schizophrenia"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a5ca7c89196e54938b5827814d0071d4",
+    "question": "James saw a kite flying in the sky.  He traced the string back to its origin and found it.  Where did the string begin?",
+    "choices": [
+      "A) end of line",
+      "B) hobby shop",
+      "C) his hand",
+      "D) toy store",
+      "E) child's hand"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "64dbe5cb840ef4f1d25f8b68db8d5fed",
+    "question": "The business men left the discussion in the dressing room, now they just wanted to relax in the sauna of the what?",
+    "choices": [
+      "A) brush hair",
+      "B) theater",
+      "C) house",
+      "D) dwelling",
+      "E) bathhouse"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9190efbd77fe10b989fcaae35e208a0f",
+    "question": "Where has the newest baseball stadium?",
+    "choices": [
+      "A) phoenix",
+      "B) chicago",
+      "C) antarctica",
+      "D) san francisco",
+      "E) urban areas"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "52ecf169febc95a7f5ccb048fc85857d",
+    "question": "What could prevent a driving car from continuing to drive?",
+    "choices": [
+      "A) automobile accidents",
+      "B) backache",
+      "C) pollution",
+      "D) smoke",
+      "E) low fuel tank"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "31bd05ba62a16ee35217224b98c6baea",
+    "question": "What is a person likely to experience after they stop being married to a mean person?",
+    "choices": [
+      "A) isolation",
+      "B) grief",
+      "C) happiness",
+      "D) relief",
+      "E) angry"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4706be6e24f1fafd9ff9fe63583acffd",
+    "question": "The computer was hooked up to the internet, what could it do as a result?",
+    "choices": [
+      "A) process information",
+      "B) believe in god",
+      "C) make decisions",
+      "D) process information",
+      "E) receive data"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a0f5414bf98e094f4d807abee28861a4",
+    "question": "Where off the eastern U.S. would you find an anemone?",
+    "choices": [
+      "A) flower bed",
+      "B) tide pool",
+      "C) florida keys",
+      "D) coral sea",
+      "E) aquarium"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "44120a9443c619d98ce5bfe4bb219c43",
+    "question": "Where are traveling clothes often kept?",
+    "choices": [
+      "A) suitcase",
+      "B) bedroom",
+      "C) closet",
+      "D) draws",
+      "E) dresser"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7f7a6f2b3087bf37dadbe8aa8d358047",
+    "question": "What can eating lunch cause that is painful?",
+    "choices": [
+      "A) headache",
+      "B) bad breath",
+      "C) heartburn",
+      "D) gain weight",
+      "E) farts"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "37d88a9bb24913c1973cc26d4ce3394f",
+    "question": "The performer was ready to put on a show and stepped onto the launch platform, what was his job?",
+    "choices": [
+      "A) cape canaveral florida",
+      "B) nasa",
+      "C) battleship",
+      "D) ocean",
+      "E) trapeze"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9f9ca9bb06d6afc31b19c365fb29a1c9",
+    "question": "Where are you if you've paid to get a pizza?",
+    "choices": [
+      "A) popular",
+      "B) baked in oven",
+      "C) restaurant",
+      "D) oven",
+      "E) plate"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d60c5a494539c66982c0f692afde9499",
+    "question": "What would you use to find a place to stay?",
+    "choices": [
+      "A) mexico",
+      "B) phone book",
+      "C) town",
+      "D) city",
+      "E) sun dial"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2509fdd7d94afe9d0c021654ce0ba93f",
+    "question": "To see new films you must?",
+    "choices": [
+      "A) open eyes",
+      "B) go to movies",
+      "C) kick ball",
+      "D) make art",
+      "E) look for"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b1274d6f5969dea4d46f43fbdc28fd97",
+    "question": "What can a newspaper be used to do to an engagement?",
+    "choices": [
+      "A) announce",
+      "B) communicate",
+      "C) educate",
+      "D) inform",
+      "E) cancel"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3b8be90fdd8c67571d8d692eaa6dd87b",
+    "question": "When not in use where on your property would you store you bucket?",
+    "choices": [
+      "A) utility closet",
+      "B) outside",
+      "C) well",
+      "D) garden shed",
+      "E) garage"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cabefb7063a728e77abd44d97397a2a4",
+    "question": "The detective was finding information from witnesses, why would he do that?",
+    "choices": [
+      "A) fun",
+      "B) ulcers",
+      "C) get answers",
+      "D) happiness",
+      "E) power"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f36027954e43cfd926451bdf7cb0c3ac",
+    "question": "Where are you likely to find a supermarket?",
+    "choices": [
+      "A) buy food for family",
+      "B) city or town",
+      "C) get supplies",
+      "D) strip mall",
+      "E) vermont"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "efe488f67b53a4b6e69782c01c84f06c",
+    "question": "What area does a police officer patrol?",
+    "choices": [
+      "A) direct traffic",
+      "B) city",
+      "C) beat",
+      "D) street",
+      "E) park"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e56c56c3cfe50ba0c787c2bd67255be8",
+    "question": "She asked her little boy why, he replied that he didn't know and it was just what?",
+    "choices": [
+      "A) case",
+      "B) reason",
+      "C) how",
+      "D) because",
+      "E) answer"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "350292ae429060a00ff2cf64d71558e4",
+    "question": "Where would a person light alcohol on fire to observe the reaction?",
+    "choices": [
+      "A) supermarket",
+      "B) bar",
+      "C) pub",
+      "D) restaurants",
+      "E) chemistry lab"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "81cc0d320488c7bacafb285cf7db5fbd",
+    "question": "Where does lettuce arrive by large trucks?",
+    "choices": [
+      "A) kitchen",
+      "B) supermarket",
+      "C) farmer's market",
+      "D) salad",
+      "E) refrigerator"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4fa0d61ec82eb1e238d8938d5f43f392",
+    "question": "You should watch out for snakes if floating down what African body of water?",
+    "choices": [
+      "A) wet grass",
+      "B) western texas",
+      "C) high grass",
+      "D) amazon river",
+      "E) tree"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bd773d64f4e22db2358c6e00cbdf2d83",
+    "question": "What probably has a lot of dust in the back?",
+    "choices": [
+      "A) closet",
+      "B) door",
+      "C) corner",
+      "D) shelf",
+      "E) library"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0bbb82c1dc4bfd3b0e0c409a0afd248b",
+    "question": "What could people do that involves talking?",
+    "choices": [
+      "A) confession",
+      "B) state park",
+      "C) sing",
+      "D) carnival",
+      "E) opera"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "67beae081a9b5ef56988f205f80cf129",
+    "question": "If you're a child answering questions and an adult is asking them that adult is doing what?",
+    "choices": [
+      "A) discussion",
+      "B) explaning",
+      "C) teaching",
+      "D) confusion",
+      "E) correct"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "eebddf5f35d85e9fe2ecbd9b56c1db60",
+    "question": "The teacher played on the upright piano, she was explaining the song to all the students in the what?",
+    "choices": [
+      "A) music room",
+      "B) bathroom",
+      "C) house",
+      "D) living room",
+      "E) music store"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cfa980561efe82e7ae7080d4f081b463",
+    "question": "What is someone operating a vehicle likely to be accused of after becoming inebriated?",
+    "choices": [
+      "A) punish",
+      "B) arrest",
+      "C) automobile accidents",
+      "D) drunk driving",
+      "E) talking nonsense"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1520a8fd3116e7b856947c5e308d7ce5",
+    "question": "If a person is using a computer to talk to their granddaughter, what might the computer cause for them?",
+    "choices": [
+      "A) program created",
+      "B) stress",
+      "C) happiness",
+      "D) ocean",
+      "E) headache"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bd780fea2d4dd262583446e64c0f314d",
+    "question": "Joe was there to meet a large number of people.  As he filed though the entrance hall, he saw many strangers who came from far away.  What sort of building is he probably in?",
+    "choices": [
+      "A) person",
+      "B) box",
+      "C) convention center",
+      "D) public building",
+      "E) large building"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b3dc6d6a5e2f9d7da8eb72816c80b3f8_1",
+    "question": "The goal was to hit the target, but a projectile ball can't hit anything if it isn't in what?",
+    "choices": [
+      "A) motion",
+      "B) ocean",
+      "C) flintlock",
+      "D) arcade",
+      "E) tennis court"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e8a9142d2402f818273dd62cf5a7b559_1",
+    "question": "If a fried egg was runny and there was no toast to sop it up, after the meal there'd be a messy what?",
+    "choices": [
+      "A) henhouse",
+      "B) garden",
+      "C) plate",
+      "D) supermarket",
+      "E) bird's nest"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "56d0fc282a144565f2c852415c6fa92c",
+    "question": "What does a person often feel about someone judging them guilty?",
+    "choices": [
+      "A) controversy",
+      "B) responsibility",
+      "C) resentment",
+      "D) judge feelings",
+      "E) hurt feelings"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "72611791cdcb040f2d699827fb9cebc4",
+    "question": "What is a person looking for when completing puzzles or riddles?",
+    "choices": [
+      "A) avoid pain",
+      "B) compliments",
+      "C) intellectual challenge",
+      "D) passing grade",
+      "E) attention"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bea07406aaadeef50110883b6932d86a",
+    "question": "What is part of a republic like the USA?",
+    "choices": [
+      "A) state",
+      "B) democratic",
+      "C) kingdom",
+      "D) democracy",
+      "E) dictatorship"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cdd3d074031fbd3efeb4f9408abef04e",
+    "question": "What very cold area in the east can a crab be found?",
+    "choices": [
+      "A) fish market",
+      "B) shallow waters",
+      "C) atlantic ocean",
+      "D) fresh water",
+      "E) shore line"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "ac1abecdbbd7bcde6592ca645c2ecb1e",
+    "question": "There was no shade for Jenny.  She was forced to lie there exposed to what?",
+    "choices": [
+      "A) full sunlight",
+      "B) bright sunshine",
+      "C) sunny place",
+      "D) eat cake",
+      "E) direct sunlight"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3d1a67f87b34303f97549ba83e5521c2",
+    "question": "The terrace had Kanji written on it, indicating that it was made where?",
+    "choices": [
+      "A) japan",
+      "B) rice paddy",
+      "C) garden",
+      "D) michigan",
+      "E) italy"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e216381e9f0ddd1d248ee25fccca2b1f",
+    "question": "What do you call the caretakers of a child?",
+    "choices": [
+      "A) principal",
+      "B) birth",
+      "C) loving couple",
+      "D) act of sex",
+      "E) parents"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4eb3e69c0d42a2287692d2b9d2cb5979",
+    "question": "Who watches a play in an auditorium?",
+    "choices": [
+      "A) building",
+      "B) crowd",
+      "C) city",
+      "D) group",
+      "E) high school"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c3890d43b84635d9e61c007ca2521d5b",
+    "question": "What do people do for food?",
+    "choices": [
+      "A) talk to each other",
+      "B) complete job",
+      "C) wear hats",
+      "D) kill animals",
+      "E) believe in god"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "15556e26feaa5a8a29c9f30896e535d4",
+    "question": "Where do you throw a ball at pins?",
+    "choices": [
+      "A) bowling alley",
+      "B) football stadium",
+      "C) soccer field",
+      "D) sporting event",
+      "E) sporting goods store"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6915dfdefe3b1cd5fd8886c8bb84929a",
+    "question": "Sally was standing in queue.  The line was very, very slow.  What was she feeling?",
+    "choices": [
+      "A) frustration",
+      "B) delays",
+      "C) being annoyed",
+      "D) moving forward",
+      "E) progress"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0cba8ddda21e29c8c53482e131d741cd",
+    "question": "James and Holly went dancing together. As they danced, he  pressed himself against her what?",
+    "choices": [
+      "A) euphoria",
+      "B) moving body",
+      "C) rhythmic movement",
+      "D) happiness",
+      "E) fatigue"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "43ba9669564217f2f909f33acbedaf95",
+    "question": "what does a person do to stay healthy?",
+    "choices": [
+      "A) fever",
+      "B) eat every day",
+      "C) excited",
+      "D) headache",
+      "E) expressive"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "eb6807290df71b040e2c7bcc5d11fdea",
+    "question": "If a person stutters when he experiences anxiety or excitement, he'll have difficult doing what?",
+    "choices": [
+      "A) express information",
+      "B) dance",
+      "C) library",
+      "D) go somewhere",
+      "E) study"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e9d4c747018ff81b8c0aefb5abc3c539",
+    "question": "What do people need to do to change their lives?",
+    "choices": [
+      "A) face problems",
+      "B) better themselves",
+      "C) pay bills",
+      "D) become disillusioned",
+      "E) eat chicken"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "047c2d8c65d297b39aa42821c1ca76a9",
+    "question": "Nature can be good and bad for the person who walks, what are some things?",
+    "choices": [
+      "A) seeing bear",
+      "B) see beautiful views",
+      "C) get wet",
+      "D) getting lost",
+      "E) murdered by a landshark"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8272f08792b873885f93d4c148e307e5",
+    "question": "The water in clouds turn in to what when it gets cold?",
+    "choices": [
+      "A) typhoon",
+      "B) snowflake",
+      "C) laddle",
+      "D) teardrops",
+      "E) sink"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cf8e30dd6956d03e3f0f0397112a8696",
+    "question": "Where is a monkey likely to enjoy being?",
+    "choices": [
+      "A) banana tree",
+      "B) sailor suit",
+      "C) theatre",
+      "D) mulberry bush",
+      "E) research laboratory"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "17eafc807b198236faf06a66f4c05313",
+    "question": "The earth is one planet in what?",
+    "choices": [
+      "A) tree",
+      "B) orbit",
+      "C) solar system",
+      "D) fotograph",
+      "E) dreams"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b148f18fb8b5a504b67078ef6ac29717",
+    "question": "Why would a person put flowers in a room with dirty gym socks?",
+    "choices": [
+      "A) continue to grow",
+      "B) plant themselves",
+      "C) many colors",
+      "D) smell good",
+      "E) make pretty"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b6bbe013995fdb5def3d504319af0791",
+    "question": "The table wasn't level.  some parts were higher and some were lower with no rhyme or reason.   It was very what?",
+    "choices": [
+      "A) electrical circuit",
+      "B) build evenly",
+      "C) uneven",
+      "D) unbalanced",
+      "E) tilted"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5655a3002dd9a6b7dabede1dd26a5893",
+    "question": "Where would using a boat not require navigation skills?",
+    "choices": [
+      "A) water",
+      "B) ocean",
+      "C) garage",
+      "D) harbor",
+      "E) river"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "17d9bfaee1efac51b1ca240125bc5977",
+    "question": "What does a self assured person often do?",
+    "choices": [
+      "A) acknowledgment",
+      "B) focused",
+      "C) know what time",
+      "D) feel important",
+      "E) trust himself"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "25136807f7b2e78b115698daa1677b4a",
+    "question": "What could you use to fill a cup and then drink from it?",
+    "choices": [
+      "A) sand box",
+      "B) kitchen cabinet",
+      "C) waterfall",
+      "D) water fountain",
+      "E) table"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c2a8c6814ed3e207771cfc23b3b42cf1",
+    "question": "Where is a salt shaker most often kept?",
+    "choices": [
+      "A) cruet",
+      "B) table setting",
+      "C) kitchen cupboard",
+      "D) cabinet",
+      "E) store"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "637c710ec9582fd9b9e8eaa3f3fe83bb",
+    "question": "Where can a bath towel be borrowed?",
+    "choices": [
+      "A) cupboard",
+      "B) at hotel",
+      "C) swimming pool",
+      "D) clothes line",
+      "E) backpack"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4f23829b96b38b5633ecc3325281726d",
+    "question": "John rode on the plain until it reached the ocean and couldn't go any farther. What might he have bee on?",
+    "choices": [
+      "A) mountain",
+      "B) fancy",
+      "C) sandplain",
+      "D) cliff",
+      "E) gorge"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "420641003ba20b966887dfac684efb17",
+    "question": "If you spend a long time shopping in uncomfortable shoes, you might develop what?",
+    "choices": [
+      "A) tiredness",
+      "B) calluses",
+      "C) bankruptcy",
+      "D) standing in line",
+      "E) sleepyness"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1f492f556fae64f72ce36b6caa242dd0",
+    "question": "Steve thought that it was possible, but he agreed that it was what?",
+    "choices": [
+      "A) no go",
+      "B) unable",
+      "C) unlikely",
+      "D) impossibility",
+      "E) cant do"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5d4233146435ab0ca211e8ac9bfce76f",
+    "question": "Where do you buy condoms?",
+    "choices": [
+      "A) supermarket",
+      "B) sock drawer",
+      "C) cd store",
+      "D) medicine chest",
+      "E) bedroom"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bd47827418d5b8d7fb3502a398644435",
+    "question": "The hostess greeted the employees to the program, she then led them to their what?",
+    "choices": [
+      "A) group people",
+      "B) welcome guests",
+      "C) occupations",
+      "D) work room",
+      "E) seat customer"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3338109fcafaaa370c8900a53e1b3ed8",
+    "question": "The flasks was used to distill elements, where was is being used?",
+    "choices": [
+      "A) laboratory",
+      "B) chemistry lab",
+      "C) coat pocket",
+      "D) after hours speakeasy",
+      "E) bordello"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d29252ddaf7c7ef491abcce342d7bb98",
+    "question": "What do you need to do to use television if it is already turned on?",
+    "choices": [
+      "A) get wet",
+      "B) open eyes",
+      "C) kill",
+      "D) plug in",
+      "E) first turn on power"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "ff1bf2ec835c9df8695ae0cfb5281646",
+    "question": "When you stroke a dogs fur what have you done?",
+    "choices": [
+      "A) start fighting",
+      "B) play",
+      "C) lots of attention",
+      "D) petted",
+      "E) bone"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c7526b682e64f355384631b35cd78fc9",
+    "question": "Dan fell off a bar stool.  He did this because he was what than ever before?",
+    "choices": [
+      "A) kitchen",
+      "B) drunker",
+      "C) tavern",
+      "D) restaurant",
+      "E) shorter"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "02f43014a135cbd39f23b044c99de96e",
+    "question": "How might a automobile get off a freeway?",
+    "choices": [
+      "A) exit ramp",
+      "B) garage",
+      "C) driveway",
+      "D) repair shop",
+      "E) stop light"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4ccd43cdff044bc4c644dadff1ff1e0b",
+    "question": "What would it be if they get a surprising show over and over?",
+    "choices": [
+      "A) surprise",
+      "B) fight",
+      "C) annoyance",
+      "D) might scare",
+      "E) irritated"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b1d5cdbf8ef7b3954a6a352bd4df5866",
+    "question": "The merchant wanted to open in a high-traffic space, where did he rent space?",
+    "choices": [
+      "A) mall",
+      "B) business",
+      "C) store",
+      "D) sale",
+      "E) sell goods"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6bc3ebcfd04965c25bde71339955746c",
+    "question": "What is the purpose of playing games for children?",
+    "choices": [
+      "A) winning",
+      "B) learning",
+      "C) losing",
+      "D) fatigue",
+      "E) skill"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d78baca23e0a636a8961e17119047e63",
+    "question": "People played a variety of games in the soccer field.  It was the closest thing they had to what?",
+    "choices": [
+      "A) town",
+      "B) beach",
+      "C) park",
+      "D) near",
+      "E) outside"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c1aebf059c5102f4e773f7fe4afe13f0",
+    "question": "When someone has little knowledge and is judging someone they are considered what?",
+    "choices": [
+      "A) objectivity",
+      "B) knowing yourself",
+      "C) experience",
+      "D) ignorance",
+      "E) introduction"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "858a5eaa587fe0e266722228671a6bd1",
+    "question": "Where can you find the meaning of \"ficus\"?",
+    "choices": [
+      "A) dictionary",
+      "B) apartment",
+      "C) libary",
+      "D) middle east",
+      "E) arboretum"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3bf06235a537adc9d85431846595b800",
+    "question": "Animals come in all types, some fly thanks to their lightweight hollow what?",
+    "choices": [
+      "A) tails",
+      "B) bones",
+      "C) eyes",
+      "D) heads",
+      "E) bodies"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "eee9476bf29498b7d74b043afe316fc6",
+    "question": "Where do apples form on an apple tree?",
+    "choices": [
+      "A) south africa",
+      "B) sunshine",
+      "C) new york",
+      "D) bloom",
+      "E) trunk"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "820df15b615d221e38a71fcc44461085",
+    "question": "Where would your hear a bass clarinet along side other wood wind instruments?",
+    "choices": [
+      "A) opera house",
+      "B) school band",
+      "C) music store",
+      "D) orchestra",
+      "E) bathroom stall"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "ecd32cc0c17d4738a27bba3399f04591",
+    "question": "The piece of paper was worth a lot of money, it was an old Apple Inc what?",
+    "choices": [
+      "A) notebook",
+      "B) copy machine",
+      "C) stock certificate",
+      "D) ream",
+      "E) thumb drive"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8b2af2d865b7dc500427786c846eacaf",
+    "question": "During the winter hunt he could hear every motion in the woods, this was because of the what of everything?",
+    "choices": [
+      "A) being still",
+      "B) silence",
+      "C) stationary",
+      "D) stillness",
+      "E) standing still"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d725f1c2e150a3221de31612123f3f46",
+    "question": "What do you do when you're going to market?",
+    "choices": [
+      "A) buy food",
+      "B) see other people",
+      "C) buying vegetables",
+      "D) buy a fat pig",
+      "E) traveling"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f7735d721dfdc94621154951d4eaa4cf",
+    "question": "She feared that she had cancer, but upon discovering truth that she hadn't, what was her attitude toward life?",
+    "choices": [
+      "A) conclusion",
+      "B) pain",
+      "C) happiness",
+      "D) relief",
+      "E) boring"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d21777d771dc6fd08e769d378651817e",
+    "question": "Sarah gave her brother a guy to her home.  While she was gone, he used it to do what?",
+    "choices": [
+      "A) front door",
+      "B) turn lock",
+      "C) solution to problem",
+      "D) install",
+      "E) open doors"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "611a4cc0e288b8a11afa923f48cb2ab4",
+    "question": "When did mammoth's live?",
+    "choices": [
+      "A) boscage",
+      "B) forest",
+      "C) prehistory",
+      "D) prehistoric times",
+      "E) ancient times"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "684204df916cc58d47293960f9c6ed9f",
+    "question": "Applying for a job can make someone feel what sort of emotion, even if they get it?",
+    "choices": [
+      "A) working hard",
+      "B) frustration",
+      "C) rejection",
+      "D) defeat",
+      "E) stress"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "77ddc9134bb27f9962aa2ed5ec5a5ef9",
+    "question": "How could you have fun by yourself with no one around you?",
+    "choices": [
+      "A) fairgrounds",
+      "B) watching television",
+      "C) tired",
+      "D) enjoyable",
+      "E) friend's house"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5e260e1d96187716888cbd968010bb65",
+    "question": "Where is the closest place from where you could borrow salt?",
+    "choices": [
+      "A) ocean water",
+      "B) table",
+      "C) shaker",
+      "D) neighbor's house",
+      "E) lake"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8c655f3a55bde41aad880f138d7a445d",
+    "question": "When cooking sheep meat a lot of people might want to be well?",
+    "choices": [
+      "A) ram",
+      "B) lamb",
+      "C) done",
+      "D) ram",
+      "E) wolf"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d0a42c8180b4e080aa071dd70fce7e03",
+    "question": "Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?",
+    "choices": [
+      "A) economic boom",
+      "B) advance knowledge",
+      "C) produce sound",
+      "D) teach",
+      "E) follow instructions"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6544a50bf9563d52dbd2034e81df0bf3",
+    "question": "The lion sensed his competitor was timid, so what attitude did the lion take?",
+    "choices": [
+      "A) reckless",
+      "B) bellicose",
+      "C) defensive",
+      "D) aggressive",
+      "E) dauntless"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cfa081b5ba90dae4d7ddb5b7ad9d369a",
+    "question": "Why would you not trust your friends after chatting with friends?",
+    "choices": [
+      "A) fever",
+      "B) smoke",
+      "C) laughing",
+      "D) coughing",
+      "E) lie"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8f2976690c83be6b8fa3a1196dfd9722",
+    "question": "Jesse  enjoyed remembering the past because he helped him understand it.  And understanding the past helped him with doing what?",
+    "choices": [
+      "A) phoning",
+      "B) nostalgia",
+      "C) writing down",
+      "D) active",
+      "E) being prepared"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "570be8c1edb8c638603dc5c8cae421cc",
+    "question": "David watched some nesting birds using his binoculars while on vacation.  Where might David be?.",
+    "choices": [
+      "A) sky",
+      "B) vaccation",
+      "C) forest",
+      "D) countryside",
+      "E) roof"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6c84e79d0595efd99596faa07c4961d0",
+    "question": "What would you do to a rock when climb up a cliff?",
+    "choices": [
+      "A) grab",
+      "B) look down",
+      "C) throw",
+      "D) falling",
+      "E) may fall"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
   }
 ]

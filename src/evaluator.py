@@ -70,10 +70,10 @@ def evaluate_condition(dataset_name, condition, model_name):
     else:
         # Use filtered file if available, otherwise fall back to raw
         filtered_path = os.path.join(
-            config.PARAPHRASED_DIR, f"{dataset_name}_{condition}_filtered.json"
+            config.PARAPHRASED_DIR, dataset_name, f"{condition}_filtered.json"
         )
         raw_path = os.path.join(
-            config.PARAPHRASED_DIR, f"{dataset_name}_{condition}.json"
+            config.PARAPHRASED_DIR, dataset_name, f"{condition}.json"
         )
         input_path = filtered_path if os.path.exists(filtered_path) else raw_path
 

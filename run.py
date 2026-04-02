@@ -17,10 +17,10 @@ Usage:
 import sys
 
 import config
-from src.data_loader import prepare_all
+from src.data_loader import prepare_all, expand_sample
 from src.paraphraser import paraphrase_dataset, paraphrase_all
 from src.evaluator import evaluate_condition, evaluate_all
-from src.quality_filter import filter_dataset, main as filter_all
+from src.quality_filter import filter_and_intersect
 
 
 def main():
@@ -33,6 +33,13 @@ def main():
     if command == "prepare":
         prepare_all()
 
+    elif command == "expand":
+        if len(sys.argv) >= 3:
+            expand_sample(sys.argv[2])
+        else:
+            for ds in config.DATASETS:
+                expand_sample(ds)
+
     elif command == "paraphrase":
         if len(sys.argv) >= 4:
             paraphrase_dataset(sys.argv[2], sys.argv[3])
@@ -44,9 +51,9 @@ def main():
 
     elif command == "filter":
         if len(sys.argv) >= 3:
-            filter_dataset(sys.argv[2])
+            filter_and_intersect([sys.argv[2]])
         else:
-            filter_all()
+            filter_and_intersect()
 
     elif command == "evaluate":
         conditions = ["baseline"] + config.PARAPHRASE_TYPES

@@ -5520,6 +5520,21 @@
     "source": "commonsense_qa"
   },
   {
+    "id": "6c70d98cfb8e97fda8caefcee761a229",
+    "original_question": "Zane doesn't like answering questions.  He's not good at it because he suffers from what?",
+    "paraphrased_question": "Because Zane suffers from what, he's not good at it?  Answering questions is something he doesn't like.",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) panic",
+      "B) discussion",
+      "C) attention",
+      "D) confusion",
+      "E) satisfaction"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
     "id": "75ac594b4fdbfba006e61315d1b2c815",
     "original_question": "Going public about a common problem can gain what for a celebrity?",
     "paraphrased_question": "What can a celebrity gain by going public about a common problem?",
@@ -8877,6 +8892,21 @@
       "E) using energy"
     ],
     "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "69335eb9bc5b7b5df840c38a086bf8b2",
+    "original_question": "He was beginning to worry they wouldn't get on the ride before closing, they had been standing in queue for a long what?",
+    "paraphrased_question": "What had they been standing in queue for a long time, as he was beginning to worry they wouldn't get on the ride before closing?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) frustration",
+      "B) waiting",
+      "C) hair",
+      "D) time",
+      "E) patience"
+    ],
+    "answer": "D",
     "source": "commonsense_qa"
   },
   {
@@ -14535,6 +14565,21 @@
     "source": "commonsense_qa"
   },
   {
+    "id": "3884d82524f2337ce53ce64776293cf7",
+    "original_question": "James decided that competing was the right choice.   Not competing has a defined outcome, but if he competes then what could happen?",
+    "paraphrased_question": "If James competes, then what could happen? He decided that competing was the right choice. Not competing has a defined outcome.",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) might win",
+      "B) perform better",
+      "C) enemies",
+      "D) winners and losers",
+      "E) lose"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
     "id": "acb3147d946db3b06a596d48e0be56cf",
     "original_question": "What could you use to get to some airplanes?",
     "paraphrased_question": "To get to some airplanes, what could you use?",
@@ -14952,6 +14997,3321 @@
       "E) usb mouse"
     ],
     "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2435de612dd69f2012b9e40d6af4ce38",
+    "original_question": "James was looking for a good place to buy farmland.  Where might he look?",
+    "paraphrased_question": "A good place to buy farmland, where might James look?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) midwest",
+      "B) countryside",
+      "C) estate",
+      "D) farming areas",
+      "E) illinois"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "81eb4b2ee66edd8bc91ee944697c4e9f",
+    "original_question": "If you want harmony, what is something you should try to do with the world?",
+    "paraphrased_question": "What is something you should try to do with the world if you want harmony?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) take time",
+      "B) make noise",
+      "C) make war",
+      "D) make peace",
+      "E) make haste"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d807e7ae60976324920c8d29eb42dad6",
+    "original_question": "Where does a heifer's master live?",
+    "paraphrased_question": "A heifer's master lives where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) farm house",
+      "B) barnyard",
+      "C) stockyard",
+      "D) slaughter house",
+      "E) eat cake"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6dc5b2884737e66543ce65f8dc40c992",
+    "original_question": "A fencing thrust with a sharp sword towards a person would result in what?",
+    "paraphrased_question": "What would result from a fencing thrust with a sharp sword towards a person?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) injury",
+      "B) small cuts",
+      "C) fever",
+      "D) competition",
+      "E) puncture wound"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8af63d58cc35061dec38e5448c325988",
+    "original_question": "Unlike a spider and his many sight seers, people only have what?",
+    "paraphrased_question": "What do people have only, unlike a spider and his many sight seers?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) tongues",
+      "B) names",
+      "C) brains",
+      "D) feelings",
+      "E) two eyes"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e5ad2184e37ae88b2bf46bf6bc0ed2f4",
+    "original_question": "Though the thin film seemed fragile, for it's intended purpose it was actually nearly what?",
+    "paraphrased_question": "For its intended purpose, what was the thin film, though it seemed fragile, actually nearly?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) indestructible",
+      "B) durable",
+      "C) undestroyable",
+      "D) indestructible",
+      "E) unbreakable"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a80ee7775e934c423012fe98e20ba28b",
+    "original_question": "Sean was in a rush to get home, but the light turned yellow and he was forced to do what?",
+    "paraphrased_question": "Sean, who was in a rush to get home, was forced to do what when the light turned yellow?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) take time",
+      "B) dawdle",
+      "C) go slowly",
+      "D) ocean",
+      "E) slow down"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4acd496cc78d96c2431279a5fd87de7c",
+    "original_question": "She was always helping at the senior center, it brought her what?",
+    "paraphrased_question": "What did helping at the senior center always bring her?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) satisfaction",
+      "B) heart",
+      "C) feel better",
+      "D) pay",
+      "E) happiness"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "49cda7eedbf63b3f38e59ba72f1ee1f9",
+    "original_question": "What is a place that usually does not have an elevator and that sometimes has a telephone book?",
+    "paraphrased_question": "A place that sometimes has a telephone book and usually does not have an elevator is what?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) at hotel",
+      "B) kitchen",
+      "C) library",
+      "D) telephone booth",
+      "E) house"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a588407ecaecf0f30c2241c30b470fe2",
+    "original_question": "Who is likely to be excited about a crab?",
+    "paraphrased_question": "About a crab, who is likely to be excited?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) fish market",
+      "B) pet shop",
+      "C) fishmongers",
+      "D) intertidal zone",
+      "E) obesity"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "49b4c9e1bd7946a819e173ce8fa4c7c9",
+    "original_question": "The teacher doesn't tolerate noise during a test in their what?",
+    "paraphrased_question": "During a test, in their what does the teacher not tolerate noise?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) movie theatre",
+      "B) bowling alley",
+      "C) factory",
+      "D) store",
+      "E) classroom"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "950af0b765c298960ce3dada66df8db1",
+    "original_question": "The freeway had no traffic and few buildings, where is it?",
+    "paraphrased_question": "Where is it that the freeway had no traffic and few buildings?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) california",
+      "B) countryside",
+      "C) big town",
+      "D) florida",
+      "E) america"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "63cf1adb5fe302b9867ead8bc8103d0b",
+    "original_question": "Where would you go if you wanted to have fun with a few people?",
+    "paraphrased_question": "If you wanted to have fun with a few people, where would you go?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) watching television",
+      "B) good",
+      "C) cinema",
+      "D) friend's house",
+      "E) fairgrounds"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cc46d936bf69d69a3863b0cb85d75c17",
+    "original_question": "He was beginning to regret taking the fight when he saw how what his opponent was?",
+    "paraphrased_question": "When he saw what his opponent was, was he beginning to regret taking the fight?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) fun",
+      "B) joy",
+      "C) satisfaction",
+      "D) confident",
+      "E) pride"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "46bc1a50eeead10509a43a048e01194e",
+    "original_question": "Where would you find a single shower curtain being used?",
+    "paraphrased_question": "Where is a single shower curtain used?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) bathtub",
+      "B) washing area",
+      "C) hotel",
+      "D) shower stall",
+      "E) department store"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c68b4082a6872cf8198502651d0f3352",
+    "original_question": "Despite the name a pawn can be quite versatile, all the parts are important in a what?",
+    "paraphrased_question": "In what can all the parts be important, despite a pawn being quite versatile in name?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) chess game",
+      "B) scheme",
+      "C) chess set",
+      "D) checkers",
+      "E) north carolina"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "08f3c187908646997b9080c7e9ea7da4",
+    "original_question": "A crane uses many a steel cable when working a what?",
+    "paraphrased_question": "When working a what, a crane uses many a steel cable?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) abaft",
+      "B) ship",
+      "C) winch",
+      "D) construction site",
+      "E) building"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0f4159e80f8dbf682819215bbf0f5b5a_1",
+    "original_question": "If you're remembering something, it's because of your what of it to begin with?",
+    "paraphrased_question": "If you're remembering something, what of it to begin with is it because of your?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) knowledge",
+      "B) knowing",
+      "C) forgetful",
+      "D) pleasure",
+      "E) depression"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "db0cfd52ca6b2bbfcf26d1a898fd929b",
+    "original_question": "Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?",
+    "paraphrased_question": "What did they plan on doing for a long time by going to bed early?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) rest",
+      "B) insomnia",
+      "C) making love",
+      "D) sleeping in",
+      "E) texting"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8494b0b95533dcedbd76ae2916c481d4",
+    "original_question": "Anybody could be hired in the kitchen, what was needed of them?",
+    "paraphrased_question": "What was needed of anybody who could be hired in the kitchen?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) forget",
+      "B) oil squeaky hinge",
+      "C) question authority",
+      "D) wash dishes",
+      "E) oik squeaky hinge"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "db8e010754c532d78635e5b7cf81a147",
+    "original_question": "An underrated thing about computers is how they manage workflow, at one time it was a big deal when they could first do what?",
+    "paraphrased_question": "What was a big deal they could first do at one time regarding how computers manage workflow, which is an underrated thing?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) share files",
+      "B) do arithmetic",
+      "C) turn on",
+      "D) cost money",
+      "E) multitask"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "998381f854f51da2a6ccde45909e5168",
+    "original_question": "Obstructing justice is sometimes an excuse used for police brutality which causes what in people?",
+    "paraphrased_question": "What does police brutality, sometimes excused by obstructing justice, cause in people?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) committing perjury",
+      "B) prosecution",
+      "C) attack",
+      "D) getting hurt",
+      "E) riot"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a7d51b753c2113d8b2dbd0ebb5375855",
+    "original_question": "James's nice asked him about her grandfather. She was interested in learning about what?",
+    "paraphrased_question": "James's niece asked him about her grandfather. About what was she interested in learning?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) family tree",
+      "B) family reunion",
+      "C) babysitting",
+      "D) brother's house",
+      "E) heirlooms"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "80697d599280d994d8a584c95824ef1f",
+    "original_question": "Where might an unused chess set be stored?",
+    "paraphrased_question": "An unused chess set might be stored where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) toy store",
+      "B) michigan",
+      "C) living room",
+      "D) attic",
+      "E) cupboard"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "08db69edf0ec5848c1a53dca8fc1601a",
+    "original_question": "James noticed that his penis was bigger. .  How might he act toward his plastic surgeon?",
+    "paraphrased_question": "James noticed that his penis was bigger. How might he act toward his plastic surgeon?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) accidental",
+      "B) detestable",
+      "C) effusive",
+      "D) enabled",
+      "E) apathetic"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f898eb5b789d2dc6804edba269f051f0",
+    "original_question": "When you get up in the morning before you begin work you should do what?",
+    "paraphrased_question": "What should you do when you get up in the morning before you begin work?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) apply for job",
+      "B) sleep",
+      "C) concentrate",
+      "D) shower",
+      "E) just do"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a38df3e750b1edd30f905e17af803c61",
+    "original_question": "What will a person going for a jog likely be wearing?",
+    "paraphrased_question": "What is a person likely to be wearing when going for a jog?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) grope",
+      "B) acknowledgment",
+      "C) comfortable clothes",
+      "D) ipod",
+      "E) passionate kisses"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "fcd39cfa321728fea069a6ae4285b06f",
+    "original_question": "In order to learn to program from another person you can do what?",
+    "paraphrased_question": "What can you do in order to learn to program from another person?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) learn how to",
+      "B) have a friend",
+      "C) knowledge",
+      "D) take class",
+      "E) have computer"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "01abce8c4964371d85a5be2019f75827",
+    "original_question": "Where would you find a large dining room containing a fancy chandelier?",
+    "paraphrased_question": "Where could a large dining room with a fancy chandelier be found?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) mansion",
+      "B) every house",
+      "C) own home",
+      "D) table",
+      "E) restaurant"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c592258c88295756833e9796e881057b",
+    "original_question": "Where would someone purchase an upright piano?",
+    "paraphrased_question": "Where could an upright piano be purchased by someone?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) music class",
+      "B) college",
+      "C) music store",
+      "D) music room",
+      "E) music band"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f1368ab1d4ee05d72d555474fcd737d7",
+    "original_question": "If chewing food is difficult for you, what is a possible reason?",
+    "paraphrased_question": "What is a possible reason if chewing food is difficult for you?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) broken jaw",
+      "B) sore mouth",
+      "C) eating",
+      "D) good digestion",
+      "E) avoiding choking"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2dd138a63b5895cf737ced793cc668e7",
+    "original_question": "If you take the risk buying a used car, you still hope it can what?",
+    "paraphrased_question": "If you take the risk of buying a used car, what do you still hope it can do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) go fast",
+      "B) start running",
+      "C) going too fast",
+      "D) look good",
+      "E) last several years"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "43ab0ff711e60d51f943bbd2cdd6515a",
+    "original_question": "A loud machine is irritating, but many are expected where?",
+    "paraphrased_question": "Where are many expected, despite a loud machine being irritating?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) museum",
+      "B) house",
+      "C) laboratory",
+      "D) library",
+      "E) industrial area"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e61891746aa94ab57aaa754614034aef",
+    "original_question": "What happens if someone kisses too long?",
+    "paraphrased_question": "If someone kisses too long, what happens?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) strong feelings",
+      "B) herpes",
+      "C) shortness of breath",
+      "D) excitement",
+      "E) arousal"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e3426e4f60c142aa3d813479f79d6305",
+    "original_question": "Where do you go on a night out before going to the bar?",
+    "paraphrased_question": "On a night out, where do you go before going to the bar?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) new york city",
+      "B) las vegas",
+      "C) restaurant",
+      "D) nightclub",
+      "E) park"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0b3a3ee40dd25be9735ac5e3342ca4dd",
+    "original_question": "A person with an allergy might be doing what if they awake suddenly?",
+    "paraphrased_question": "If a person with an allergy awakes suddenly, what might they be doing?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) have fun",
+      "B) enjoy with friends",
+      "C) stretch",
+      "D) yawn",
+      "E) sneezing"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f2645d0ee8662b6553954cee7e77979e",
+    "original_question": "Joe and Mac were playing basketball. They did it every day in their back yard.  Why were they playing basketball?",
+    "paraphrased_question": "Why was basketball being played by Joe and Mac?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) study",
+      "B) have fun",
+      "C) pain",
+      "D) cheers",
+      "E) knee injury"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "14d760e43728e9e4643c414627f2b596",
+    "original_question": "The painter started to edge the room with tape, he always took extra care to make the lines clean and crisp when working with an what?",
+    "paraphrased_question": "With what did the painter, who always took extra care to make clean and crisp lines, start to edge the room using tape?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) triangle",
+      "B) middle",
+      "C) corner",
+      "D) center",
+      "E) interior"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d2871dc28c82471e5d7f71f79e49c257",
+    "original_question": "Billy hated using other people's toilets. He was only comfortable on his own.  So whenever he needed to poop, he would go back to his what?",
+    "paraphrased_question": "Billy hated using other people's toilets. Only on his own was he comfortable. So whenever he needed to poop, back to his what would he go?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) bathroom",
+      "B) motel room",
+      "C) nearest public restroom",
+      "D) house",
+      "E) apartment"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "08ad17d3ca1838b8724d21cf5921ec52",
+    "original_question": "How can you let someone know about your anger without hurting him or her?",
+    "paraphrased_question": "Without hurting him or her, how can you let someone know about your anger?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) release energy",
+      "B) destroy enemy",
+      "C) punch",
+      "D) write letter",
+      "E) lose your temper"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5622e49306bb82ec1cec817ad0506c60",
+    "original_question": "He was having a hard time expressing himself in a healthy way, the psychologist said he was mentally what?",
+    "paraphrased_question": "The psychologist said he was mentally what, as he was having a hard time expressing himself in a healthy way?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) slow",
+      "B) understood",
+      "C) suffering",
+      "D) embarrassment",
+      "E) fun"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2a0e82bbf1471290c93c8f2a11af197f",
+    "original_question": "The old style pop ups literally let you see the story when you did what?",
+    "paraphrased_question": "What did you do to literally see the story with the old style pop ups?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) giggle",
+      "B) visualize",
+      "C) open book",
+      "D) reading",
+      "E) go to movies"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "adf228312401c9ff421a4da1b46bb70a",
+    "original_question": "Where could you find a bureau as well as many politicians?",
+    "paraphrased_question": "Where could a bureau as well as many politicians be found?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) each city",
+      "B) office building",
+      "C) a zoo",
+      "D) french government",
+      "E) washington dc"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "dbdad44029098d4b1d202d6d857d6092",
+    "original_question": "Where are you likely to set papers while working on them?",
+    "paraphrased_question": "While working on papers, where are you likely to set them?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) table",
+      "B) meeting",
+      "C) drawer",
+      "D) toilet",
+      "E) garage"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "83dad4fe630fddbdcd5b18ef890c66f2",
+    "original_question": "What is the likely result of buying products in excess?",
+    "paraphrased_question": "Of buying products in excess, what is the likely result?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) running out of money",
+      "B) spending money",
+      "C) poverty",
+      "D) comparison shopping",
+      "E) overstocking"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9ed019338a48216de9eadf64faaf1ce0",
+    "original_question": "Where would you put a glass after drinking from it?",
+    "paraphrased_question": "After drinking from it, where would you put a glass?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) ocean",
+      "B) water cooler",
+      "C) cabinet",
+      "D) dishwasher",
+      "E) dining room"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8fd82cdc253835814153fe7222e9967c",
+    "original_question": "When you travel you should what in case of unexpected costs?",
+    "paraphrased_question": "What should you do when you travel in case of unexpected costs?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) go somewhere",
+      "B) energy",
+      "C) spend frivilously",
+      "D) fly in airplane",
+      "E) have money"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8d275acea05fd16295c659c504576a9b",
+    "original_question": "Where can you buy jeans at one of may indoor merchants?",
+    "paraphrased_question": "At one of many indoor merchants, where can you buy jeans?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) gap",
+      "B) shopping mall",
+      "C) bedroom",
+      "D) laundromat",
+      "E) bathroom"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2c9f4a98ce774cd734b6e384d95051a7",
+    "original_question": "They children loved having a back yard, and the parents loved that it was a safe what?",
+    "paraphrased_question": "The children loved having a backyard, and what did the parents love about its safety?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) suburb",
+      "B) neighborhood",
+      "C) back of house",
+      "D) roundabout",
+      "E) property"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a339fe08f1f50463ee180b797e99ebcc",
+    "original_question": "What do you need energy to do in gym class?",
+    "paraphrased_question": "In gym class, to do what do you need energy?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) work",
+      "B) tacos",
+      "C) mass",
+      "D) play sports",
+      "E) wrestle"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bcc5dd6292a64d8fa17cd07c360b335d",
+    "original_question": "The player lifted his cornet and walked in rhythm, what was the player a member of?",
+    "paraphrased_question": "What group was the player a member of, as he lifted his cornet and walked in rhythm?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) museum",
+      "B) high school band",
+      "C) marching band",
+      "D) orchestra",
+      "E) band"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c611875b43b67b91030b889b267bbcb3",
+    "original_question": "There was a toll road that meandered from Maine to New Hampshire, where was it?",
+    "paraphrased_question": "Where was the toll road that meandered from Maine to New Hampshire?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) massachusetts",
+      "B) new england",
+      "C) my house",
+      "D) new jersey",
+      "E) connecticut"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "aead08289ca9abfcd169f935ea228ee5",
+    "original_question": "What do you ask a child to do when you first meet her?",
+    "paraphrased_question": "When you first meet a child, what do you ask her to do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) ask questions",
+      "B) count to ten",
+      "C) costume",
+      "D) state name",
+      "E) dress herself"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0bf4d64ad0eee7224acb3a4eb85accb2",
+    "original_question": "What happens when to ice when it is in the sun?",
+    "paraphrased_question": "When ice is in the sun, what happens to it?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) carved",
+      "B) melted",
+      "C) ice cream",
+      "D) antarctica",
+      "E) sculptured"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "70701f5d1d62e58d5c74e2e303bb4065",
+    "original_question": "What is someone doing if he or she is sitting quietly and his or her eyes are moving?",
+    "paraphrased_question": "If someone is sitting quietly and their eyes are moving, what is he or she doing?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) reading",
+      "B) meditate",
+      "C) fall asleep",
+      "D) bunk",
+      "E) think"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5a7f6fd97b2c9ad05f773bc8b2ecf441",
+    "original_question": "How can a human cross a river and not mess up their hair?",
+    "paraphrased_question": "How can a river be crossed by a human without messing up their hair?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) wisconsin",
+      "B) waterfall",
+      "C) hatred",
+      "D) bridge",
+      "E) valley"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d910859b9d1acae40456dbeaa8334bc0",
+    "original_question": "James slamed into someone playing football, and not for the first time.  He was concerned about the consequences of many what?",
+    "paraphrased_question": "While playing football, James slammed into someone, and it wasn't the first occurrence. About the consequences of many what was he concerned?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) exhilaration",
+      "B) interactions",
+      "C) head injuries",
+      "D) death",
+      "E) having fun"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "72b638200414a526b598de0e01a044df",
+    "original_question": "What would use a musical instrument?",
+    "paraphrased_question": "Who would use a musical instrument?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) guitar",
+      "B) music room",
+      "C) orchestra",
+      "D) case",
+      "E) movie"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "70af2b5df22ec96901350dfa3c9ee74f",
+    "original_question": "James was meeting a friend.  They had planed a slow day. They didn't want to do much.  They just wanted what?",
+    "paraphrased_question": "What did they just want?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) relaxation",
+      "B) panic",
+      "C) alarm",
+      "D) joy",
+      "E) cheer"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "27f2074270ea8a5e8f5ec2a017ec4a50",
+    "original_question": "Dan was a farmer with just one heifer.  But that was okay, he only kept her for milk, and he didn't think he'd find good farmland in a place as cold as where?",
+    "paraphrased_question": "Dan was a farmer with just one heifer. But that was okay; he only kept her for milk, and in a place as cold as where, did he think he'd find good farmland?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) arizona",
+      "B) farm yard",
+      "C) michigan",
+      "D) german field",
+      "E) dairy farm"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1b3d286458a7e7f069222de0376d06da",
+    "original_question": "What would someone use a personal key for?",
+    "paraphrased_question": "For what would someone use a personal key?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) car stand",
+      "B) at hotel",
+      "C) own home",
+      "D) front door",
+      "E) bus depot"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "86e2aabfb9d401567f04d87a648ff776",
+    "original_question": "The cat kept pestering it's owner, it was that time of the day and it was what?",
+    "paraphrased_question": "The cat kept pestering its owner, and what was it that time of the day for?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) litter tray",
+      "B) whiskers",
+      "C) hungry",
+      "D) feline",
+      "E) thirsty"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7f25dbab26165b3c8800c2733ca759d6",
+    "original_question": "John was an aristocratic fox hunter.  Where might he live?",
+    "paraphrased_question": "Where might an aristocratic fox hunter like John live?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) england",
+      "B) new hampshire",
+      "C) street",
+      "D) arkansas",
+      "E) north dakota"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a7f423c1636ba9e36d18e381928c5dcc",
+    "original_question": "Sarah didn't like to play but she didn't want to be sedentary and bored, either, so she took up what?",
+    "paraphrased_question": "What did Sarah take up because she didn't like to play but also didn't want to be sedentary and bored?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) serious",
+      "B) longplay",
+      "C) musical",
+      "D) eat cake",
+      "E) doing nothing"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8d4b0312f02be445e09a9462873d02bb",
+    "original_question": "What kind of service is my body a part of when I'm no longer here?",
+    "paraphrased_question": "When I'm no longer here, my body is a part of what kind of service?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) bodycam",
+      "B) home",
+      "C) coffin",
+      "D) funeral",
+      "E) graveyard"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f7140f00ddd8d1c5d93b05ea32ad1fff",
+    "original_question": "Many people wanted to leave their country estates for row houses, what did they need to move to?",
+    "paraphrased_question": "What did they need to move to if many people wanted to leave their country estates for row houses?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) living less expensively",
+      "B) england",
+      "C) prison",
+      "D) city",
+      "E) town"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b399f6008d90dbd92bcce5abed4c1fd1",
+    "original_question": "Where would you go if you want to buy some clothes?",
+    "paraphrased_question": "If you want to buy some clothes, where would you go?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) mall",
+      "B) grocery store",
+      "C) grocery store",
+      "D) shop",
+      "E) supermarket"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d312741df1b14bcbe358f4f30aff3994",
+    "original_question": "He walked into the room and had a great shock, his friends had what him?",
+    "paraphrased_question": "What had his friends done to him after he walked into the room and had a great shock?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) expected",
+      "B) wanting",
+      "C) calm",
+      "D) thundershock",
+      "E) surprised"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "63f7ad481a63fc8c6dffe00519d4a167",
+    "original_question": "If you're reading a newspaper from another country what are you doing?",
+    "paraphrased_question": "What are you doing if a newspaper from another country you are reading?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) learning about world",
+      "B) education",
+      "C) get angry",
+      "D) concern",
+      "E) eat cake"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9003c4748b08d5a734747e499599ff20",
+    "original_question": "What will you do if you do not want to settle in one place?",
+    "paraphrased_question": "If you do not want to settle in one place, what will you do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) walk",
+      "B) agitate",
+      "C) wander",
+      "D) remove",
+      "E) disturb"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "95a85df48902d23eb3fda25a99fca1a0",
+    "original_question": "What is it called when two people in love have children?",
+    "paraphrased_question": "When two people in love have children, what is it called?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) take oath",
+      "B) procreate",
+      "C) matrimony",
+      "D) please parents",
+      "E) live life"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a943522f7d407cef369d5d3f1bf48589",
+    "original_question": "Where can you go to use a piano in your neighborhood if you don't have one?",
+    "paraphrased_question": "If you don't have a piano, where in your neighborhood can you go to use one?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) music school",
+      "B) music store",
+      "C) neighbor's house",
+      "D) lunch",
+      "E) drawing room"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d581e0ad6a4c89465dc1a527bd2d3f77",
+    "original_question": "Though she had a disability, what did her encouraging and positive coach see in her?",
+    "paraphrased_question": "What did her coach, who was encouraging and positive, see in her despite her disability?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) qualification",
+      "B) strength",
+      "C) pity",
+      "D) competence",
+      "E) potential"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "22015315e7ff79386877828b4fa27799",
+    "original_question": "Where would you keep a rug near your front door?",
+    "paraphrased_question": "Near your front door, where would you keep a rug?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) persia",
+      "B) desk",
+      "C) table",
+      "D) living room",
+      "E) hall"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7322d0dcf2e27c7032626a3639f5696b",
+    "original_question": "What do you do when you need to get food?",
+    "paraphrased_question": "When you need to get food, what do you do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) table",
+      "B) disneyland",
+      "C) refrigerators",
+      "D) pantry",
+      "E) shop"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7776b10c7bb96f3fe5e026678673634d",
+    "original_question": "What do people want to acquire from opening business?",
+    "paraphrased_question": "From opening a business, what do people want to acquire?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) home",
+      "B) wealth",
+      "C) bankruptcy",
+      "D) lose money",
+      "E) get rich"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f7c005244d406b9bde48dc8c22003af1",
+    "original_question": "What has someone who had finished their undergraduate done?",
+    "paraphrased_question": "What has been done by someone who had finished their undergraduate?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) graduated",
+      "B) masters",
+      "C) postgraduate",
+      "D) phd",
+      "E) professor"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6a884d5d8febfdd86fcf68ff1a904d9b",
+    "original_question": "Where is a public monument likely to be erected by a city?",
+    "paraphrased_question": "In what location is a city likely to erect a public monument?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) municipal park",
+      "B) office",
+      "C) state park",
+      "D) cemetary",
+      "E) public gardens"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "01f01cc3ad152773ef42b30e926912bf",
+    "original_question": "What happens to a dog before someone puts up posters of them?",
+    "paraphrased_question": "Before someone puts up posters of a dog, what happens to them?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) get lost",
+      "B) require water",
+      "C) trained",
+      "D) bark",
+      "E) roll over"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "72baf6ca5c4daa01c2cc7fda22183db8",
+    "original_question": "Where could there be a battle that involves words?",
+    "paraphrased_question": "Where could a battle involving words be?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) court room",
+      "B) war",
+      "C) video game",
+      "D) iraq",
+      "E) church"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "fe2a21ddb1bde76025a961126044a9a3",
+    "original_question": "What is the process of going somewhere?",
+    "paraphrased_question": "What process is involved in going somewhere?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) fire",
+      "B) energy",
+      "C) car",
+      "D) transporting",
+      "E) staying in place"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "fde1f9bfc33da302449c0b950d16c0ea",
+    "original_question": "Most people make stupid assumptions that are based on their prejudices.  What might they do instead to achieve better outcomes?",
+    "paraphrased_question": "Instead of making stupid assumptions based on their prejudices, what might they do to achieve better outcomes?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) set table",
+      "B) think",
+      "C) read books",
+      "D) play games",
+      "E) lie"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1f3ccb722600da7d862531416934949a",
+    "original_question": "Where would you hear a trumpet along with other instruments made from the same material?",
+    "paraphrased_question": "Where might you hear a trumpet together with other instruments crafted from the same material?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) music store",
+      "B) bass",
+      "C) brass band",
+      "D) orchestra",
+      "E) marching band"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e211b1a3f3401d164c8b0bfc10160caa",
+    "original_question": "If you have a ticket and you are planning to eat hot dogs, where would you go?",
+    "paraphrased_question": "Where would you go if you are planning to eat hot dogs and have a ticket?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) lottery",
+      "B) person's hand",
+      "C) baseball stadium",
+      "D) movie",
+      "E) kitchen"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6cb895ce89995f6be422f7c4167c7638",
+    "original_question": "What do people do when networking?",
+    "paraphrased_question": "When networking, what do people do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) build trust",
+      "B) hurry home",
+      "C) ignore people",
+      "D) believe in god",
+      "E) jump to conclusions"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "af11faa29097b71141fe192ad019d1dd",
+    "original_question": "Christine couldn't be having a baby at her age, she thought to herself. What was Christine?",
+    "paraphrased_question": "Christine thought to herself that at her age, she couldn't be having a baby. Who was Christine?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) old person",
+      "B) begin to talk",
+      "C) adult",
+      "D) old man",
+      "E) girl"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7044d82a456d0fa6f0210abb03cbf2c4",
+    "original_question": "If I'm playing ball, I'm mostly trying to do what?",
+    "paraphrased_question": "What am I mostly trying to do if I'm playing ball?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) losing",
+      "B) competition",
+      "C) having fun",
+      "D) win",
+      "E) injury"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "ecbc1ab06ad1ed6c53e5293d7a90ebd3",
+    "original_question": "If you wanted to show off silk, what item could it be on?",
+    "paraphrased_question": "What item could silk be on if you wanted to show it off?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) jean",
+      "B) mulberry tree",
+      "C) garments",
+      "D) expensive clothing",
+      "E) parachutes"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9a356ff463c042d04ba45bfd627bac20",
+    "original_question": "Where is known to be a wealth of information?",
+    "paraphrased_question": "A wealth of information is known to be where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) park",
+      "B) internet",
+      "C) meeting",
+      "D) library",
+      "E) book"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "83c25b9a5db5f9b3fd1ff6c7453d23d0",
+    "original_question": "What does a gambler do that causes him or her to be unhappy?",
+    "paraphrased_question": "What causes a gambler to be unhappy by what he or she does?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) play cards",
+      "B) double winnings",
+      "C) lose money",
+      "D) play poker",
+      "E) to win the prize"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0af371b94fb414860b13eea6009ccc31",
+    "original_question": "What is the sun ultimately responsible for?",
+    "paraphrased_question": "For what is the sun ultimately responsible?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) earth warming",
+      "B) sun tan",
+      "C) light",
+      "D) life on earth",
+      "E) heat"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "68f6ac445cc008d93f931b999b44b0ba",
+    "original_question": "When you feel too much heat in your home you can turn on what?",
+    "paraphrased_question": "What can you turn on when you feel too much heat in your home?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) coolness",
+      "B) fan",
+      "C) get wet",
+      "D) coldness",
+      "E) air conditioning"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a328285c6212c899e335c45db3c49ffd",
+    "original_question": "Danny found an old film in a sealed what?",
+    "paraphrased_question": "In a sealed what did Danny find an old film?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) clingfilm",
+      "B) disneyland",
+      "C) cave",
+      "D) cabinet",
+      "E) movie"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "70d3ebc00b165d9d08f9491a1dd85034",
+    "original_question": "The town house went right to the curb, a slot effectively made a mailbox of the what?",
+    "paraphrased_question": "What effectively made a mailbox of the slot that went right to the curb, the town house?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) apartment building",
+      "B) front door",
+      "C) back door",
+      "D) street corner",
+      "E) porch"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "41bab71fea3fa04e5a4e10a2f86996df",
+    "original_question": "The architect thought that a mezzanine would look good, but the planning committee rejected it.  They told the architect that they felt it was a potential hazard given the ages of the people who would be using it.  What might they be designing?",
+    "paraphrased_question": "What might they be designing if the architect thought a mezzanine would look good, but it was rejected by the planning committee? The committee told the architect they felt it was a potential hazard given the ages of the people who would be using it.",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) actors",
+      "B) theater",
+      "C) concert hall",
+      "D) floors",
+      "E) school"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9698232e3599157431c9dc8f2fe179cd",
+    "original_question": "What is the hopeful result of going to see a play?",
+    "paraphrased_question": "Of going to see a play, what is the hopeful result?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) sit",
+      "B) being entertained",
+      "C) jobless",
+      "D) meet",
+      "E) laugh"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0b5d0c3bafbe06dd5334c20cd8ea7fe2",
+    "original_question": "A person would join a trade school for finding information related to what?",
+    "paraphrased_question": "For what would a person join a trade school related to finding information?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) ulcers",
+      "B) degree",
+      "C) understanding of",
+      "D) gaining knowledge",
+      "E) happiness"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3f6157968fcf50d257ec3d8c729b7443",
+    "original_question": "what does someone have that causes them committing murder?",
+    "paraphrased_question": "What causes someone to have the inclination to commit murder?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) problems",
+      "B) distress",
+      "C) fear",
+      "D) go to jail",
+      "E) killer"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1cd94405124031e8681cd12bd25e2d61",
+    "original_question": "He was trying to procreate with many individuals, this led to a what?",
+    "paraphrased_question": "What did his attempt to procreate with many individuals lead to?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) moaning",
+      "B) die",
+      "C) kiss",
+      "D) std",
+      "E) sanity"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "64ab884bd870f6f68146636b4cce921c",
+    "original_question": "What does playing soccer and winning lead to?",
+    "paraphrased_question": "Playing soccer and winning, what does it lead to?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) excitement",
+      "B) getting tired",
+      "C) overtime",
+      "D) anger",
+      "E) fights"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9b26329d74a6159ab9af4f899303de39",
+    "original_question": "If my husband never helps me doing housework, what might that lead to?",
+    "paraphrased_question": "What might it lead to if my husband never helps me doing housework?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) boredom",
+      "B) arguments",
+      "C) headache",
+      "D) exhaustion",
+      "E) park"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5496c7293f653120e5a5213db2d7b103",
+    "original_question": "Where is beer drank by people watching sticks and pucks?",
+    "paraphrased_question": "Where are sticks and pucks watched by people drinking beer?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) bottle",
+      "B) refrigerator",
+      "C) hockey game",
+      "D) casino",
+      "E) bar"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "60848ce50295fc745756fbe960e78b88",
+    "original_question": "What would I be doing while going to work and walking?",
+    "paraphrased_question": "While going to work and walking, what would I be doing?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) listen to radio",
+      "B) solve problems",
+      "C) driving",
+      "D) walk",
+      "E) being late"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2729d8502208c25d8e9293cd4e8ecbb5",
+    "original_question": "What can disease destroy?",
+    "paraphrased_question": "What can be destroyed by disease?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) rug",
+      "B) third world country",
+      "C) human body",
+      "D) hospital",
+      "E) building"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "95d1d968ee66b6054cbb16b58a7c6455",
+    "original_question": "The surgeon's clients had begun to reduce, it seemed girls no longer want to what?",
+    "paraphrased_question": "What did girls no longer seem to want, as the surgeon's clients began to reduce?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) reduction",
+      "B) make larger",
+      "C) augment",
+      "D) gain weight",
+      "E) expand"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "94f34cc1e6aa9eefe06563cce8225658",
+    "original_question": "What are you playing if you're fiddling on a violin?",
+    "paraphrased_question": "If you're fiddling on a violin, what are you playing?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) bluegrass music",
+      "B) make music",
+      "C) drop",
+      "D) string instrument",
+      "E) troubles"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d6107d454181b701ddcaa449a1e422a3",
+    "original_question": "Why would a band be performing when there are no people nearby?",
+    "paraphrased_question": "When there are no people nearby, why would a band be performing?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) record album",
+      "B) play music",
+      "C) hold concert",
+      "D) blaring",
+      "E) practice"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6a0177586d506cb7b741f4207b428e42",
+    "original_question": "If you have a large satchel with you when you fly you'll be asked to store it where?",
+    "paraphrased_question": "Where will you be asked to store it if you have a large satchel with you when you fly?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) airport",
+      "B) luggage compartment",
+      "C) with the pilot",
+      "D) room",
+      "E) clothing store"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "32758ab86d888be680845b0dfe7de35e",
+    "original_question": "Boredom and hunger led to a wandering waste of time and a cart full of unhealthy snacks during her trip to where?",
+    "paraphrased_question": "During her trip to where, did boredom and hunger result in a wandering waste of time and a cart full of unhealthy snacks?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) new moon",
+      "B) play cards",
+      "C) read book",
+      "D) see art",
+      "E) grocery shop"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bdf92566f14599f1606109677206001f",
+    "original_question": "Miss Grady took a stick from Bob because he was playing with it during class.  She wanted to make sure that he couldn't get to it so she put it where?",
+    "paraphrased_question": "Because Bob was playing with a stick during class, Miss Grady took it from him. To ensure he couldn't access it, where did she put it?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) desk drawer",
+      "B) kitchen drawer",
+      "C) classroom",
+      "D) pocket",
+      "E) office"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0df042743128b57e874bd5d79b7aae7a",
+    "original_question": "How does a person begin reproducing?",
+    "paraphrased_question": "How does reproducing begin for a person?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) genetic mutation",
+      "B) have sex",
+      "C) kiss",
+      "D) flirting",
+      "E) going on a date"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "866ef7266d34c11e5a1b3df49fab96a4",
+    "original_question": "Joe and Jill didn't want their children to be sedentary.  They might limit the time they children spend doing what?",
+    "paraphrased_question": "What might they limit regarding the time their children spend doing?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) play sports",
+      "B) throw things",
+      "C) reading",
+      "D) watch tv",
+      "E) play with toys"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e1744fc698cffb574e5cf4b29a81ce76",
+    "original_question": "A computer user working on an important work assignment is located in what structure?",
+    "paraphrased_question": "In what structure is a computer user working on an important work assignment located?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) office building",
+      "B) internet cafe",
+      "C) house",
+      "D) school",
+      "E) internet cafe"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1272e693cf9152e7ac71095c643676b5",
+    "original_question": "In the building where James worked there was a small mezzanine in the auditorium to make more space for seats.  Where might James work?",
+    "paraphrased_question": "Where might James be working?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) theater",
+      "B) floors",
+      "C) concert hall",
+      "D) education",
+      "E) school"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "896b25dc41f84357add1c798d4a96cd8",
+    "original_question": "Where is seaweed usually found alive?",
+    "paraphrased_question": "Usually, where is seaweed found alive?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) ocean",
+      "B) found in ocean",
+      "C) water",
+      "D) found in sea",
+      "E) beach"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1ca3cd9475d7e9da2ddb74911ee2bb68",
+    "original_question": "If a lizard is fed by people every day, what has happened to it?",
+    "paraphrased_question": "What has happened to a lizard if people feed it every day?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) documentary",
+      "B) costa rica",
+      "C) garden",
+      "D) encouragement",
+      "E) captivity"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "129ec46cc2541b73198d774ee632c8d7",
+    "original_question": "What will happen to someone if his or her spirits cannot elevate?",
+    "paraphrased_question": "If someone's spirits cannot elevate, what will happen to them?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) sadden",
+      "B) demote",
+      "C) depress",
+      "D) drop",
+      "E) decrease"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4f1d8007b446b0e10f07fd63cbd31b6f",
+    "original_question": "John knew that the sun produced a massive amount of energy in two forms.  If you were on the surface of the sun, what would kill you first?",
+    "paraphrased_question": "John was aware that the sun generated a massive amount of energy in two forms.  What would kill you first if you were on the sun's surface?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) ocean",
+      "B) heat",
+      "C) life on earth",
+      "D) wrinkles",
+      "E) light"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "db63bf66a8bfd16e5103cbdd350f5202",
+    "original_question": "Everybody was changing into costumes in the dressing room, it was almost time to take the what stage?",
+    "paraphrased_question": "In the dressing room, as everybody was changing into costumes, what stage was it almost time to take?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) theater",
+      "B) train",
+      "C) bathhouse",
+      "D) dwelling",
+      "E) actors and actresses"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c1c73ef0ff662a76cd42c3500240974a",
+    "original_question": "If I want a new ottoman, where should I go?",
+    "paraphrased_question": "Where should I go if I want a new ottoman?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) furniture store",
+      "B) parlor",
+      "C) turkey",
+      "D) living room",
+      "E) den"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9221962ed3a6094e5c8f33785ce048cd",
+    "original_question": "What can you use to get a jellyfish?",
+    "paraphrased_question": "To get a jellyfish, what can you use?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) adriatic sea",
+      "B) mediterranean sea",
+      "C) hand",
+      "D) see",
+      "E) atlantic ocean"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "66bfb6e209c94e6be5b0d04b0c7e2064",
+    "original_question": "Where could you find only a few office?",
+    "paraphrased_question": "Where could only a few offices be found?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) skyscraper",
+      "B) new york",
+      "C) school building",
+      "D) city",
+      "E) work"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a15d564d0be6996251b5d523ac62db2a",
+    "original_question": "Why is it hard for a young child to read a long book?",
+    "paraphrased_question": "Why does a long book make it hard for a young child to read?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) knowledge",
+      "B) cover",
+      "C) no pictures",
+      "D) past",
+      "E) many words"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6bd170c8d3d99d3c47b3e96427bacaeb",
+    "original_question": "On a hot day what can you do to enjoy something cool and sweet?",
+    "paraphrased_question": "What can you do to enjoy something sweet and cool on a hot day?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) dive",
+      "B) cool off",
+      "C) fresh cake",
+      "D) go for swim",
+      "E) eat ice cream"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8cb45b421375243e788cfc64bd77b051",
+    "original_question": "Why is religion so hard to understand?",
+    "paraphrased_question": "Why is it so hard to understand religion?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) both positive and negative",
+      "B) unknowable",
+      "C) important to people",
+      "D) ocean",
+      "E) confusing"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4e87db4771f2d6423034935446e3fff1",
+    "original_question": "They dealt with combustible mixtures in their experiments, this is why they kept a fire extinguisher where?",
+    "paraphrased_question": "Where did they keep a fire extinguisher because they dealt with combustible mixtures in their experiments?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) hospital",
+      "B) chemistry lab",
+      "C) most businesses",
+      "D) classroom",
+      "E) public building"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1729c737ff92cf558efecde2c6cafc5e",
+    "original_question": "What do you need to wear when hiking?",
+    "paraphrased_question": "When hiking, what do you need to wear?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) cast iron stomach",
+      "B) physical exertion",
+      "C) shin splints",
+      "D) adventure",
+      "E) fatigue"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "be2cb9c96069ac355a7ccef262743d14",
+    "original_question": "Where can you buy a replacement ax handle?",
+    "paraphrased_question": "A replacement ax handle can be bought where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) bathroom",
+      "B) hardware store",
+      "C) water fountain",
+      "D) grocery store",
+      "E) fridge"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "799e48ec7fb16415c8f82828c5761ed1",
+    "original_question": "Is that person acting as silly as a clown?",
+    "paraphrased_question": "Is that person behaving as silly as a clown acts?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) make mistakes",
+      "B) ridiculous",
+      "C) have no home",
+      "D) mentally unhinged",
+      "E) schizophrenia"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a5ca7c89196e54938b5827814d0071d4",
+    "original_question": "James saw a kite flying in the sky.  He traced the string back to its origin and found it.  Where did the string begin?",
+    "paraphrased_question": "In the sky, James observed a kite flying.  He followed the string back to where it originated and located it.  Where did the string start?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) end of line",
+      "B) hobby shop",
+      "C) his hand",
+      "D) toy store",
+      "E) child's hand"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "64dbe5cb840ef4f1d25f8b68db8d5fed",
+    "original_question": "The business men left the discussion in the dressing room, now they just wanted to relax in the sauna of the what?",
+    "paraphrased_question": "In the sauna of the what, did the businessmen, who left the discussion in the dressing room, now just want to relax?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) brush hair",
+      "B) theater",
+      "C) house",
+      "D) dwelling",
+      "E) bathhouse"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9190efbd77fe10b989fcaae35e208a0f",
+    "original_question": "Where has the newest baseball stadium?",
+    "paraphrased_question": "The newest baseball stadium is located where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) phoenix",
+      "B) chicago",
+      "C) antarctica",
+      "D) san francisco",
+      "E) urban areas"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "52ecf169febc95a7f5ccb048fc85857d",
+    "original_question": "What could prevent a driving car from continuing to drive?",
+    "paraphrased_question": "What could stop a car from driving further?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) automobile accidents",
+      "B) backache",
+      "C) pollution",
+      "D) smoke",
+      "E) low fuel tank"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "31bd05ba62a16ee35217224b98c6baea",
+    "original_question": "What is a person likely to experience after they stop being married to a mean person?",
+    "paraphrased_question": "After they stop being married to a mean person, what is a person likely to experience?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) isolation",
+      "B) grief",
+      "C) happiness",
+      "D) relief",
+      "E) angry"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4706be6e24f1fafd9ff9fe63583acffd",
+    "original_question": "The computer was hooked up to the internet, what could it do as a result?",
+    "paraphrased_question": "What could the computer do as a result of being hooked up to the internet?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) process information",
+      "B) believe in god",
+      "C) make decisions",
+      "D) process information",
+      "E) receive data"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "a0f5414bf98e094f4d807abee28861a4",
+    "original_question": "Where off the eastern U.S. would you find an anemone?",
+    "paraphrased_question": "Where would you find an anemone off the eastern U.S.?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) flower bed",
+      "B) tide pool",
+      "C) florida keys",
+      "D) coral sea",
+      "E) aquarium"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "44120a9443c619d98ce5bfe4bb219c43",
+    "original_question": "Where are traveling clothes often kept?",
+    "paraphrased_question": "Traveling clothes are often kept where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) suitcase",
+      "B) bedroom",
+      "C) closet",
+      "D) draws",
+      "E) dresser"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "7f7a6f2b3087bf37dadbe8aa8d358047",
+    "original_question": "What can eating lunch cause that is painful?",
+    "paraphrased_question": "What painful condition can be caused by eating lunch?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) headache",
+      "B) bad breath",
+      "C) heartburn",
+      "D) gain weight",
+      "E) farts"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "37d88a9bb24913c1973cc26d4ce3394f",
+    "original_question": "The performer was ready to put on a show and stepped onto the launch platform, what was his job?",
+    "paraphrased_question": "What job did the performer have as he stepped onto the launch platform, ready to put on a show?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) cape canaveral florida",
+      "B) nasa",
+      "C) battleship",
+      "D) ocean",
+      "E) trapeze"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "9f9ca9bb06d6afc31b19c365fb29a1c9",
+    "original_question": "Where are you if you've paid to get a pizza?",
+    "paraphrased_question": "If you've paid to get a pizza, where are you?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) popular",
+      "B) baked in oven",
+      "C) restaurant",
+      "D) oven",
+      "E) plate"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d60c5a494539c66982c0f692afde9499",
+    "original_question": "What would you use to find a place to stay?",
+    "paraphrased_question": "To find a place to stay, what would you use?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) mexico",
+      "B) phone book",
+      "C) town",
+      "D) city",
+      "E) sun dial"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "2509fdd7d94afe9d0c021654ce0ba93f",
+    "original_question": "To see new films you must?",
+    "paraphrased_question": "What must you do to see new films?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) open eyes",
+      "B) go to movies",
+      "C) kick ball",
+      "D) make art",
+      "E) look for"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b1274d6f5969dea4d46f43fbdc28fd97",
+    "original_question": "What can a newspaper be used to do to an engagement?",
+    "paraphrased_question": "To an engagement, what can a newspaper be used to do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) announce",
+      "B) communicate",
+      "C) educate",
+      "D) inform",
+      "E) cancel"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3b8be90fdd8c67571d8d692eaa6dd87b",
+    "original_question": "When not in use where on your property would you store you bucket?",
+    "paraphrased_question": "Where on your property would you store your bucket when it is not in use?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) utility closet",
+      "B) outside",
+      "C) well",
+      "D) garden shed",
+      "E) garage"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cabefb7063a728e77abd44d97397a2a4",
+    "original_question": "The detective was finding information from witnesses, why would he do that?",
+    "paraphrased_question": "Why would the detective be finding information from witnesses?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) fun",
+      "B) ulcers",
+      "C) get answers",
+      "D) happiness",
+      "E) power"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f36027954e43cfd926451bdf7cb0c3ac",
+    "original_question": "Where are you likely to find a supermarket?",
+    "paraphrased_question": "A supermarket is likely to be found where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) buy food for family",
+      "B) city or town",
+      "C) get supplies",
+      "D) strip mall",
+      "E) vermont"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "efe488f67b53a4b6e69782c01c84f06c",
+    "original_question": "What area does a police officer patrol?",
+    "paraphrased_question": "Which area is patrolled by a police officer?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) direct traffic",
+      "B) city",
+      "C) beat",
+      "D) street",
+      "E) park"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e56c56c3cfe50ba0c787c2bd67255be8",
+    "original_question": "She asked her little boy why, he replied that he didn't know and it was just what?",
+    "paraphrased_question": "She asked her little boy why, and he replied that he didn't know; it was just what?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) case",
+      "B) reason",
+      "C) how",
+      "D) because",
+      "E) answer"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "350292ae429060a00ff2cf64d71558e4",
+    "original_question": "Where would a person light alcohol on fire to observe the reaction?",
+    "paraphrased_question": "Where would alcohol be lit on fire by a person to observe the reaction?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) supermarket",
+      "B) bar",
+      "C) pub",
+      "D) restaurants",
+      "E) chemistry lab"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "81cc0d320488c7bacafb285cf7db5fbd",
+    "original_question": "Where does lettuce arrive by large trucks?",
+    "paraphrased_question": "By large trucks, where does lettuce arrive?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) kitchen",
+      "B) supermarket",
+      "C) farmer's market",
+      "D) salad",
+      "E) refrigerator"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4fa0d61ec82eb1e238d8938d5f43f392",
+    "original_question": "You should watch out for snakes if floating down what African body of water?",
+    "paraphrased_question": "If floating down what African body of water should you watch out for snakes?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) wet grass",
+      "B) western texas",
+      "C) high grass",
+      "D) amazon river",
+      "E) tree"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bd773d64f4e22db2358c6e00cbdf2d83",
+    "original_question": "What probably has a lot of dust in the back?",
+    "paraphrased_question": "In the back, what probably has a lot of dust?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) closet",
+      "B) door",
+      "C) corner",
+      "D) shelf",
+      "E) library"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0bbb82c1dc4bfd3b0e0c409a0afd248b",
+    "original_question": "What could people do that involves talking?",
+    "paraphrased_question": "What could involve talking that people do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) confession",
+      "B) state park",
+      "C) sing",
+      "D) carnival",
+      "E) opera"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "67beae081a9b5ef56988f205f80cf129",
+    "original_question": "If you're a child answering questions and an adult is asking them that adult is doing what?",
+    "paraphrased_question": "What is the adult doing if they are asking questions and you, as a child, are answering them?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) discussion",
+      "B) explaning",
+      "C) teaching",
+      "D) confusion",
+      "E) correct"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "eebddf5f35d85e9fe2ecbd9b56c1db60",
+    "original_question": "The teacher played on the upright piano, she was explaining the song to all the students in the what?",
+    "paraphrased_question": "On the upright piano, the teacher played while explaining the song to all the students in the what?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) music room",
+      "B) bathroom",
+      "C) house",
+      "D) living room",
+      "E) music store"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cfa980561efe82e7ae7080d4f081b463",
+    "original_question": "What is someone operating a vehicle likely to be accused of after becoming inebriated?",
+    "paraphrased_question": "After becoming inebriated, what is someone operating a vehicle likely to be accused of?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) punish",
+      "B) arrest",
+      "C) automobile accidents",
+      "D) drunk driving",
+      "E) talking nonsense"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1520a8fd3116e7b856947c5e308d7ce5",
+    "original_question": "If a person is using a computer to talk to their granddaughter, what might the computer cause for them?",
+    "paraphrased_question": "What might be caused for them by the computer if a person is using it to talk to their granddaughter?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) program created",
+      "B) stress",
+      "C) happiness",
+      "D) ocean",
+      "E) headache"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bd780fea2d4dd262583446e64c0f314d",
+    "original_question": "Joe was there to meet a large number of people.  As he filed though the entrance hall, he saw many strangers who came from far away.  What sort of building is he probably in?",
+    "paraphrased_question": "In what sort of building is he probably?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) person",
+      "B) box",
+      "C) convention center",
+      "D) public building",
+      "E) large building"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b3dc6d6a5e2f9d7da8eb72816c80b3f8_1",
+    "original_question": "The goal was to hit the target, but a projectile ball can't hit anything if it isn't in what?",
+    "paraphrased_question": "The goal was to hit the target, but if it isn't in what, a projectile ball can't hit anything?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) motion",
+      "B) ocean",
+      "C) flintlock",
+      "D) arcade",
+      "E) tennis court"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e8a9142d2402f818273dd62cf5a7b559_1",
+    "original_question": "If a fried egg was runny and there was no toast to sop it up, after the meal there'd be a messy what?",
+    "paraphrased_question": "After the meal, if a runny fried egg had no toast to sop it up, what would be messy?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) henhouse",
+      "B) garden",
+      "C) plate",
+      "D) supermarket",
+      "E) bird's nest"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "56d0fc282a144565f2c852415c6fa92c",
+    "original_question": "What does a person often feel about someone judging them guilty?",
+    "paraphrased_question": "What does a person often feel regarding someone judging them guilty?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) controversy",
+      "B) responsibility",
+      "C) resentment",
+      "D) judge feelings",
+      "E) hurt feelings"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "72611791cdcb040f2d699827fb9cebc4",
+    "original_question": "What is a person looking for when completing puzzles or riddles?",
+    "paraphrased_question": "When completing puzzles or riddles, what is a person looking for?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) avoid pain",
+      "B) compliments",
+      "C) intellectual challenge",
+      "D) passing grade",
+      "E) attention"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bea07406aaadeef50110883b6932d86a",
+    "original_question": "What is part of a republic like the USA?",
+    "paraphrased_question": "What comprises a republic such as the USA?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) state",
+      "B) democratic",
+      "C) kingdom",
+      "D) democracy",
+      "E) dictatorship"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cdd3d074031fbd3efeb4f9408abef04e",
+    "original_question": "What very cold area in the east can a crab be found?",
+    "paraphrased_question": "In what very cold area in the east can a crab be found?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) fish market",
+      "B) shallow waters",
+      "C) atlantic ocean",
+      "D) fresh water",
+      "E) shore line"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "ac1abecdbbd7bcde6592ca645c2ecb1e",
+    "original_question": "There was no shade for Jenny.  She was forced to lie there exposed to what?",
+    "paraphrased_question": "For what was Jenny forced to lie there exposed?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) full sunlight",
+      "B) bright sunshine",
+      "C) sunny place",
+      "D) eat cake",
+      "E) direct sunlight"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3d1a67f87b34303f97549ba83e5521c2",
+    "original_question": "The terrace had Kanji written on it, indicating that it was made where?",
+    "paraphrased_question": "Where was it made, as indicated by the Kanji written on the terrace?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) japan",
+      "B) rice paddy",
+      "C) garden",
+      "D) michigan",
+      "E) italy"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e216381e9f0ddd1d248ee25fccca2b1f",
+    "original_question": "What do you call the caretakers of a child?",
+    "paraphrased_question": "What are the caretakers of a child called?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) principal",
+      "B) birth",
+      "C) loving couple",
+      "D) act of sex",
+      "E) parents"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4eb3e69c0d42a2287692d2b9d2cb5979",
+    "original_question": "Who watches a play in an auditorium?",
+    "paraphrased_question": "In an auditorium, who watches a play?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) building",
+      "B) crowd",
+      "C) city",
+      "D) group",
+      "E) high school"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c3890d43b84635d9e61c007ca2521d5b",
+    "original_question": "What do people do for food?",
+    "paraphrased_question": "For food, what do people do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) talk to each other",
+      "B) complete job",
+      "C) wear hats",
+      "D) kill animals",
+      "E) believe in god"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "15556e26feaa5a8a29c9f30896e535d4",
+    "original_question": "Where do you throw a ball at pins?",
+    "paraphrased_question": "At pins, where do you throw a ball?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) bowling alley",
+      "B) football stadium",
+      "C) soccer field",
+      "D) sporting event",
+      "E) sporting goods store"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6915dfdefe3b1cd5fd8886c8bb84929a",
+    "original_question": "Sally was standing in queue.  The line was very, very slow.  What was she feeling?",
+    "paraphrased_question": "What was she feeling while standing in the very, very slow queue?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) frustration",
+      "B) delays",
+      "C) being annoyed",
+      "D) moving forward",
+      "E) progress"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "0cba8ddda21e29c8c53482e131d741cd",
+    "original_question": "James and Holly went dancing together. As they danced, he  pressed himself against her what?",
+    "paraphrased_question": "James and Holly went dancing together. As they danced, against what did he press himself?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) euphoria",
+      "B) moving body",
+      "C) rhythmic movement",
+      "D) happiness",
+      "E) fatigue"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "43ba9669564217f2f909f33acbedaf95",
+    "original_question": "what does a person do to stay healthy?",
+    "paraphrased_question": "To stay healthy, what does a person do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) fever",
+      "B) eat every day",
+      "C) excited",
+      "D) headache",
+      "E) expressive"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "eb6807290df71b040e2c7bcc5d11fdea",
+    "original_question": "If a person stutters when he experiences anxiety or excitement, he'll have difficult doing what?",
+    "paraphrased_question": "What will a person have difficulty doing if he stutters when experiencing anxiety or excitement?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) express information",
+      "B) dance",
+      "C) library",
+      "D) go somewhere",
+      "E) study"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "e9d4c747018ff81b8c0aefb5abc3c539",
+    "original_question": "What do people need to do to change their lives?",
+    "paraphrased_question": "To change their lives, what do people need to do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) face problems",
+      "B) better themselves",
+      "C) pay bills",
+      "D) become disillusioned",
+      "E) eat chicken"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "047c2d8c65d297b39aa42821c1ca76a9",
+    "original_question": "Nature can be good and bad for the person who walks, what are some things?",
+    "paraphrased_question": "What are some things about nature that can be good and bad for the person who walks?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) seeing bear",
+      "B) see beautiful views",
+      "C) get wet",
+      "D) getting lost",
+      "E) murdered by a landshark"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8272f08792b873885f93d4c148e307e5",
+    "original_question": "The water in clouds turn in to what when it gets cold?",
+    "paraphrased_question": "When it gets cold, the water in clouds turns into what?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) typhoon",
+      "B) snowflake",
+      "C) laddle",
+      "D) teardrops",
+      "E) sink"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cf8e30dd6956d03e3f0f0397112a8696",
+    "original_question": "Where is a monkey likely to enjoy being?",
+    "paraphrased_question": "A monkey is likely to enjoy being where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) banana tree",
+      "B) sailor suit",
+      "C) theatre",
+      "D) mulberry bush",
+      "E) research laboratory"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "17eafc807b198236faf06a66f4c05313",
+    "original_question": "The earth is one planet in what?",
+    "paraphrased_question": "In what is the earth one planet?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) tree",
+      "B) orbit",
+      "C) solar system",
+      "D) fotograph",
+      "E) dreams"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b148f18fb8b5a504b67078ef6ac29717",
+    "original_question": "Why would a person put flowers in a room with dirty gym socks?",
+    "paraphrased_question": "For what reason would someone place flowers in a room containing dirty gym socks?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) continue to grow",
+      "B) plant themselves",
+      "C) many colors",
+      "D) smell good",
+      "E) make pretty"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b6bbe013995fdb5def3d504319af0791",
+    "original_question": "The table wasn't level.  some parts were higher and some were lower with no rhyme or reason.   It was very what?",
+    "paraphrased_question": "What was it very?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) electrical circuit",
+      "B) build evenly",
+      "C) uneven",
+      "D) unbalanced",
+      "E) tilted"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5655a3002dd9a6b7dabede1dd26a5893",
+    "original_question": "Where would using a boat not require navigation skills?",
+    "paraphrased_question": "Where would navigation skills not be required when using a boat?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) water",
+      "B) ocean",
+      "C) garage",
+      "D) harbor",
+      "E) river"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "17d9bfaee1efac51b1ca240125bc5977",
+    "original_question": "What does a self assured person often do?",
+    "paraphrased_question": "What does a person who is self assured often do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) acknowledgment",
+      "B) focused",
+      "C) know what time",
+      "D) feel important",
+      "E) trust himself"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "25136807f7b2e78b115698daa1677b4a",
+    "original_question": "What could you use to fill a cup and then drink from it?",
+    "paraphrased_question": "What could you use to fill a cup with and then drink from?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) sand box",
+      "B) kitchen cabinet",
+      "C) waterfall",
+      "D) water fountain",
+      "E) table"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c2a8c6814ed3e207771cfc23b3b42cf1",
+    "original_question": "Where is a salt shaker most often kept?",
+    "paraphrased_question": "A salt shaker is most often kept where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) cruet",
+      "B) table setting",
+      "C) kitchen cupboard",
+      "D) cabinet",
+      "E) store"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "637c710ec9582fd9b9e8eaa3f3fe83bb",
+    "original_question": "Where can a bath towel be borrowed?",
+    "paraphrased_question": "Where can one borrow a bath towel?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) cupboard",
+      "B) at hotel",
+      "C) swimming pool",
+      "D) clothes line",
+      "E) backpack"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4f23829b96b38b5633ecc3325281726d",
+    "original_question": "John rode on the plain until it reached the ocean and couldn't go any farther. What might he have bee on?",
+    "paraphrased_question": "Until the plain reached the ocean and couldn't go any farther, on what might John have been riding?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) mountain",
+      "B) fancy",
+      "C) sandplain",
+      "D) cliff",
+      "E) gorge"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "420641003ba20b966887dfac684efb17",
+    "original_question": "If you spend a long time shopping in uncomfortable shoes, you might develop what?",
+    "paraphrased_question": "What might you develop if you spend a long time shopping in shoes that are uncomfortable?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) tiredness",
+      "B) calluses",
+      "C) bankruptcy",
+      "D) standing in line",
+      "E) sleepyness"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "1f492f556fae64f72ce36b6caa242dd0",
+    "original_question": "Steve thought that it was possible, but he agreed that it was what?",
+    "paraphrased_question": "Steve agreed that it was what, although he thought that it was possible?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) no go",
+      "B) unable",
+      "C) unlikely",
+      "D) impossibility",
+      "E) cant do"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5d4233146435ab0ca211e8ac9bfce76f",
+    "original_question": "Where do you buy condoms?",
+    "paraphrased_question": "Where are condoms purchased by you?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) supermarket",
+      "B) sock drawer",
+      "C) cd store",
+      "D) medicine chest",
+      "E) bedroom"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "bd47827418d5b8d7fb3502a398644435",
+    "original_question": "The hostess greeted the employees to the program, she then led them to their what?",
+    "paraphrased_question": "To their what did the hostess lead the employees after greeting them to the program?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) group people",
+      "B) welcome guests",
+      "C) occupations",
+      "D) work room",
+      "E) seat customer"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3338109fcafaaa370c8900a53e1b3ed8",
+    "original_question": "The flasks was used to distill elements, where was is being used?",
+    "paraphrased_question": "Where is was being used, in which the flasks was used to distill elements?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) laboratory",
+      "B) chemistry lab",
+      "C) coat pocket",
+      "D) after hours speakeasy",
+      "E) bordello"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d29252ddaf7c7ef491abcce342d7bb98",
+    "original_question": "What do you need to do to use television if it is already turned on?",
+    "paraphrased_question": "If the television is already turned on, what do you need to do to use it?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) get wet",
+      "B) open eyes",
+      "C) kill",
+      "D) plug in",
+      "E) first turn on power"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "ff1bf2ec835c9df8695ae0cfb5281646",
+    "original_question": "When you stroke a dogs fur what have you done?",
+    "paraphrased_question": "What have you done when you stroke a dog's fur?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) start fighting",
+      "B) play",
+      "C) lots of attention",
+      "D) petted",
+      "E) bone"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c7526b682e64f355384631b35cd78fc9",
+    "original_question": "Dan fell off a bar stool.  He did this because he was what than ever before?",
+    "paraphrased_question": "Dan fell off a bar stool.  Why was he more what than ever before?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) kitchen",
+      "B) drunker",
+      "C) tavern",
+      "D) restaurant",
+      "E) shorter"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "02f43014a135cbd39f23b044c99de96e",
+    "original_question": "How might a automobile get off a freeway?",
+    "paraphrased_question": "In what way could an automobile exit a freeway?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) exit ramp",
+      "B) garage",
+      "C) driveway",
+      "D) repair shop",
+      "E) stop light"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "4ccd43cdff044bc4c644dadff1ff1e0b",
+    "original_question": "What would it be if they get a surprising show over and over?",
+    "paraphrased_question": "If they repeatedly get a surprising show, what would it be?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) surprise",
+      "B) fight",
+      "C) annoyance",
+      "D) might scare",
+      "E) irritated"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "b1d5cdbf8ef7b3954a6a352bd4df5866",
+    "original_question": "The merchant wanted to open in a high-traffic space, where did he rent space?",
+    "paraphrased_question": "Where did he rent space, given the merchant wanted to open in a high-traffic space?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) mall",
+      "B) business",
+      "C) store",
+      "D) sale",
+      "E) sell goods"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6bc3ebcfd04965c25bde71339955746c",
+    "original_question": "What is the purpose of playing games for children?",
+    "paraphrased_question": "What purpose do games serve for children when they play?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) winning",
+      "B) learning",
+      "C) losing",
+      "D) fatigue",
+      "E) skill"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d78baca23e0a636a8961e17119047e63",
+    "original_question": "People played a variety of games in the soccer field.  It was the closest thing they had to what?",
+    "paraphrased_question": "What was the closest thing they had to the variety of games people played in the soccer field?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) town",
+      "B) beach",
+      "C) park",
+      "D) near",
+      "E) outside"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "c1aebf059c5102f4e773f7fe4afe13f0",
+    "original_question": "When someone has little knowledge and is judging someone they are considered what?",
+    "paraphrased_question": "What are they considered when someone is judging another with little knowledge?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) objectivity",
+      "B) knowing yourself",
+      "C) experience",
+      "D) ignorance",
+      "E) introduction"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "858a5eaa587fe0e266722228671a6bd1",
+    "original_question": "Where can you find the meaning of \"ficus\"?",
+    "paraphrased_question": "The meaning of \"ficus\" can be found where?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) dictionary",
+      "B) apartment",
+      "C) libary",
+      "D) middle east",
+      "E) arboretum"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "3bf06235a537adc9d85431846595b800",
+    "original_question": "Animals come in all types, some fly thanks to their lightweight hollow what?",
+    "paraphrased_question": "Thanks to their lightweight hollow what, some animals fly of all types?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) tails",
+      "B) bones",
+      "C) eyes",
+      "D) heads",
+      "E) bodies"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "eee9476bf29498b7d74b043afe316fc6",
+    "original_question": "Where do apples form on an apple tree?",
+    "paraphrased_question": "On an apple tree, where do apples form?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) south africa",
+      "B) sunshine",
+      "C) new york",
+      "D) bloom",
+      "E) trunk"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "820df15b615d221e38a71fcc44461085",
+    "original_question": "Where would your hear a bass clarinet along side other wood wind instruments?",
+    "paraphrased_question": "Alongside other woodwind instruments, where would you hear a bass clarinet?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) opera house",
+      "B) school band",
+      "C) music store",
+      "D) orchestra",
+      "E) bathroom stall"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "ecd32cc0c17d4738a27bba3399f04591",
+    "original_question": "The piece of paper was worth a lot of money, it was an old Apple Inc what?",
+    "paraphrased_question": "What was the old Apple Inc piece of paper that was worth a lot of money?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) notebook",
+      "B) copy machine",
+      "C) stock certificate",
+      "D) ream",
+      "E) thumb drive"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8b2af2d865b7dc500427786c846eacaf",
+    "original_question": "During the winter hunt he could hear every motion in the woods, this was because of the what of everything?",
+    "paraphrased_question": "What of everything caused him to hear every motion in the woods during the winter hunt?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) being still",
+      "B) silence",
+      "C) stationary",
+      "D) stillness",
+      "E) standing still"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d725f1c2e150a3221de31612123f3f46",
+    "original_question": "What do you do when you're going to market?",
+    "paraphrased_question": "When you're going to market, what do you do?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) buy food",
+      "B) see other people",
+      "C) buying vegetables",
+      "D) buy a fat pig",
+      "E) traveling"
+    ],
+    "answer": "A",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "f7735d721dfdc94621154951d4eaa4cf",
+    "original_question": "She feared that she had cancer, but upon discovering truth that she hadn't, what was her attitude toward life?",
+    "paraphrased_question": "What was her attitude toward life upon discovering the truth that she hadn't cancer, despite her fear that she had it?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) conclusion",
+      "B) pain",
+      "C) happiness",
+      "D) relief",
+      "E) boring"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d21777d771dc6fd08e769d378651817e",
+    "original_question": "Sarah gave her brother a guy to her home.  While she was gone, he used it to do what?",
+    "paraphrased_question": "Sarah gave a guy to her brother for her home. What did he use it for while she was gone?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) front door",
+      "B) turn lock",
+      "C) solution to problem",
+      "D) install",
+      "E) open doors"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "611a4cc0e288b8a11afa923f48cb2ab4",
+    "original_question": "When did mammoth's live?",
+    "paraphrased_question": "When did mammoths live?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) boscage",
+      "B) forest",
+      "C) prehistory",
+      "D) prehistoric times",
+      "E) ancient times"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "684204df916cc58d47293960f9c6ed9f",
+    "original_question": "Applying for a job can make someone feel what sort of emotion, even if they get it?",
+    "paraphrased_question": "What sort of emotion can applying for a job make someone feel, even if they get it?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) working hard",
+      "B) frustration",
+      "C) rejection",
+      "D) defeat",
+      "E) stress"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "77ddc9134bb27f9962aa2ed5ec5a5ef9",
+    "original_question": "How could you have fun by yourself with no one around you?",
+    "paraphrased_question": "With no one around you, how could fun be had by yourself?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) fairgrounds",
+      "B) watching television",
+      "C) tired",
+      "D) enjoyable",
+      "E) friend's house"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "5e260e1d96187716888cbd968010bb65",
+    "original_question": "Where is the closest place from where you could borrow salt?",
+    "paraphrased_question": "From where could you borrow salt that is the closest place?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) ocean water",
+      "B) table",
+      "C) shaker",
+      "D) neighbor's house",
+      "E) lake"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8c655f3a55bde41aad880f138d7a445d",
+    "original_question": "When cooking sheep meat a lot of people might want to be well?",
+    "paraphrased_question": "When cooking sheep meat, might a lot of people want it to be well?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) ram",
+      "B) lamb",
+      "C) done",
+      "D) ram",
+      "E) wolf"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "d0a42c8180b4e080aa071dd70fce7e03",
+    "original_question": "Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?",
+    "paraphrased_question": "Despite access to this, what still seems to be making us duller even though computers have allowed everybody to quickly answer questions they have?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) economic boom",
+      "B) advance knowledge",
+      "C) produce sound",
+      "D) teach",
+      "E) follow instructions"
+    ],
+    "answer": "B",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6544a50bf9563d52dbd2034e81df0bf3",
+    "original_question": "The lion sensed his competitor was timid, so what attitude did the lion take?",
+    "paraphrased_question": "What attitude did the lion take when he sensed his competitor was timid?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) reckless",
+      "B) bellicose",
+      "C) defensive",
+      "D) aggressive",
+      "E) dauntless"
+    ],
+    "answer": "D",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "cfa081b5ba90dae4d7ddb5b7ad9d369a",
+    "original_question": "Why would you not trust your friends after chatting with friends?",
+    "paraphrased_question": "Why, after chatting with friends, would you not trust your friends?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) fever",
+      "B) smoke",
+      "C) laughing",
+      "D) coughing",
+      "E) lie"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "8f2976690c83be6b8fa3a1196dfd9722",
+    "original_question": "Jesse  enjoyed remembering the past because he helped him understand it.  And understanding the past helped him with doing what?",
+    "paraphrased_question": "Because it helped him understand the past, Jesse enjoyed remembering it. With doing what did understanding the past help him?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) phoning",
+      "B) nostalgia",
+      "C) writing down",
+      "D) active",
+      "E) being prepared"
+    ],
+    "answer": "E",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "570be8c1edb8c638603dc5c8cae421cc",
+    "original_question": "David watched some nesting birds using his binoculars while on vacation.  Where might David be?.",
+    "paraphrased_question": "Where might David be while on vacation watching some nesting birds using his binoculars?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) sky",
+      "B) vaccation",
+      "C) forest",
+      "D) countryside",
+      "E) roof"
+    ],
+    "answer": "C",
+    "source": "commonsense_qa"
+  },
+  {
+    "id": "6c84e79d0595efd99596faa07c4961d0",
+    "original_question": "What would you do to a rock when climb up a cliff?",
+    "paraphrased_question": "When climbing up a cliff, what would you do to a rock?",
+    "paraphrase_type": "syntactic",
+    "choices": [
+      "A) grab",
+      "B) look down",
+      "C) throw",
+      "D) falling",
+      "E) may fall"
+    ],
+    "answer": "A",
     "source": "commonsense_qa"
   }
 ]

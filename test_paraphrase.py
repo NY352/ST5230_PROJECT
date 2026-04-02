@@ -24,7 +24,7 @@ def run_paraphrases():
 
     for ptype in config.PARAPHRASE_TYPES:
         output_path = os.path.join(
-            config.PARAPHRASED_DIR, f"{DATASET}_{ptype}.json"
+            config.PARAPHRASED_DIR, DATASET, f"{ptype}.json"
         )
         # Skip if already has enough
         existing = config.load_json(output_path)
@@ -64,7 +64,7 @@ def analyze_all():
 
     for ptype in config.PARAPHRASE_TYPES:
         output_path = os.path.join(
-            config.PARAPHRASED_DIR, f"{DATASET}_{ptype}.json"
+            config.PARAPHRASED_DIR, DATASET, f"{ptype}.json"
         )
         data = config.load_json(output_path)
         if not data:
