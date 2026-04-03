@@ -87,6 +87,15 @@ def evaluate_condition(dataset_name, condition, model_name):
         config.logger.error(f"No data at {input_path}. Run previous steps first.")
         return
 
+    # For baseline, restrict to IDs present in all filtered files (intersection)
+    if condition == "baseline":
+        ref_path = os.path.join(
+            config.PARAPHRASED_DIR, dataset_name, "lexical_filtered.json"
+        )
+        if os.path.exists(ref_path):
+            valid_ids = {item["id"] for item in config.load_json(ref_path)}
+            data = [item for item in data if item["id"] in valid_ids]
+
     completed_ids = config.load_completed_ids(output_path)
     remaining = [item for item in data if item["id"] not in completed_ids]
 
@@ -98,7 +107,7 @@ def evaluate_condition(dataset_name, condition, model_name):
     for item in tqdm(
         remaining, desc=f"{model_name}/{dataset_name}/{condition}"
     ):
-        question = item.get("paraphrased_question", item["question"])
+        question = item.get("paraphrased_question", item.get("question"))
         choices = item["choices"]
         correct_answer = item["answer"]
 

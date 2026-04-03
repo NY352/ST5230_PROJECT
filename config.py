@@ -39,14 +39,6 @@ EVAL_MODELS = {
         "model_id": "openai/gpt-4o-mini",
         "top_logprobs": 5,
     },
-    "qwen3.5-27b": {
-        "model_id": "qwen/qwen3.5-27b",
-        "top_logprobs": 5,
-    },
-    "kimi-k2": {
-        "model_id": "moonshotai/kimi-k2",
-        "top_logprobs": 5,
-    },
 }
 
 # ── Datasets ─────────────────────────────────────────────────────

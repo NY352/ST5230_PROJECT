@@ -12,6 +12,7 @@ Usage:
     python run.py evaluate gpt-4o-mini                         # one model, all datasets
     python run.py evaluate gpt-4o-mini commonsense_qa          # one model, one dataset
     python run.py evaluate gpt-4o-mini commonsense_qa baseline # specific condition
+    python run.py analyze                                     # run statistical analysis
 """
 
 import sys
@@ -21,6 +22,7 @@ from src.data_loader import prepare_all, expand_sample
 from src.paraphraser import paraphrase_dataset, paraphrase_all
 from src.evaluator import evaluate_condition, evaluate_all
 from src.quality_filter import filter_and_intersect
+from src.analysis import main as run_analysis
 
 
 def main():
@@ -68,6 +70,9 @@ def main():
                     evaluate_condition(ds, cond, sys.argv[2])
         else:
             evaluate_all()
+
+    elif command == "analyze":
+        run_analysis()
 
     else:
         print(f"Unknown command: {command}")

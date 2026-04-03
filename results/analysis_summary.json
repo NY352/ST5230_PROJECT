@@ -1,0 +1,1559 @@
+[
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "commonsense_qa",
+    "condition": "lexical",
+    "summary": {
+      "n": 1085,
+      "n_valid_logprob": 1073,
+      "baseline_acc": 0.8009216589861751,
+      "paraphrase_acc": 0.7677419354838709,
+      "logprob": {
+        "baseline_mean": -1.8409471010375773,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -2.094712022660657,
+        "paraphrase_median": -4.320199877838604e-07,
+        "baseline_std": 4.797258667615394,
+        "paraphrase_std": 4.991960609889321,
+        "delta_t": -0.25376492162307934,
+        "delta_t_ci95": [
+          -0.44952196148285417,
+          -0.05800788176330454
+        ],
+        "ttest_stat": -2.540798771464462,
+        "ttest_p": 0.011200042022002227
+      }
+    },
+    "failure_modes": {
+      "robust": 792,
+      "hidden_hesitation": 3,
+      "total_collapse": 74,
+      "baseline_wrong": 216
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "2ffa3808ce26181926990b454e429c85",
+          "baseline_q": "Crabs live in what sort of environment?",
+          "paraphrase_q": "Crabs reside in what type of habitat?",
+          "answer": "C",
+          "baseline_logprob": -0.5821661949157715,
+          "paraphrase_logprob": -0.05357401445508003,
+          "delta_logprob": 0.5286,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "70c39372c0d50566554fd72c768b75f6",
+          "baseline_q": "What might a couple have a lot of when they are deciding on stopping being married to each other?",
+          "paraphrase_q": "What might a pair have a lot of when they are deciding on ceasing being wed to each other?",
+          "answer": "E",
+          "baseline_logprob": -0.5759398937225342,
+          "paraphrase_logprob": -0.0002613358374219388,
+          "delta_logprob": 0.5757,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "1e09c3136a743b862e783700b7667028",
+          "baseline_q": "What could happen if someone is seeing new presents at a birthday party?",
+          "paraphrase_q": "What could occur if someone is witnessing new gifts at a birthday celebration?",
+          "answer": "E",
+          "baseline_logprob": -7.946405094116926e-05,
+          "paraphrase_logprob": -0.5793567299842834,
+          "delta_logprob": -0.5793,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "b1a9b20793b46e46e1beedadbf852f84",
+          "baseline_q": "The electrode wouldn't spark, it turned out that the what hadn't been connected?",
+          "paraphrase_q": "The electrode wouldn't ignite, it turned out that the what hadn't been linked?",
+          "answer": "A",
+          "baseline_logprob": -1.9361264946837764e-07,
+          "paraphrase_logprob": -0.5763372778892517,
+          "delta_logprob": -0.5763,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "94f34cc1e6aa9eefe06563cce8225658",
+          "baseline_q": "What are you playing if you're fiddling on a violin?",
+          "paraphrase_q": "What are you performing if you're fiddling on a violin?",
+          "answer": "A",
+          "baseline_logprob": -0.12693209946155548,
+          "paraphrase_logprob": -24.625,
+          "delta_logprob": -24.4981,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "cc1a547bdfdcc95e4d632453af14bc96",
+          "baseline_q": "Where can books be read?",
+          "paraphrase_q": "Where can volumes be read?",
+          "answer": "C",
+          "baseline_logprob": -0.07888989895582199,
+          "paraphrase_logprob": -18.625,
+          "delta_logprob": -18.5461,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "commonsense_qa",
+    "condition": "syntactic",
+    "summary": {
+      "n": 1085,
+      "n_valid_logprob": 1076,
+      "baseline_acc": 0.8009216589861751,
+      "paraphrase_acc": 0.7557603686635944,
+      "logprob": {
+        "baseline_mean": -1.847435550878798,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -2.1392116754288395,
+        "paraphrase_median": -7.896309739408025e-07,
+        "baseline_std": 4.794673184028454,
+        "paraphrase_std": 4.985762268563532,
+        "delta_t": -0.29177612455004137,
+        "delta_t_ci95": [
+          -0.4959830997719695,
+          -0.08756914932811322
+        ],
+        "ttest_stat": -2.8004978943377012,
+        "ttest_p": 0.005193817474459758
+      }
+    },
+    "failure_modes": {
+      "robust": 785,
+      "hidden_hesitation": 3,
+      "total_collapse": 81,
+      "baseline_wrong": 216
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "edd1634d911614590c6b8ca730df95fe",
+          "baseline_q": "Where is knight always portrayed as a hero?",
+          "paraphrase_q": "In what context is a knight always portrayed as a hero?",
+          "answer": "D",
+          "baseline_logprob": -0.4855501353740692,
+          "paraphrase_logprob": -0.005438300780951977,
+          "delta_logprob": 0.4801,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "70c39372c0d50566554fd72c768b75f6",
+          "baseline_q": "What might a couple have a lot of when they are deciding on stopping being married to each other?",
+          "paraphrase_q": "When a couple is deciding on stopping being married to each other, what might they have a lot of?",
+          "answer": "E",
+          "baseline_logprob": -0.5759398937225342,
+          "paraphrase_logprob": -0.018150296062231064,
+          "delta_logprob": 0.5578,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "ec224c1dbfb569cce7ec317fe987ae68",
+          "baseline_q": "What is the animal trying to accomplish?",
+          "paraphrase_q": "What is trying to be accomplished by the animal?",
+          "answer": "B",
+          "baseline_logprob": -0.01758974976837635,
+          "paraphrase_logprob": -0.7045020461082458,
+          "delta_logprob": -0.6869,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "81e016974d33fe383c848b6c819791cd",
+          "baseline_q": "For what entity should the government work?",
+          "paraphrase_q": "The government should work for what entity?",
+          "answer": "A",
+          "baseline_logprob": -0.0619908832013607,
+          "paraphrase_logprob": -0.6931516528129578,
+          "delta_logprob": -0.6312,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "14e75a42a416d32a24e2826cae34d2bf",
+          "baseline_q": "He was afraid he would die from his cold, so he wisely decided to what?",
+          "paraphrase_q": "What did he wisely decide to do because he was afraid he would die from his cold?",
+          "answer": "E",
+          "baseline_logprob": -9.088346359931165e-07,
+          "paraphrase_logprob": -21.75,
+          "delta_logprob": -21.75,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "67beae081a9b5ef56988f205f80cf129",
+          "baseline_q": "If you're a child answering questions and an adult is asking them that adult is doing what?",
+          "paraphrase_q": "What is the adult doing if they are asking questions and you, as a child, are answering them?",
+          "answer": "C",
+          "baseline_logprob": -0.0007119550718925893,
+          "paraphrase_logprob": -21.625,
+          "delta_logprob": -21.6243,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "commonsense_qa",
+    "condition": "style",
+    "summary": {
+      "n": 1085,
+      "n_valid_logprob": 1070,
+      "baseline_acc": 0.8009216589861751,
+      "paraphrase_acc": 0.7686635944700461,
+      "logprob": {
+        "baseline_mean": -1.783717308796104,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -2.1064882074647615,
+        "paraphrase_median": -3.128163257315464e-07,
+        "baseline_std": 4.692351177039087,
+        "paraphrase_std": 5.29571232797286,
+        "delta_t": -0.3227708986686574,
+        "delta_t_ci95": [
+          -0.5275749648644504,
+          -0.11796683247286432
+        ],
+        "ttest_stat": -3.0889570365549877,
+        "ttest_p": 0.002060454774842227
+      }
+    },
+    "failure_modes": {
+      "robust": 785,
+      "hidden_hesitation": 4,
+      "total_collapse": 80,
+      "baseline_wrong": 216
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "d64a676e9d22e7edd12e7f4ce267a9f0",
+          "baseline_q": "What do you go to see for live entertainment?",
+          "paraphrase_q": "What types of live entertainment do you attend?",
+          "answer": "B",
+          "baseline_logprob": -0.3904437720775604,
+          "paraphrase_logprob": -0.04026399180293083,
+          "delta_logprob": 0.3502,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "edd1634d911614590c6b8ca730df95fe",
+          "baseline_q": "Where is knight always portrayed as a hero?",
+          "paraphrase_q": "In what context is a knight consistently depicted as a hero?",
+          "answer": "D",
+          "baseline_logprob": -0.4855501353740692,
+          "paraphrase_logprob": -0.023281004279851913,
+          "delta_logprob": 0.4623,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "f21ef67b31bd36a3174b6b4c7b4bbc7b",
+          "baseline_q": "What does a kindergarten teacher do before nap time?",
+          "paraphrase_q": "What tasks does a kindergarten teacher perform prior to nap time?",
+          "answer": "E",
+          "baseline_logprob": -1.1472419600977446e-06,
+          "paraphrase_logprob": -0.5759950876235962,
+          "delta_logprob": -0.576,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "6163a897cd7eac1deddd4c002a1930ae",
+          "baseline_q": "Where is the ideal location for a post office?",
+          "paraphrase_q": "Where's the best place for a post office?",
+          "answer": "E",
+          "baseline_logprob": -0.00317783304490149,
+          "paraphrase_logprob": -0.5759396553039551,
+          "delta_logprob": -0.5728,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "14e75a42a416d32a24e2826cae34d2bf",
+          "baseline_q": "He was afraid he would die from his cold, so he wisely decided to what?",
+          "paraphrase_q": "Due to his fear that his cold could prove fatal, what prudent decision did he make?",
+          "answer": "E",
+          "baseline_logprob": -9.088346359931165e-07,
+          "paraphrase_logprob": -26.625,
+          "delta_logprob": -26.625,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "94f34cc1e6aa9eefe06563cce8225658",
+          "baseline_q": "What are you playing if you're fiddling on a violin?",
+          "paraphrase_q": "What activity are you engaged in if you are fiddling on a violin?",
+          "answer": "A",
+          "baseline_logprob": -0.12693209946155548,
+          "paraphrase_logprob": -26.5,
+          "delta_logprob": -26.3731,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "commonsense_qa",
+    "condition": "context",
+    "summary": {
+      "n": 1085,
+      "n_valid_logprob": 1076,
+      "baseline_acc": 0.8009216589861751,
+      "paraphrase_acc": 0.7714285714285715,
+      "logprob": {
+        "baseline_mean": -1.847435550878798,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -2.117746182081349,
+        "paraphrase_median": -1.9361264946837764e-07,
+        "baseline_std": 4.794673184028454,
+        "paraphrase_std": 5.111923475786524,
+        "delta_t": -0.2703106312025509,
+        "delta_t_ci95": [
+          -0.4508374783406365,
+          -0.0897837840644653
+        ],
+        "ttest_stat": -2.934792500706264,
+        "ttest_p": 0.0034086619342226523
+      }
+    },
+    "failure_modes": {
+      "robust": 800,
+      "hidden_hesitation": 7,
+      "total_collapse": 62,
+      "baseline_wrong": 216
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "1d44fb5f4b7f1e23ff6c1c083db81ba1",
+          "baseline_q": "What are people likely to want to do with their friends?",
+          "paraphrase_q": "The Great Wall of China is over 13,000 miles long. What are people likely to want to do with their friends?",
+          "answer": "E",
+          "baseline_logprob": -0.575939416885376,
+          "paraphrase_logprob": -3.547789674485102e-05,
+          "delta_logprob": 0.5759,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "7bff23f6c12e9136f0961514bebb8cd3",
+          "baseline_q": "If you aren't well rested and it's a rainy day what might you do?",
+          "paraphrase_q": "The Amazon rainforest is the largest tropical rainforest in the world. If you aren't well rested and it's a rainy day wh",
+          "answer": "D",
+          "baseline_logprob": -0.9395235776901245,
+          "paraphrase_logprob": -0.20570257306098938,
+          "delta_logprob": 0.7338,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "07f108d5321a66f460685f5c7499ecb2",
+          "baseline_q": "Where would there be an auditorium with only a single person speaking?",
+          "paraphrase_q": "In Antarctica, there is a research station called McMurdo Station. Where would there be an auditorium with only a single",
+          "answer": "C",
+          "baseline_logprob": 0.0,
+          "paraphrase_logprob": -0.9491136074066162,
+          "delta_logprob": -0.9491,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "7792b2c6518ecf9775efba6d41253312",
+          "baseline_q": "If you are awaking multiple times throughout the night because a lot is on your mind, what is a likely cause?",
+          "paraphrase_q": "The Great Wall of China is visible from space under certain conditions. If you are awaking multiple times throughout the",
+          "answer": "B",
+          "baseline_logprob": -1.2664456789934775e-06,
+          "paraphrase_logprob": -0.800197422504425,
+          "delta_logprob": -0.8002,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "1e939cc6fef999953d692b57caab254b",
+          "baseline_q": "What would you put coins into to make it work?",
+          "paraphrase_q": "In the world of entomology, ants are known for their strength and ability to carry objects many times their own weight. ",
+          "answer": "B",
+          "baseline_logprob": 0.0,
+          "paraphrase_logprob": -21.125,
+          "delta_logprob": -21.125,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "5d03ad171fd661a28da5b6eb79967a6b",
+          "baseline_q": "If it's not used for hair a round brush is an example of what?",
+          "paraphrase_q": "The Great Wall of China is over 13,000 miles long. If it's not used for hair a round brush is an example of what?",
+          "answer": "C",
+          "baseline_logprob": -0.009830465540289879,
+          "paraphrase_logprob": -20.375,
+          "delta_logprob": -20.3652,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "commonsense_qa",
+    "condition": "translation",
+    "summary": {
+      "n": 1085,
+      "n_valid_logprob": 1064,
+      "baseline_acc": 0.8009216589861751,
+      "paraphrase_acc": 0.744700460829493,
+      "logprob": {
+        "baseline_mean": -1.7389091296243995,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -2.1821301233587413,
+        "paraphrase_median": -6.704273118884885e-07,
+        "baseline_std": 4.667625773624976,
+        "paraphrase_std": 5.028581937847127,
+        "delta_t": -0.44322099373434176,
+        "delta_t_ci95": [
+          -0.6862248894703515,
+          -0.20021709799833193
+        ],
+        "ttest_stat": -3.574893913071446,
+        "ttest_p": 0.0003661083337490969
+      }
+    },
+    "failure_modes": {
+      "robust": 749,
+      "hidden_hesitation": 10,
+      "total_collapse": 110,
+      "baseline_wrong": 216
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "2ffa3808ce26181926990b454e429c85",
+          "baseline_q": "Crabs live in what sort of environment?",
+          "paraphrase_q": "螃蟹生活在什么样的环境中？",
+          "answer": "C",
+          "baseline_logprob": -0.5821661949157715,
+          "paraphrase_logprob": -0.07694865763187408,
+          "delta_logprob": 0.5052,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "7bff23f6c12e9136f0961514bebb8cd3",
+          "baseline_q": "If you aren't well rested and it's a rainy day what might you do?",
+          "paraphrase_q": "如果你没有得到充分休息并且是一个下雨天，你可能会做什么？",
+          "answer": "D",
+          "baseline_logprob": -0.9395235776901245,
+          "paraphrase_logprob": -0.005650390405207872,
+          "delta_logprob": 0.9339,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "45a6becd307342669d9d17474e50b97a",
+          "baseline_q": "Turkey only has a small northern part of their country located in part of the what?",
+          "paraphrase_q": "土耳其的国家只有一小部分位于什么的北部？",
+          "answer": "C",
+          "baseline_logprob": 0.0,
+          "paraphrase_logprob": -0.7764873504638672,
+          "delta_logprob": -0.7765,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "f192cfacbaa2f7e0e879f673c8e076a7",
+          "baseline_q": "Where are the most famous BBQ steakhouses in america?",
+          "paraphrase_q": "美国最著名的烧烤牛排馆在哪里？",
+          "answer": "A",
+          "baseline_logprob": -0.014163747429847717,
+          "paraphrase_logprob": -0.6931478381156921,
+          "delta_logprob": -0.679,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "c96a86957a9ab1d8ca0aeeb7f040d87a_1",
+          "baseline_q": "There were times where kids wanted to know a definition, so there was a nice big dictionary in the what?",
+          "paraphrase_q": "有时候孩子们想知道一个定义，所以在什么地方有一本又大又好的词典？",
+          "answer": "B",
+          "baseline_logprob": -0.0009115827269852161,
+          "paraphrase_logprob": -24.625,
+          "delta_logprob": -24.6241,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "cc1a547bdfdcc95e4d632453af14bc96",
+          "baseline_q": "Where can books be read?",
+          "paraphrase_q": "书可以在哪里阅读？",
+          "answer": "C",
+          "baseline_logprob": -0.07888989895582199,
+          "paraphrase_logprob": -24.25,
+          "delta_logprob": -24.1711,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "arc_challenge",
+    "condition": "lexical",
+    "summary": {
+      "n": 732,
+      "n_valid_logprob": 731,
+      "baseline_acc": 0.9234972677595629,
+      "paraphrase_acc": 0.9043715846994536,
+      "logprob": {
+        "baseline_mean": -0.7498248601940268,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -0.8894707147028528,
+        "paraphrase_median": 0.0,
+        "baseline_std": 3.4040690638049713,
+        "paraphrase_std": 3.666904195221746,
+        "delta_t": -0.13964585450882583,
+        "delta_t_ci95": [
+          -0.2873080814211927,
+          0.008016372403541
+        ],
+        "ttest_stat": -1.8535943860560555,
+        "ttest_p": 0.06420045963108956
+      }
+    },
+    "failure_modes": {
+      "robust": 652,
+      "hidden_hesitation": 1,
+      "total_collapse": 23,
+      "baseline_wrong": 56
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "Mercury_7015540",
+          "baseline_q": "What is the main energy source for deep ocean currents that move large volumes of water around the planet?",
+          "paraphrase_q": "What is the principal power source for deep sea currents that transport large quantities of water around the globe?",
+          "answer": "B",
+          "baseline_logprob": -0.4643726944923401,
+          "paraphrase_logprob": -0.008947220630943775,
+          "delta_logprob": 0.4554,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "VASoL_2009_3_22",
+          "baseline_q": "Which of these tells something about how an apple looks?",
+          "paraphrase_q": "Which of these describes something about how an apple appears?",
+          "answer": "D",
+          "baseline_logprob": -0.5765978097915649,
+          "paraphrase_logprob": -0.014164329506456852,
+          "delta_logprob": 0.5624,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "NYSEDREGENTS_2013_8_34",
+          "baseline_q": "Scientists have discovered fossils of the same organisms in many different parts of the world. These fossils provide evi",
+          "paraphrase_q": "Researchers have uncovered fossils of the same creatures in various different regions of the globe. These fossils offer ",
+          "answer": "1",
+          "baseline_logprob": -0.00033546582562848926,
+          "paraphrase_logprob": -0.5759415626525879,
+          "delta_logprob": -0.5756,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "Mercury_7247065",
+          "baseline_q": "Which of these is not an adverse result from a tornado?",
+          "paraphrase_q": "Which of these is not a negative outcome from a tornado?",
+          "answer": "C",
+          "baseline_logprob": -3.128163257315464e-07,
+          "paraphrase_logprob": -21.75,
+          "delta_logprob": -21.75,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "Mercury_SC_400052",
+          "baseline_q": "Which adaptation helps a worm move in soil?",
+          "paraphrase_q": "Which modification helps a worm move in earth?",
+          "answer": "B",
+          "baseline_logprob": -0.03804171830415726,
+          "paraphrase_logprob": -16.75,
+          "delta_logprob": -16.712,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "arc_challenge",
+    "condition": "syntactic",
+    "summary": {
+      "n": 732,
+      "n_valid_logprob": 732,
+      "baseline_acc": 0.9234972677595629,
+      "paraphrase_acc": 0.9193989071038251,
+      "logprob": {
+        "baseline_mean": -0.7488005092921225,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -0.7750039247872526,
+        "paraphrase_median": 0.0,
+        "baseline_std": 3.401852796202532,
+        "paraphrase_std": 3.535193760238829,
+        "delta_t": -0.026203415495130004,
+        "delta_t_ci95": [
+          -0.1580915780592515,
+          0.1056847470689915
+        ],
+        "ttest_stat": -0.3894109476692814,
+        "ttest_p": 0.6970855911244542
+      }
+    },
+    "failure_modes": {
+      "robust": 649,
+      "hidden_hesitation": 4,
+      "total_collapse": 23,
+      "baseline_wrong": 56
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "Mercury_415084",
+          "baseline_q": "Students observed a turtle in the schoolyard. They measured the distance that the turtle traveled in 30 minutes. If the ",
+          "paraphrase_q": "In the schoolyard, a turtle was observed by students. The distance that the turtle traveled in 30 minutes was measured b",
+          "answer": "C",
+          "baseline_logprob": -0.47407716512680054,
+          "paraphrase_logprob": -0.2014133334159851,
+          "delta_logprob": 0.2727,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "Mercury_SC_414129",
+          "baseline_q": "Which of these is inherited by a person from his or her parents?",
+          "paraphrase_q": "From his or her parents, which of these is inherited by a person?",
+          "answer": "B",
+          "baseline_logprob": -0.3132617771625519,
+          "paraphrase_logprob": 0.0,
+          "delta_logprob": 0.3133,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "Mercury_7234360",
+          "baseline_q": "Why do convergent margins tend to cause the formation of sedimentary basins?",
+          "paraphrase_q": "The formation of sedimentary basins is caused by convergent margins for what reason?",
+          "answer": "A",
+          "baseline_logprob": -7.941850526549388e-06,
+          "paraphrase_logprob": -0.6931482553482056,
+          "delta_logprob": -0.6931,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "Mercury_SC_400582",
+          "baseline_q": "An exothermic reaction could best be demonstrated with a",
+          "paraphrase_q": "With what could an exothermic reaction best be demonstrated?",
+          "answer": "A",
+          "baseline_logprob": -1.0206720617134124e-05,
+          "paraphrase_logprob": -0.6931471824645996,
+          "delta_logprob": -0.6931,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "AKDE&ED_2008_8_3",
+          "baseline_q": "What most likely happens when winter and summer temperatures are below normal and precipitation rates are above normal?",
+          "paraphrase_q": "When temperatures in winter and summer are below normal and precipitation rates are above normal, what is most likely to",
+          "answer": "B",
+          "baseline_logprob": -0.014189948327839375,
+          "paraphrase_logprob": -12.250004768371582,
+          "delta_logprob": -12.2358,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "VASoL_2009_3_22",
+          "baseline_q": "Which of these tells something about how an apple looks?",
+          "paraphrase_q": "Which of these indicates something about the appearance of an apple?",
+          "answer": "D",
+          "baseline_logprob": -0.5765978097915649,
+          "paraphrase_logprob": -9.250096321105957,
+          "delta_logprob": -8.6735,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "arc_challenge",
+    "condition": "style",
+    "summary": {
+      "n": 732,
+      "n_valid_logprob": 731,
+      "baseline_acc": 0.9234972677595629,
+      "paraphrase_acc": 0.9057377049180327,
+      "logprob": {
+        "baseline_mean": -0.7498248601940268,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -0.8627156139244048,
+        "paraphrase_median": 0.0,
+        "baseline_std": 3.4040690638049713,
+        "paraphrase_std": 3.527864113881841,
+        "delta_t": -0.11289075373037787,
+        "delta_t_ci95": [
+          -0.27413948269399213,
+          0.048357975233236386
+        ],
+        "ttest_stat": -1.3722023034455624,
+        "ttest_p": 0.17042195903094276
+      }
+    },
+    "failure_modes": {
+      "robust": 650,
+      "hidden_hesitation": 1,
+      "total_collapse": 25,
+      "baseline_wrong": 56
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "NYSEDREGENTS_2012_8_19",
+          "baseline_q": "Which factor would most likely limit the number of mice living in an area?",
+          "paraphrase_q": "What factor is most likely to restrict the population of mice in a given area?",
+          "answer": "3",
+          "baseline_logprob": -0.16022463142871857,
+          "paraphrase_logprob": -0.01815006136894226,
+          "delta_logprob": 0.1421,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "AKDE&ED_2008_8_53",
+          "baseline_q": "Which statement explains why most salmon leave salt water and return to fresh water?",
+          "paraphrase_q": "What explanation accounts for the majority of salmon departing salt water to migrate back to fresh water?",
+          "answer": "C",
+          "baseline_logprob": -0.25192946195602417,
+          "paraphrase_logprob": -0.0009142052149400115,
+          "delta_logprob": 0.251,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "Mercury_184818",
+          "baseline_q": "If an organism developed in an environment with a gravitational field greater than Earth, which adaptation would most be",
+          "paraphrase_q": "Should an organism evolve in an environment with a gravitational field exceeding that of Earth, which adaptation might p",
+          "answer": "D",
+          "baseline_logprob": -1.9361264946837764e-07,
+          "paraphrase_logprob": -0.5759395360946655,
+          "delta_logprob": -0.5759,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "Mercury_7247065",
+          "baseline_q": "Which of these is not an adverse result from a tornado?",
+          "paraphrase_q": "Which of these is not a bad outcome from a tornado?",
+          "answer": "C",
+          "baseline_logprob": -3.128163257315464e-07,
+          "paraphrase_logprob": -27.125,
+          "delta_logprob": -27.125,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "Mercury_404272",
+          "baseline_q": "Which statement is an opinion about the heart?",
+          "paraphrase_q": "What statement is a view regarding the heart?",
+          "answer": "B",
+          "baseline_logprob": 0.0,
+          "paraphrase_logprob": -17.375,
+          "delta_logprob": -17.375,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "arc_challenge",
+    "condition": "context",
+    "summary": {
+      "n": 732,
+      "n_valid_logprob": 732,
+      "baseline_acc": 0.9234972677595629,
+      "paraphrase_acc": 0.9084699453551912,
+      "logprob": {
+        "baseline_mean": -0.7488005092921225,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -0.9494164719716598,
+        "paraphrase_median": 0.0,
+        "baseline_std": 3.401852796202532,
+        "paraphrase_std": 3.7814847688669335,
+        "delta_t": -0.2006159626795373,
+        "delta_t_ci95": [
+          -0.3460303951863262,
+          -0.05520153017274837
+        ],
+        "ttest_stat": -2.7040458094387265,
+        "ttest_p": 0.007009369057371148
+      }
+    },
+    "failure_modes": {
+      "robust": 654,
+      "hidden_hesitation": 1,
+      "total_collapse": 21,
+      "baseline_wrong": 56
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "NYSEDREGENTS_2012_8_19",
+          "baseline_q": "Which factor would most likely limit the number of mice living in an area?",
+          "paraphrase_q": "The Amazon rainforest is home to thousands of different plant and animal species. Which factor would most likely limit t",
+          "answer": "3",
+          "baseline_logprob": -0.16022463142871857,
+          "paraphrase_logprob": -0.011047814972698689,
+          "delta_logprob": 0.1492,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "AKDE&ED_2008_8_53",
+          "baseline_q": "Which statement explains why most salmon leave salt water and return to fresh water?",
+          "paraphrase_q": "Did you know that the Amazon rainforest is home to over 2.5 million insect species? Which statement explains why most sa",
+          "answer": "C",
+          "baseline_logprob": -0.25192946195602417,
+          "paraphrase_logprob": -0.004078639671206474,
+          "delta_logprob": 0.2479,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "Mercury_7139878",
+          "baseline_q": "Scientists have studied the productivity of crops in mountain valleys. In some areas, the valleys are more productive th",
+          "paraphrase_q": "The Amazon rainforest produces 20% of the world's oxygen. Scientists have studied the productivity of crops in mountain ",
+          "answer": "C",
+          "baseline_logprob": -5.512236498361744e-07,
+          "paraphrase_logprob": -0.5759397745132446,
+          "delta_logprob": -0.5759,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "Mercury_401912",
+          "baseline_q": "One parent has brown eyes (BB) and has offspring with another parent who has blue eyes (bb). What is the probability tha",
+          "paraphrase_q": "The Amazon rainforest is home to thousands of unique plant and animal species. One parent has brown eyes (BB) and has of",
+          "answer": "A",
+          "baseline_logprob": -0.018165862187743187,
+          "paraphrase_logprob": -19.75,
+          "delta_logprob": -19.7318,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "Mercury_SC_414129",
+          "baseline_q": "Which of these is inherited by a person from his or her parents?",
+          "paraphrase_q": "The Amazon rainforest is home to thousands of plant and animal species. Which of these is inherited by a person from his",
+          "answer": "B",
+          "baseline_logprob": -0.3132617771625519,
+          "paraphrase_logprob": -19.5,
+          "delta_logprob": -19.1867,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "arc_challenge",
+    "condition": "translation",
+    "summary": {
+      "n": 732,
+      "n_valid_logprob": 730,
+      "baseline_acc": 0.9234972677595629,
+      "paraphrase_acc": 0.9016393442622951,
+      "logprob": {
+        "baseline_mean": -0.714473287223748,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -0.9496451008115158,
+        "paraphrase_median": 0.0,
+        "baseline_std": 3.269996747857819,
+        "paraphrase_std": 3.695288840041276,
+        "delta_t": -0.23517181358776776,
+        "delta_t_ci95": [
+          -0.4320500283964964,
+          -0.038293598779039095
+        ],
+        "ttest_stat": -2.341227824926362,
+        "ttest_p": 0.019488949003011746
+      }
+    },
+    "failure_modes": {
+      "robust": 640,
+      "hidden_hesitation": 3,
+      "total_collapse": 33,
+      "baseline_wrong": 56
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "Mercury_7015540",
+          "baseline_q": "What is the main energy source for deep ocean currents that move large volumes of water around the planet?",
+          "paraphrase_q": "深海洋流在地球周围移动大量水体的主要能量来源是什么？",
+          "answer": "B",
+          "baseline_logprob": -0.4643726944923401,
+          "paraphrase_logprob": -1.0325924449716695e-05,
+          "delta_logprob": 0.4644,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "VASoL_2009_3_22",
+          "baseline_q": "Which of these tells something about how an apple looks?",
+          "paraphrase_q": "以下哪一项描述了苹果的外观？",
+          "answer": "D",
+          "baseline_logprob": -0.5765978097915649,
+          "paraphrase_logprob": -0.02976311184465885,
+          "delta_logprob": 0.5468,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "MSA_2012_5_2",
+          "baseline_q": "A student walks to school one morning and notices the grass is wet but the streets are dry. Which of these processes mos",
+          "paraphrase_q": "一个学生在某天早晨走路去学校时注意到草地是湿的，但街道是干的。以下哪一个过程最有可能导致草地湿润？",
+          "answer": "A",
+          "baseline_logprob": -2.15310683415737e-05,
+          "paraphrase_logprob": -0.6931471824645996,
+          "delta_logprob": -0.6931,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "VASoL_2007_3_1",
+          "baseline_q": "What are adult cardinals able to do that baby cardinals are unable to do?",
+          "paraphrase_q": "成年北美红雀能做什么而幼年北美红雀无法做到？",
+          "answer": "A",
+          "baseline_logprob": 0.0,
+          "paraphrase_logprob": -0.601890504360199,
+          "delta_logprob": -0.6019,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "Mercury_7271128",
+          "baseline_q": "What is the complementary base to cytosine in DNA?",
+          "paraphrase_q": "在DNA中，胞嘧啶的互补碱基是什么？",
+          "answer": "C",
+          "baseline_logprob": 0.0,
+          "paraphrase_logprob": -22.875,
+          "delta_logprob": -22.875,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "CSZ20754",
+          "baseline_q": "Which characteristic of motion could change without changing the velocity of an object?",
+          "paraphrase_q": "物体的哪种运动特征可以在不改变速度的情况下改变？",
+          "answer": "B",
+          "baseline_logprob": -0.08029574155807495,
+          "paraphrase_logprob": -21.5,
+          "delta_logprob": -21.4197,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "mmlu",
+    "condition": "lexical",
+    "summary": {
+      "n": 1474,
+      "n_valid_logprob": 1465,
+      "baseline_acc": 0.7910447761194029,
+      "paraphrase_acc": 0.7720488466757124,
+      "logprob": {
+        "baseline_mean": -1.7094431493035056,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -1.9038307520844657,
+        "paraphrase_median": 0.0,
+        "baseline_std": 4.507101492192713,
+        "paraphrase_std": 4.700142608574732,
+        "delta_t": -0.19438760278096015,
+        "delta_t_ci95": [
+          -0.3120491829493786,
+          -0.0767260226125417
+        ],
+        "ttest_stat": -3.238097779286378,
+        "ttest_p": 0.0012302573584403432
+      }
+    },
+    "failure_modes": {
+      "robust": 1108,
+      "hidden_hesitation": 4,
+      "total_collapse": 54,
+      "baseline_wrong": 308
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "mmlu_1013",
+          "baseline_q": "The language {ww | w in (0 + 1)*} is",
+          "paraphrase_q": "The dialect {ww | w in (0 + 1)*} is",
+          "answer": "B",
+          "baseline_logprob": -0.5762576460838318,
+          "paraphrase_logprob": -0.0005019200034439564,
+          "delta_logprob": 0.5758,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_9224",
+          "baseline_q": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, accordin",
+          "paraphrase_q": "For which of these two situations does the principal character (who uses I/me/my) do something obviously ethically wrong",
+          "answer": "A",
+          "baseline_logprob": -0.6931471824645996,
+          "paraphrase_logprob": -0.0007100477814674377,
+          "delta_logprob": 0.6924,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "mmlu_6959",
+          "baseline_q": "How can you describe the thinking and outlook of transformational leaders?",
+          "paraphrase_q": "How can you describe the mindset and perspective of transformational leaders?",
+          "answer": "A",
+          "baseline_logprob": -4.320199877838604e-07,
+          "paraphrase_logprob": -0.6931471824645996,
+          "delta_logprob": -0.6931,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_8814",
+          "baseline_q": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, accordin",
+          "paraphrase_q": "For which of these two situations does the main character (who uses I/me/my) do something clearly morally wrong, accordi",
+          "answer": "C",
+          "baseline_logprob": -0.13818246126174927,
+          "paraphrase_logprob": -0.7183040976524353,
+          "delta_logprob": -0.5801,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "mmlu_1796",
+          "baseline_q": "In the atomic nucleus, electrical forces tend to",
+          "paraphrase_q": "In the atomic core, electrical forces tend to",
+          "answer": "B",
+          "baseline_logprob": -0.0004306692280806601,
+          "paraphrase_logprob": -23.375,
+          "delta_logprob": -23.3746,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "mmlu_3652",
+          "baseline_q": "Which of the following defines the salience of a political issue?",
+          "paraphrase_q": "Which of the following describes the prominence of a political issue?",
+          "answer": "D",
+          "baseline_logprob": -9.996708104154095e-05,
+          "paraphrase_logprob": -21.0,
+          "delta_logprob": -20.9999,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "mmlu",
+    "condition": "syntactic",
+    "summary": {
+      "n": 1474,
+      "n_valid_logprob": 1463,
+      "baseline_acc": 0.7910447761194029,
+      "paraphrase_acc": 0.7849389416553596,
+      "logprob": {
+        "baseline_mean": -1.7016535252166636,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -1.7320532952937557,
+        "paraphrase_median": 0.0,
+        "baseline_std": 4.469679610451535,
+        "paraphrase_std": 4.4987182387006115,
+        "delta_t": -0.030399770077092346,
+        "delta_t_ci95": [
+          -0.15918092851855462,
+          0.09838138836436991
+        ],
+        "ttest_stat": -0.4626728791089795,
+        "ttest_p": 0.6436677136841213
+      }
+    },
+    "failure_modes": {
+      "robust": 1098,
+      "hidden_hesitation": 7,
+      "total_collapse": 61,
+      "baseline_wrong": 308
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "mmlu_13919",
+          "baseline_q": " How old was Guru Nanak when he started to preach the message of the divine Name?",
+          "paraphrase_q": "When Guru Nanak began to preach the message of the divine Name, how old was he?",
+          "answer": "A",
+          "baseline_logprob": -0.5760418176651001,
+          "paraphrase_logprob": -0.005240037105977535,
+          "delta_logprob": 0.5708,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_9224",
+          "baseline_q": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, accordin",
+          "paraphrase_q": "According to ordinary moral standards in the US as of 2020, in which of these two scenarios does the main character (who",
+          "answer": "A",
+          "baseline_logprob": -0.6931471824645996,
+          "paraphrase_logprob": -0.001170460251159966,
+          "delta_logprob": 0.692,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "mmlu_1876",
+          "baseline_q": "A white noise process will have\n\n(i) A zero mean\n\n(ii) A constant variance\n\n(iii) Autocovariances that are constant\n\n(iv",
+          "paraphrase_q": "Will a white noise process have\n\n(i) A mean of zero\n\n(ii) A variance that is constant\n\n(iii) Constant autocovariances\n\n(",
+          "answer": "A",
+          "baseline_logprob": -0.00020354038861114532,
+          "paraphrase_logprob": -0.6931769847869873,
+          "delta_logprob": -0.693,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_2652",
+          "baseline_q": "As of 2017, what percentage of Indians live in urban areas?",
+          "paraphrase_q": "What percentage of Indians, as of 2017, live in urban areas?",
+          "answer": "B",
+          "baseline_logprob": -0.02324547804892063,
+          "paraphrase_logprob": -0.6931476593017578,
+          "delta_logprob": -0.6699,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "mmlu_9837",
+          "baseline_q": "Plato distinguishes knowledge from mere belief or opinion by saying that knowledge must be a true belief for which one c",
+          "paraphrase_q": "For Plato, in terms of his image of the Divided Line, when is knowledge attained only by our sensible experience?",
+          "answer": "D",
+          "baseline_logprob": -1.9361264946837764e-07,
+          "paraphrase_logprob": -20.125158309936523,
+          "delta_logprob": -20.1252,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "mmlu_2045",
+          "baseline_q": "Thin laminations are used in a machine in order to reduce",
+          "paraphrase_q": "In order to reduce, what are thin laminations used for in a machine?",
+          "answer": "A",
+          "baseline_logprob": -0.575939416885376,
+          "paraphrase_logprob": -18.25,
+          "delta_logprob": -17.6741,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "mmlu",
+    "condition": "style",
+    "summary": {
+      "n": 1474,
+      "n_valid_logprob": 1464,
+      "baseline_acc": 0.7910447761194029,
+      "paraphrase_acc": 0.7869742198100407,
+      "logprob": {
+        "baseline_mean": -1.7190203027184119,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -1.8287868539112715,
+        "paraphrase_median": 0.0,
+        "baseline_std": 4.517285693916142,
+        "paraphrase_std": 4.614381487344852,
+        "delta_t": -0.10976655119285951,
+        "delta_t_ci95": [
+          -0.23038170439444766,
+          0.010848602008728656
+        ],
+        "ttest_stat": -1.783709879126297,
+        "ttest_p": 0.07467804615392094
+      }
+    },
+    "failure_modes": {
+      "robust": 1105,
+      "hidden_hesitation": 3,
+      "total_collapse": 58,
+      "baseline_wrong": 308
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "mmlu_13919",
+          "baseline_q": " How old was Guru Nanak when he started to preach the message of the divine Name?",
+          "paraphrase_q": "At what age did Guru Nanak begin to disseminate the teachings of the divine Name?",
+          "answer": "A",
+          "baseline_logprob": -0.5760418176651001,
+          "paraphrase_logprob": -0.029789602383971214,
+          "delta_logprob": 0.5463,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_9224",
+          "baseline_q": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, accordin",
+          "paraphrase_q": "In which of the following two scenarios does the protagonist (who refers to themselves as I/me/my) engage in an action t",
+          "answer": "A",
+          "baseline_logprob": -0.6931471824645996,
+          "paraphrase_logprob": -0.0031777136027812958,
+          "delta_logprob": 0.69,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "mmlu_4345",
+          "baseline_q": "A point in space $(x,y,z)$ is randomly selected so that $-1\\le x \\le 1$,$-1\\le y \\le 1$,$-1\\le z \\le 1$. What is the pro",
+          "paraphrase_q": "Consider a point in space denoted as $(x,y,z)$, which is randomly chosen such that $-1\\le x \\le 1$, $-1\\le y \\le 1$, and",
+          "answer": "C",
+          "baseline_logprob": -0.1385607272386551,
+          "paraphrase_logprob": -0.768048107624054,
+          "delta_logprob": -0.6295,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_8346",
+          "baseline_q": " Nathanson believes that killing another person in self-defense is compatible with",
+          "paraphrase_q": "Does Nathanson believe that taking the life of another individual in self-defense aligns with",
+          "answer": "A",
+          "baseline_logprob": -0.0012867827899754047,
+          "paraphrase_logprob": -0.5770329833030701,
+          "delta_logprob": -0.5757,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "mmlu_10447",
+          "baseline_q": "Which of the following is considered part of the required supplementary information for general purpose external financi",
+          "paraphrase_q": "Which of the options listed is regarded as part of the mandatory supplementary information for general purpose external ",
+          "answer": "D",
+          "baseline_logprob": 0.0,
+          "paraphrase_logprob": -21.75,
+          "delta_logprob": -21.75,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "mmlu_1796",
+          "baseline_q": "In the atomic nucleus, electrical forces tend to",
+          "paraphrase_q": "What is the tendency of electrical forces within the atomic nucleus?",
+          "answer": "B",
+          "baseline_logprob": -0.0004306692280806601,
+          "paraphrase_logprob": -19.5,
+          "delta_logprob": -19.4996,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "mmlu",
+    "condition": "context",
+    "summary": {
+      "n": 1474,
+      "n_valid_logprob": 1465,
+      "baseline_acc": 0.7910447761194029,
+      "paraphrase_acc": 0.7652645861601085,
+      "logprob": {
+        "baseline_mean": -1.697583094714537,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -2.00421864996863,
+        "paraphrase_median": 0.0,
+        "baseline_std": 4.455167629137503,
+        "paraphrase_std": 4.7801419232438045,
+        "delta_t": -0.3066355552540925,
+        "delta_t_ci95": [
+          -0.44440860106285873,
+          -0.16886250944532624
+        ],
+        "ttest_stat": -4.362287882727352,
+        "ttest_p": 1.3771718249311226e-05
+      }
+    },
+    "failure_modes": {
+      "robust": 1095,
+      "hidden_hesitation": 3,
+      "total_collapse": 68,
+      "baseline_wrong": 308
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "mmlu_1013",
+          "baseline_q": "The language {ww | w in (0 + 1)*} is",
+          "paraphrase_q": "Bananas are a rich source of potassium. The language {ww | w in (0 + 1)*} is",
+          "answer": "B",
+          "baseline_logprob": -0.5762576460838318,
+          "paraphrase_logprob": -0.00043639098294079304,
+          "delta_logprob": 0.5758,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_9224",
+          "baseline_q": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, accordin",
+          "paraphrase_q": "The tallest mountain on Earth is Mount Everest. For which of these two scenarios does the main character (who uses I/me/",
+          "answer": "A",
+          "baseline_logprob": -0.6931471824645996,
+          "paraphrase_logprob": -0.0009114635176956654,
+          "delta_logprob": 0.6922,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "mmlu_11369",
+          "baseline_q": "In recent years there has been much publicity regarding juries approving excessively high multi- million dollar damage a",
+          "paraphrase_q": "The Amazon rainforest is home to an incredible diversity of plant and animal species. In recent years there has been muc",
+          "answer": "A",
+          "baseline_logprob": -0.020953597500920296,
+          "paraphrase_logprob": -0.653247594833374,
+          "delta_logprob": -0.6323,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_8346",
+          "baseline_q": " Nathanson believes that killing another person in self-defense is compatible with",
+          "paraphrase_q": "The Great Wall of China is over 13,000 miles long. Nathanson believes that killing another person in self-defense is com",
+          "answer": "A",
+          "baseline_logprob": -0.0012867827899754047,
+          "paraphrase_logprob": -0.5760143399238586,
+          "delta_logprob": -0.5747,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "mmlu_1796",
+          "baseline_q": "In the atomic nucleus, electrical forces tend to",
+          "paraphrase_q": "The Amazon rainforest is home to more than 400 billion individual trees. In the atomic nucleus, electrical forces tend t",
+          "answer": "B",
+          "baseline_logprob": -0.0004306692280806601,
+          "paraphrase_logprob": -25.375,
+          "delta_logprob": -25.3746,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "mmlu_7491",
+          "baseline_q": "Which of the following degrees can be awarded by the local chapter of the FFA? I. Greenhand FFA Degree II. Chapter FFA D",
+          "paraphrase_q": "The Great Wall of China is over 13,000 miles long. Which of the following degrees can be awarded by the local chapter of",
+          "answer": "C",
+          "baseline_logprob": -4.842555426876061e-06,
+          "paraphrase_logprob": -22.125,
+          "delta_logprob": -22.125,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  },
+  {
+    "model": "gpt-4o-mini",
+    "dataset": "mmlu",
+    "condition": "translation",
+    "summary": {
+      "n": 1474,
+      "n_valid_logprob": 1462,
+      "baseline_acc": 0.7910447761194029,
+      "paraphrase_acc": 0.7327001356852103,
+      "logprob": {
+        "baseline_mean": -1.6628474807581182,
+        "baseline_median": 0.0,
+        "paraphrase_mean": -2.158929187315534,
+        "paraphrase_median": -4.320199877838604e-07,
+        "baseline_std": 4.3831635109133495,
+        "paraphrase_std": 4.786647258696352,
+        "delta_t": -0.4960817065574152,
+        "delta_t_ci95": [
+          -0.6720223105641758,
+          -0.3201411025506546
+        ],
+        "ttest_stat": -5.526411315577681,
+        "ttest_p": 3.864966618402749e-08
+      }
+    },
+    "failure_modes": {
+      "robust": 1036,
+      "hidden_hesitation": 4,
+      "total_collapse": 126,
+      "baseline_wrong": 308
+    },
+    "failure_examples": {
+      "robust": [
+        {
+          "id": "mmlu_13919",
+          "baseline_q": " How old was Guru Nanak when he started to preach the message of the divine Name?",
+          "paraphrase_q": "古鲁·那纳克开始传扬神圣名字的讯息时是多少岁？",
+          "answer": "A",
+          "baseline_logprob": -0.5760418176651001,
+          "paraphrase_logprob": -0.02637728489935398,
+          "delta_logprob": 0.5497,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_11481",
+          "baseline_q": "Question 13. A buyer sent a signed letter to a seller that stated: \"Ship 100 boxes of nails at $3 per box, the price quo",
+          "paraphrase_q": "问题13。一位买家寄出了一封签过名的信给卖家，信中写道：“按你们宣传页中报价，每箱3美元，运送100箱钉子。” 卖家寄给买家一份签字确认表，同意买家的条款，并在表的背面写道：“关于质量的争议应通过仲裁解决。” 买家没有回复卖家的确认，卖家便",
+          "answer": "C",
+          "baseline_logprob": -0.6802900433540344,
+          "paraphrase_logprob": -0.09779195487499237,
+          "delta_logprob": 0.5825,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "hidden_hesitation": [
+        {
+          "id": "mmlu_1104",
+          "baseline_q": "Let V be a finite-dimensional real vector space and let P be a linear transformation of V such that P^2 = P. Which of th",
+          "paraphrase_q": "设 V 是一个有限维实向量空间，P 是 V 的线性变换，并且满足 P^2 = P。以下哪一项必须为真？\nI. P 是可逆的。\nII. P 是可对角化的。\nIII. P 不是恒等变换就是零变换。",
+          "answer": "C",
+          "baseline_logprob": -9.729906196298543e-06,
+          "paraphrase_logprob": -0.7989720702171326,
+          "delta_logprob": -0.799,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        },
+        {
+          "id": "mmlu_2803",
+          "baseline_q": "Oligomycin is an antibiotic that blocks proton channels in the cristae of mitochondria by binding to ATP synthase. Which",
+          "paraphrase_q": "寡霉素是一种抗生素，通过与ATP合酶结合而阻塞线粒体嵴中的质子通道。以下哪一项会是在向细胞施用寡霉素后的首个预期反应？",
+          "answer": "B",
+          "baseline_logprob": -1.981667537620524e-06,
+          "paraphrase_logprob": -0.6931629776954651,
+          "delta_logprob": -0.6932,
+          "baseline_correct": true,
+          "paraphrase_correct": true
+        }
+      ],
+      "total_collapse": [
+        {
+          "id": "mmlu_6678",
+          "baseline_q": "Which of the following describes the horse laugh fallacy?",
+          "paraphrase_q": "以下哪项描述了“马笑谬误”？",
+          "answer": "A",
+          "baseline_logprob": -0.005233763717114925,
+          "paraphrase_logprob": -27.75,
+          "delta_logprob": -27.7448,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        },
+        {
+          "id": "mmlu_896",
+          "baseline_q": "The rate, r, of a zero-order chemical reaction A → B can be expressed as which of the following?",
+          "paraphrase_q": "零级化学反应 A → B 的速率 r 可以用以下哪一种方式表示？",
+          "answer": "D",
+          "baseline_logprob": 0.0,
+          "paraphrase_logprob": -22.875,
+          "delta_logprob": -22.875,
+          "baseline_correct": true,
+          "paraphrase_correct": false
+        }
+      ]
+    }
+  }
+]

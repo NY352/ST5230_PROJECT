@@ -1,104 +1,71 @@
-# ST5230 Project: LLM Robustness to Paraphrased Inputs
+# ST5230 Project: Benchmark Reliability under Semantic Paraphrasing
 
-Investigating how large language models respond to semantically equivalent but differently phrased questions across multiple-choice benchmarks.
+Investigating whether semantically equivalent paraphrases of benchmark questions cause performance shifts in LLMs, and which types of paraphrasing are most disruptive.
+
+**Theme**: Reliability of LLM Evaluation (Theme 1)
+
+## Key Findings
+
+- Paraphrasing systematically degrades model confidence: 11/15 conditions show significant logprob decline (p < 0.05)
+- **Translation** (English → Chinese) causes the largest degradation (Δt up to -0.496)
+- **Syntactic** restructuring has minimal effect on ARC-Challenge and MMLU
+- CommonsenseQA is the most sensitive benchmark; ARC-Challenge is the most robust
 
 ## Setup
 
 ```bash
-# 1. Create conda environment
 conda create -n st5230 python=3.11 -y
 conda activate st5230
-
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Configure API key
 # Create .env file with: OPENROUTER_API_KEY=your_key_here
 ```
 
 ## Pipeline
 
-The experiment runs in 4 steps:
-
-### Step 1: Prepare Data
-
-Download datasets from HuggingFace and sample 1000 examples each.
-
 ```bash
-python run.py prepare
+python run.py prepare      # Step 1: Download & sample datasets
+python run.py paraphrase   # Step 2: Generate 5 types of paraphrases (GPT-4o)
+python run.py filter       # Step 3: Quality filtering + ID intersection
+python run.py evaluate     # Step 4: Evaluate model (GPT-4o-mini)
+python run.py analyze      # Step 5: Statistical analysis + visualization
 ```
 
-- **Datasets**: CommonsenseQA, ARC-Challenge, MMLU
-- **Output**: `data/sampled/{dataset_name}.json`
+All steps support checkpoint/resume — safe to interrupt and re-run.
 
-### Step 2: Paraphrase
+## Experimental Design
 
-Generate 5 types of paraphrases for each dataset using GPT-4o.
-
-```bash
-python run.py paraphrase                          # all datasets × all types
-python run.py paraphrase commonsense_qa            # one dataset, all types
-python run.py paraphrase commonsense_qa lexical    # one dataset, one type
-```
-
-- **Paraphrase types**: `lexical`, `syntactic`, `style`, `context`, `translation`
-- **Output**: `data_paraphrased/{dataset}_{type}.json`
-- Supports checkpoint/resume — safe to interrupt and re-run
-
-### Step 3: Quality Filter
-
-Filter out items with quality issues (answer leakage, question form lost, etc.).
-
-```bash
-python run.py filter                               # filter all datasets
-python run.py filter commonsense_qa                # filter one dataset
-```
-
-- **Output**: `data_paraphrased/{dataset}_{type}_filtered.json`
-
-### Step 4: Evaluate
-
-Evaluate 3 models on original (baseline) and paraphrased questions. Automatically uses filtered files when available.
-
-```bash
-python run.py evaluate                                         # all models × datasets × conditions
-python run.py evaluate gpt-4o-mini                             # one model, all datasets
-python run.py evaluate gpt-4o-mini commonsense_qa              # one model, one dataset
-python run.py evaluate gpt-4o-mini commonsense_qa baseline     # specific condition
-```
-
-- **Models**: `gpt-4o-mini`, `qwen3.5-27b`, `kimi-k2` (all via OpenRouter)
-- **Conditions**: `baseline` + 5 paraphrase types
-- **Output**: `results/{model}_{dataset}_{condition}.json`
-- Supports checkpoint/resume — safe to interrupt and re-run
+| Component | Details |
+|-----------|---------|
+| Datasets | CommonsenseQA (1085), ARC-Challenge (732), MMLU (1474) — after filtering |
+| Paraphrase types | Lexical, Syntactic, Style, Context, Translation |
+| Paraphrase model | GPT-4o via OpenRouter |
+| Evaluation model | GPT-4o-mini via OpenRouter |
+| Metrics | Accuracy, Ground-truth Logprob, Confidence Degradation (Δt) |
+| Statistical test | Paired t-test with 95% CI |
+| Failure modes | Robust / Hidden Hesitation / Total Collapse |
 
 ## Project Structure
 
 ```
 ST5230_Project/
-├── .env                    # API key (not tracked by git)
-├── .gitignore
-├── requirements.txt
-├── README.md
-├── EXPERIMENT_LOG.md       # Detailed experiment log
-├── config.py               # Configuration + shared utilities
-├── run.py                  # Unified CLI entry point
+├── config.py               # Configuration, API client, prompts
+├── run.py                  # CLI entry point
 ├── src/
 │   ├── data_loader.py      # Dataset loading & sampling
 │   ├── paraphraser.py      # Paraphrase generation
 │   ├── evaluator.py        # Model evaluation
-│   └── quality_filter.py   # Rule-based quality filtering
-├── test_paraphrase.py      # Pilot test script (60 items/type)
-├── data/sampled/           # Sampled datasets (generated)
-├── data_paraphrased/       # Paraphrased datasets (generated)
-└── results/                # Evaluation results (generated)
+│   ├── quality_filter.py   # Quality filtering + ID intersection
+│   ├── analysis.py         # Statistical analysis
+│   └── visualize.py        # Violin + boxplot visualization
+├── data/sampled/           # Sampled datasets
+├── data_paraphrased/       # Paraphrased datasets (per-dataset subdirs)
+├── results/                # Evaluation results + analysis_summary.json
+├── figures/                # Visualization outputs
+├── EXPERIMENT_LOG.md       # Detailed experiment log (Chinese)
+└── test_paraphrase.py      # Pilot test script
 ```
 
-## Models
+## Documentation
 
-| Role | Model | Provider |
-|------|-------|----------|
-| Paraphraser | `openai/gpt-4o` | OpenRouter |
-| Evaluator 1 | `openai/gpt-4o-mini` | OpenRouter |
-| Evaluator 2 | `qwen/qwen3.5-27b` | OpenRouter |
-| Evaluator 3 | `moonshotai/kimi-k2` | OpenRouter |
+- `EXPERIMENT_LOG.md` — Full experiment log with all results, prompt engineering history, filtering details, and key findings (in Chinese)
+- `results/analysis_summary.json` — Machine-readable analysis results
